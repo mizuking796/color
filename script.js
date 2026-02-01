@@ -153,7 +153,7 @@ function generateLoreText(color) {
         text = `一説によると、${loreCore}`;
         break;
       case 4:
-        text = `${loreCore}という説明がある。`;
+        text = `古くから、${loreCore}`;
         break;
       default:
         text = loreCore;
@@ -174,7 +174,7 @@ function generateLoreText(color) {
         text = `一説によると、${loreCore}`;
         break;
       case 3:
-        text = `${loreCore}という説明がある。`;
+        text = `古くから、${loreCore}`;
         break;
       case 4:
         if (loreDetails.length > 0) {

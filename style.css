@@ -33,7 +33,7 @@ body {
 
 .intro-content {
   text-align: left;
-  max-width: 320px;
+  max-width: 340px;
 }
 
 .intro-title {
@@ -62,6 +62,7 @@ body {
   line-height: 2;
   margin-bottom: 28px;
   letter-spacing: 0.05em;
+  text-align: justify;
 }
 
 .intro-hint {
@@ -88,6 +89,7 @@ body {
 .intro-link {
   color: #6b5d50;
   text-decoration: underline;
+  white-space: nowrap;
 }
 
 /* メイン画面 */
@@ -171,8 +173,17 @@ body {
   overflow: hidden;
 }
 
-/* タブレット対応 */
+/* タブレット・PC対応 */
 @media (min-width: 600px) {
+  .intro-content {
+    max-width: 520px;
+  }
+  .intro-text {
+    font-size: 20px;
+  }
+  .intro-agreement {
+    font-size: 15px;
+  }
   .color-popup {
     width: 520px;
     border-radius: 8px;
@@ -191,7 +202,7 @@ body {
     font-size: 20px;
   }
   .wairo-description {
-    font-size: 20px;
+    font-size: 22px;
     line-height: 2;
     margin-top: 16px;
     padding-top: 16px;
@@ -246,12 +257,12 @@ body {
 }
 
 .wairo-description {
-  font-size: 14px;
-  font-weight: 500;
-  color: #2c2620;
-  line-height: 1.8;
-  margin-top: 10px;
-  padding-top: 10px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #1a1714;
+  line-height: 1.9;
+  margin-top: 12px;
+  padding-top: 12px;
   border-top: 1px dotted rgba(139, 119, 101, 0.3);
   text-align: left;
 }

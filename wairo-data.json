@@ -50,7 +50,7 @@
       "lore_status": "theory",
       "lore_core": "退紅は、紅を薄く引いたような淡い紅。ふわりとくすみを含む。",
       "lore_details": [],
-      "reading_hiragana": "たいこ"
+      "reading_hiragana": "たいこう"
     },
     {
       "id": "005",
@@ -62,7 +62,7 @@
       "lore_status": "theory",
       "lore_core": "一斤染は、淡い桃色の一種。紅をぜいたくに使った、と伝わる名。",
       "lore_details": [],
-      "reading_hiragana": "いこんぞめ"
+      "reading_hiragana": "いっこんぞめ"
     },
     {
       "id": "006",
@@ -128,7 +128,7 @@
       "lore_details": [
         "濃い紅梅に寄せる説明もあれば、別の呼び名と重ねる説明もある。"
       ],
-      "reading_hiragana": "いまよ"
+      "reading_hiragana": "いまよう"
     },
     {
       "id": "011",
@@ -226,7 +226,7 @@
       "lore_status": "theory",
       "lore_core": "長春は、赤みのある落ち着いた色名の一つ。派手すぎない紅の系統。",
       "lore_details": [],
-      "reading_hiragana": "よゆん"
+      "reading_hiragana": "ちょうしゅん"
     },
     {
       "id": "019",
@@ -312,7 +312,7 @@
       "lore_status": "theory",
       "lore_core": "真朱は、朱の中でも芯のある朱。まっすぐな朱赤として扱われる。",
       "lore_details": [],
-      "reading_hiragana": "しんゆ"
+      "reading_hiragana": "しんしゅ"
     },
     {
       "id": "026",
@@ -360,7 +360,7 @@
       "lore_status": "theory",
       "lore_core": "銀朱は、朱に金属の気配を添えたような赤。赤いけれど硬質な印象も残る。",
       "lore_details": [],
-      "reading_hiragana": "ぎんゆ"
+      "reading_hiragana": "ぎんしゅ"
     },
     {
       "id": "030",
@@ -436,7 +436,7 @@
       "lore_details": [
         "珊瑚色と同一視する語りもある。"
       ],
-      "reading_hiragana": "さんごゆ"
+      "reading_hiragana": "さんごしゅ"
     },
     {
       "id": "036",
@@ -462,7 +462,7 @@
       "lore_details": [
         "名前の由来には俗説も混ざる、と言われることがある。"
       ],
-      "reading_hiragana": "よよひ"
+      "reading_hiragana": "しょうじょうひ"
     },
     {
       "id": "038",
@@ -608,7 +608,7 @@
       "lore_details": [
         "漆器の語りと結びつくこともある。"
       ],
-      "reading_hiragana": "あらいゆ"
+      "reading_hiragana": "あらいしゅ"
     },
     {
       "id": "050",
@@ -680,7 +680,7 @@
       "lore_status": "theory",
       "lore_core": "遠州茶は、渋い茶の名。さらりと乾いた土の色を思わせる。",
       "lore_details": [],
-      "reading_hiragana": "えんゆちゃ"
+      "reading_hiragana": "えんしゅうちゃ"
     },
     {
       "id": "056",
@@ -718,7 +718,7 @@
       "lore_details": [
         "丁子や香色の話とつながって語られることがある。"
       ],
-      "reading_hiragana": "あかこ"
+      "reading_hiragana": "あかこう"
     },
     {
       "id": "059",
@@ -804,7 +804,7 @@
       "lore_status": "theory",
       "lore_core": "代赭は、土の赤みを帯びた茶。乾いた地面の色のように、重みがある。",
       "lore_details": [],
-      "reading_hiragana": "たいや"
+      "reading_hiragana": "たいしゃ"
     },
     {
       "id": "066",
@@ -854,7 +854,7 @@
       "lore_status": "theory",
       "lore_core": "礪茶は、渋い茶の名。研ぎ澄ました土の色を思わせる、硬めの茶色。",
       "lore_details": [],
-      "reading_hiragana": "とちゃ"
+      "reading_hiragana": "とのちゃ"
     },
     {
       "id": "070",
@@ -890,7 +890,7 @@
       "lore_status": "theory",
       "lore_core": "萱草は、橙寄りの明るい黄。花の光をそのまま写したような、元気な色。",
       "lore_details": [],
-      "reading_hiragana": "かんぞ"
+      "reading_hiragana": "かんぞう"
     },
     {
       "id": "073",
@@ -950,7 +950,7 @@
       "lore_status": "theory",
       "lore_core": "丁子茶は、紅みを帯びた渋い茶。香辛料の丁子の名を借りて、落ち着いた温度を出す。",
       "lore_details": [],
-      "reading_hiragana": "ちょじちゃ"
+      "reading_hiragana": "ちょうじちゃ"
     },
     {
       "id": "078",
@@ -1012,7 +1012,7 @@
       "lore_status": "theory",
       "lore_core": "丁子染は、丁子の名を持つ染めの色。黒ずんだ茶寄りの渋さが出る。",
       "lore_details": [],
-      "reading_hiragana": "ちょじぞめ"
+      "reading_hiragana": "ちょうじぞめ"
     },
     {
       "id": "083",
@@ -1086,7 +1086,7 @@
       "lore_status": "theory",
       "lore_core": "薄香は、香色を薄くした調子。黄に赤みが差して、やわらかい。",
       "lore_details": [],
-      "reading_hiragana": "うすこ"
+      "reading_hiragana": "うすこう"
     },
     {
       "id": "089",
@@ -1344,7 +1344,7 @@
       "lore_status": "theory",
       "lore_core": "籐黄は、赤みのある明るい黄。絵の具の名と重ねて語られることもある。",
       "lore_details": [],
-      "reading_hiragana": "とほ"
+      "reading_hiragana": "とうおう"
     },
     {
       "id": "110",
@@ -1396,7 +1396,7 @@
       "lore_details": [
         "利休の名に結ぶ語りが出ることもある。"
       ],
-      "reading_hiragana": "りきゅしらちゃ"
+      "reading_hiragana": "りきゅうしらちゃ"
     },
     {
       "id": "114",
@@ -1422,7 +1422,7 @@
       "lore_details": [
         "人名に結ぶ話もあれば、色の系統名として捉える話もある。"
       ],
-      "reading_hiragana": "りきゅちゃ"
+      "reading_hiragana": "りきゅうちゃ"
     },
     {
       "id": "116",
@@ -1434,7 +1434,7 @@
       "lore_status": "theory",
       "lore_core": "路考茶は、渋い緑茶の名。人名にちなむ、と語られることがある。",
       "lore_details": [],
-      "reading_hiragana": "ろこちゃ"
+      "reading_hiragana": "ろこうちゃ"
     },
     {
       "id": "117",
@@ -1938,7 +1938,7 @@
       "lore_status": "theory",
       "lore_core": "緑青は、銅のさびの青緑。顔料の名にもなり、青と緑が硬質に交わる。",
       "lore_details": [],
-      "reading_hiragana": "ろくよ"
+      "reading_hiragana": "ろくしょう"
     },
     {
       "id": "158",
@@ -1974,7 +1974,7 @@
       "lore_status": "theory",
       "lore_core": "ビロードは、深い青緑。布の艶を思わせる名で、暗くなめらか。",
       "lore_details": [],
-      "reading_hiragana": "えうど"
+      "reading_hiragana": "びろーど"
     },
     {
       "id": "161",
@@ -2362,7 +2362,7 @@
       "lore_status": "theory",
       "lore_core": "群青は、濃く鮮やかな青。顔料の名とも重なり、青の深さを言う。",
       "lore_details": [],
-      "reading_hiragana": "ぐんよ"
+      "reading_hiragana": "ぐんじょう"
     },
     {
       "id": "193",
@@ -2484,7 +2484,7 @@
       "lore_status": "theory",
       "lore_core": "紺青は、紫みの強い青。冴えた青に、少しだけ夜の気配が混じる。",
       "lore_details": [],
-      "reading_hiragana": "こんよ"
+      "reading_hiragana": "こんじょう"
     },
     {
       "id": "203",
@@ -2510,7 +2510,7 @@
       "lore_status": "theory",
       "lore_core": "紺桔梗は、桔梗を紺へ寄せた青紫。青が深く、紫は控えめに残る。",
       "lore_details": [],
-      "reading_hiragana": "こんききょ"
+      "reading_hiragana": "こんききょう"
     },
     {
       "id": "205",
@@ -2534,7 +2534,7 @@
       "lore_status": "theory",
       "lore_core": "二藍は、藍の青にもう一段紫が混じる調子。青紫のあたりで深く落ち着く。",
       "lore_details": [],
-      "reading_hiragana": "ふたいあい"
+      "reading_hiragana": "ふたあい"
     },
     {
       "id": "207",
@@ -2620,7 +2620,7 @@
       "lore_status": "theory",
       "lore_core": "半は、薄紫を少し締めた色。淡いまま、陰影だけを増やす。",
       "lore_details": [],
-      "reading_hiragana": "はん"
+      "reading_hiragana": "はした"
     },
     {
       "id": "214",
