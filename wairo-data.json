@@ -13,7 +13,8 @@
       "romance": "灯のにじみの気配。",
       "lore_status": "theory",
       "lore_core": "撫子色は、やさしい紅に少し紫が寄った薄い色。撫子の花を思わせる呼び名。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "なでしこ"
     },
     {
       "id": "002",
@@ -24,7 +25,8 @@
       "romance": "夕焼け、頬の熱。",
       "lore_status": "theory",
       "lore_core": "紅梅色は、梅の花の紅をほのかに映した桃色寄りの色。赤より柔らかい。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "こうばい"
     },
     {
       "id": "003",
@@ -35,7 +37,8 @@
       "romance": "朱印の余韻の気配。",
       "lore_status": "theory",
       "lore_core": "蘇芳は、深い赤紫の気配をもつ暗めの赤。染めの名としても語られる。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "すおう"
     },
     {
       "id": "004",
@@ -46,7 +49,8 @@
       "romance": "熟れた果実、胸の鼓動。",
       "lore_status": "theory",
       "lore_core": "退紅は、紅を薄く引いたような淡い紅。ふわりとくすみを含む。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "たいこ"
     },
     {
       "id": "005",
@@ -57,7 +61,8 @@
       "romance": "熟れた果実の気配。",
       "lore_status": "theory",
       "lore_core": "一斤染は、淡い桃色の一種。紅をぜいたくに使った、と伝わる名。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "いこんぞめ"
     },
     {
       "id": "006",
@@ -70,7 +75,8 @@
       "lore_core": "桑染は、黄みを帯びた渋い褐色。桑にちなむ名で呼ばれる。",
       "lore_details": [
         "黄そのものより一段落ち着いた調子、と語られることがある。"
-      ]
+      ],
+      "reading_hiragana": "くわぞめ"
     },
     {
       "id": "007",
@@ -81,7 +87,8 @@
       "romance": "軽い灯のにじみ。",
       "lore_status": "theory",
       "lore_core": "桃色は、桃の花のような薄紅。明るく、やわらかな赤み。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "もも"
     },
     {
       "id": "008",
@@ -94,7 +101,8 @@
       "lore_core": "苺色は、苺の実を思わせる濃い赤。少し紫みが入って見えることもある。",
       "lore_details": [
         "色名としては比較的新しい、と言われることがある。"
-      ]
+      ],
+      "reading_hiragana": "いちご"
     },
     {
       "id": "009",
@@ -105,7 +113,8 @@
       "romance": "張りのある夕焼け。",
       "lore_status": "theory",
       "lore_core": "薄紅は、紅の薄い色合い。桜色に近い、と感じる人もいる。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "うすべに"
     },
     {
       "id": "010",
@@ -118,7 +127,8 @@
       "lore_core": "今様色は、当世好みの紅系の色を指す呼び名。どの濃さを指すかは語りが揺れる。",
       "lore_details": [
         "濃い紅梅に寄せる説明もあれば、別の呼び名と重ねる説明もある。"
-      ]
+      ],
+      "reading_hiragana": "いまよ"
     },
     {
       "id": "011",
@@ -129,7 +139,8 @@
       "romance": "頬の熱、花弁の影。",
       "lore_status": "theory",
       "lore_core": "中紅は、濃い紅と淡い紅のちょうど間。赤みの強さを調えるための呼び分け。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "なかべに"
     },
     {
       "id": "012",
@@ -140,7 +151,8 @@
       "romance": "頬の熱、朱印の余韻。",
       "lore_status": "theory",
       "lore_core": "桜色は、桜の花びらを思わせる淡い紅。白に紅がそっと混じる。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "さくら"
     },
     {
       "id": "013",
@@ -151,7 +163,8 @@
       "romance": "熟れた果実、頬の熱。",
       "lore_status": "theory",
       "lore_core": "梅鼠は、赤みを帯びた鼠色。梅の気配をほんのり残す灰紅。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "うめねずみ"
     },
     {
       "id": "014",
@@ -164,7 +177,8 @@
       "lore_core": "韓紅花は、濃い紅の名。深く鮮やかな赤として語られる。",
       "lore_details": [
         "呼び名の由来や「から」の解釈は諸説と言われることがある。"
-      ]
+      ],
+      "reading_hiragana": "からくれない"
     },
     {
       "id": "015",
@@ -175,7 +189,8 @@
       "romance": "素朴な熟れた果実。",
       "lore_status": "theory",
       "lore_core": "燕脂は、黒みを含んだ濃い紅。深い赤としてまとまる色名。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "えんじ"
     },
     {
       "id": "016",
@@ -186,7 +201,8 @@
       "romance": "頬の熱の気配。",
       "lore_status": "theory",
       "lore_core": "紅は、まっすぐな赤の名。とりわけ紅花の赤を指すことが多い。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "くれない"
     },
     {
       "id": "017",
@@ -197,7 +213,8 @@
       "romance": "灯のにじみ、頬の熱。",
       "lore_status": "theory",
       "lore_core": "鴇色は、鴇の羽にちなむ薄桃色。黄みを含むやさしいピンク。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "とき"
     },
     {
       "id": "018",
@@ -208,7 +225,8 @@
       "romance": "花弁の影、熟れた果実。",
       "lore_status": "theory",
       "lore_core": "長春は、赤みのある落ち着いた色名の一つ。派手すぎない紅の系統。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "よゆん"
     },
     {
       "id": "019",
@@ -219,7 +237,8 @@
       "romance": "頬の熱の気配。",
       "lore_status": "theory",
       "lore_core": "深緋は、緋をぐっと深めた赤。火の気配を沈ませたような調子。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "こきあけ"
     },
     {
       "id": "020",
@@ -232,7 +251,8 @@
       "lore_core": "桜鼠は、桜色に薄墨を重ねたようなくすみ。淡い紅に灰が寄る。",
       "lore_details": [
         "染めの手順や由来の語りは、いくつかの説が伝わる。"
-      ]
+      ],
+      "reading_hiragana": "さくらねずみ"
     },
     {
       "id": "021",
@@ -243,7 +263,8 @@
       "romance": "きらりとした朱印の余韻。",
       "lore_status": "theory",
       "lore_core": "甚三紅は、紅の仲間の色名。鮮やかな赤みを持つ、とされる。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "じんざもみ"
     },
     {
       "id": "022",
@@ -254,7 +275,8 @@
       "romance": "花弁の影の気配。",
       "lore_status": "theory",
       "lore_core": "小豆色は、小豆の実を思わせる暗い赤。渋く締まる赤褐。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "あずき"
     },
     {
       "id": "023",
@@ -265,7 +287,8 @@
       "romance": "花弁の影の気配。",
       "lore_status": "theory",
       "lore_core": "蘇芳香は、蘇芳に香りの余韻を添えたような名。赤みを落ち着かせた調子。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "すおうこう"
     },
     {
       "id": "024",
@@ -276,7 +299,8 @@
       "romance": "朱印の余韻の気配。",
       "lore_status": "theory",
       "lore_core": "赤紅は、赤みの強い紅。くっきりした赤として呼び分けられる。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "あかべに"
     },
     {
       "id": "025",
@@ -287,7 +311,8 @@
       "romance": "熟れた果実、花弁の影。",
       "lore_status": "theory",
       "lore_core": "真朱は、朱の中でも芯のある朱。まっすぐな朱赤として扱われる。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "しんゆ"
     },
     {
       "id": "026",
@@ -298,7 +323,8 @@
       "romance": "ふわっとした夕焼け。",
       "lore_status": "theory",
       "lore_core": "灰桜は、桜の淡紅に灰をひとさじ落としたような色。やさしくくすんで落ち着く。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "はいざくら"
     },
     {
       "id": "027",
@@ -309,7 +335,8 @@
       "romance": "頬の熱、灯のにじみ。",
       "lore_status": "theory",
       "lore_core": "栗梅は、赤みを沈ませた暗い紅。実の渋みを思わせる締まった色合い。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "くりうめ"
     },
     {
       "id": "028",
@@ -320,7 +347,8 @@
       "romance": "朱印の余韻、灯のにじみ。",
       "lore_status": "theory",
       "lore_core": "海老茶は、赤茶をさらに深くした色。海老の殻のように艶を沈める。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "えびちゃ"
     },
     {
       "id": "029",
@@ -331,7 +359,8 @@
       "romance": "落ち着いた灯のにじみ。",
       "lore_status": "theory",
       "lore_core": "銀朱は、朱に金属の気配を添えたような赤。赤いけれど硬質な印象も残る。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "ぎんゆ"
     },
     {
       "id": "030",
@@ -342,7 +371,8 @@
       "romance": "琥珀の気配。",
       "lore_status": "theory",
       "lore_core": "黒鳶は、鳶色をさらに暗く沈めた茶。影の奥に赤みが潜む。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "くろとび"
     },
     {
       "id": "031",
@@ -353,7 +383,8 @@
       "romance": "花弁の影、熟れた果実。",
       "lore_status": "theory",
       "lore_core": "紅鳶は、鳶色に紅の気配を重ねた色。茶の中に赤がふっと立つ。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "べにとび"
     },
     {
       "id": "032",
@@ -364,7 +395,8 @@
       "romance": "花弁の影の気配。",
       "lore_status": "theory",
       "lore_core": "曙は、夜明けの空に差す淡い紅。黄みを含んで、あたたかく明るい。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "あけぼの"
     },
     {
       "id": "033",
@@ -375,7 +407,8 @@
       "romance": "花弁の影、熟れた果実。",
       "lore_status": "theory",
       "lore_core": "紅樺は、赤みを帯びたくすんだ茶。木肌の温度が残るような色。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "べにかば"
     },
     {
       "id": "034",
@@ -388,7 +421,8 @@
       "lore_core": "水がきは、薄い柿色を水でほどいたような調子。赤みは控えめで、肌に近い。",
       "lore_details": [
         "呼び名や別名の語りは揺れることがある。"
-      ]
+      ],
+      "reading_hiragana": "みずがき"
     },
     {
       "id": "035",
@@ -401,7 +435,8 @@
       "lore_core": "珊瑚朱は、珊瑚の珠のような赤橙。明るく、つやっとした温度をもつ。",
       "lore_details": [
         "珊瑚色と同一視する語りもある。"
-      ]
+      ],
+      "reading_hiragana": "さんごゆ"
     },
     {
       "id": "036",
@@ -412,7 +447,8 @@
       "romance": "熟れた果実、花弁の影。",
       "lore_status": "theory",
       "lore_core": "紅檜皮は、紅に黒みを落としたような色。紫の気配を含む暗い紅。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "べにひわだ"
     },
     {
       "id": "037",
@@ -425,7 +461,8 @@
       "lore_core": "猩猩緋は、深く鮮やかな赤。遠くからでも目を引く強い紅として語られる。",
       "lore_details": [
         "名前の由来には俗説も混ざる、と言われることがある。"
-      ]
+      ],
+      "reading_hiragana": "よよひ"
     },
     {
       "id": "038",
@@ -436,7 +473,8 @@
       "romance": "頬の熱の気配。",
       "lore_status": "theory",
       "lore_core": "鉛丹は、赤みの強い橙。顔料の名としても知られ、朱より橙に寄る。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "えんたん"
     },
     {
       "id": "039",
@@ -447,7 +485,8 @@
       "romance": "熟れた果実の気配。",
       "lore_status": "theory",
       "lore_core": "芝翫茶は、淡い茶に紫の気配が差す色。人名にちなむ、と語られることもある。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "しかんちゃ"
     },
     {
       "id": "040",
@@ -458,7 +497,8 @@
       "romance": "奥の花弁の影。",
       "lore_status": "theory",
       "lore_core": "檜皮は、赤茶を黒く締めたような色。樹皮を思わせる渋い赤褐。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "ひわだ"
     },
     {
       "id": "041",
@@ -469,7 +509,8 @@
       "romance": "花弁の影の気配。",
       "lore_status": "theory",
       "lore_core": "柿渋は、渋柿の汁を思わせる赤褐。乾くほどに、色が締まって見える。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "かきしぶ"
     },
     {
       "id": "042",
@@ -480,7 +521,8 @@
       "romance": "花弁の影の気配。",
       "lore_status": "theory",
       "lore_core": "緋は、まっすぐな赤の名。火の色のように、熱の気配を帯びる。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "あけ"
     },
     {
       "id": "043",
@@ -491,7 +533,8 @@
       "romance": "夕灯の気配。",
       "lore_status": "theory",
       "lore_core": "鳶は、鳶の羽を思わせる暗い茶。赤みを沈めた、渋い色合い。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "とび"
     },
     {
       "id": "044",
@@ -502,7 +545,8 @@
       "romance": "灯のにじみの気配。",
       "lore_status": "theory",
       "lore_core": "紅緋は、朱と紅のあいだを行き来する赤。明るいのに、芯がある。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "べにひ"
     },
     {
       "id": "045",
@@ -513,7 +557,8 @@
       "romance": "素朴な夕灯。",
       "lore_status": "theory",
       "lore_core": "栗皮茶は、栗の皮のような赤黒い茶。深みがあり、落ち着いて締まる。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "くりかわちゃ"
     },
     {
       "id": "046",
@@ -524,7 +569,8 @@
       "romance": "胸の鼓動の気配。",
       "lore_status": "theory",
       "lore_core": "弁柄は、土と鉄の匂いを帯びた赤茶。顔料の名にもなる、渋い赤。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "べんがら"
     },
     {
       "id": "047",
@@ -535,7 +581,8 @@
       "romance": "素朴な夕焼け。",
       "lore_status": "theory",
       "lore_core": "照柿は、熟した柿の皮のような濃い橙。赤みが強く、艶がある。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "てりがき"
     },
     {
       "id": "048",
@@ -546,7 +593,8 @@
       "romance": "胸の鼓動、灯のにじみ。",
       "lore_status": "theory",
       "lore_core": "江戸茶は、薄い茶の名。さらりとした渋みで、派手さを抑える。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "えどちゃ"
     },
     {
       "id": "049",
@@ -559,7 +607,8 @@
       "lore_core": "洗朱は、朱を水で洗ったような明るさ。黄みが入り、軽やかな朱。",
       "lore_details": [
         "漆器の語りと結びつくこともある。"
-      ]
+      ],
+      "reading_hiragana": "あらいゆ"
     },
     {
       "id": "050",
@@ -570,7 +619,8 @@
       "romance": "朱印の余韻の気配。",
       "lore_status": "theory",
       "lore_core": "百塩茶は、暗い茶のひとつ。塩気のような渋みを連想させる名。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "ももしおちゃ"
     },
     {
       "id": "051",
@@ -581,7 +631,8 @@
       "romance": "夕焼け、花弁の影。",
       "lore_status": "theory",
       "lore_core": "唐茶は、どこか異国の気配をまとった茶色。赤みと黄みのあいだで渋く揺れる。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "からちゃ"
     },
     {
       "id": "052",
@@ -592,7 +643,8 @@
       "romance": "頬の熱の気配。",
       "lore_status": "theory",
       "lore_core": "ときがら茶は、橙みの茶をやさしく曇らせた色。あたたかいのに派手ではない。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "ときがらちゃ"
     },
     {
       "id": "053",
@@ -603,7 +655,8 @@
       "romance": "夕焼けの気配。",
       "lore_status": "theory",
       "lore_core": "黄丹は、朱に黄みが差した橙。光を含んで、ころんと明るい。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "おに"
     },
     {
       "id": "054",
@@ -614,7 +667,8 @@
       "romance": "落ち着いた灯のにじみ。",
       "lore_status": "theory",
       "lore_core": "纁は、淡い朱寄りの橙。強さより、にごりの少ない温度を残す。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "そひ"
     },
     {
       "id": "055",
@@ -625,7 +679,8 @@
       "romance": "熟れた果実の気配。",
       "lore_status": "theory",
       "lore_core": "遠州茶は、渋い茶の名。さらりと乾いた土の色を思わせる。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "えんゆちゃ"
     },
     {
       "id": "056",
@@ -636,7 +691,8 @@
       "romance": "夕焼け、花弁の影。",
       "lore_status": "theory",
       "lore_core": "樺茶は、赤みのある茶。木肌の赤茶をぎゅっと締めたような調子。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "かばちゃ"
     },
     {
       "id": "057",
@@ -647,7 +703,8 @@
       "romance": "琥珀の気配。",
       "lore_status": "theory",
       "lore_core": "焦茶は、焼け焦げたように黒みを含む茶。暗いのに、奥で赤が息をする。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "こげちゃ"
     },
     {
       "id": "058",
@@ -660,7 +717,8 @@
       "lore_core": "赤香は、橙に茶が混じった薄い色。香りの名のとおり、ふわりと甘い温度。",
       "lore_details": [
         "丁子や香色の話とつながって語られることがある。"
-      ]
+      ],
+      "reading_hiragana": "あかこ"
     },
     {
       "id": "059",
@@ -671,7 +729,8 @@
       "romance": "夕灯の気配。",
       "lore_status": "theory",
       "lore_core": "雀茶は、羽の色を思わせる茶。明るさを抑えた、素朴で渋い茶色。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "すずめちゃ"
     },
     {
       "id": "060",
@@ -682,7 +741,8 @@
       "romance": "冴える熟れた果実。",
       "lore_status": "theory",
       "lore_core": "宍は、朱寄りの明るい橙。肌の温度に近く、やわらかい赤みが残る。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "しし"
     },
     {
       "id": "061",
@@ -695,7 +755,8 @@
       "lore_core": "宗伝唐茶は、唐茶の系統にある渋い茶。名の来歴の語りは一筋ではない。",
       "lore_details": [
         "人名や流行と結びつける話が出ることがある。"
-      ]
+      ],
+      "reading_hiragana": "そでんからちゃ"
     },
     {
       "id": "062",
@@ -706,7 +767,8 @@
       "romance": "木の肌の気配。",
       "lore_status": "theory",
       "lore_core": "樺は、赤みの強い茶。赤茶を濃くして、渋みを足したような色合い。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "かば"
     },
     {
       "id": "063",
@@ -717,7 +779,8 @@
       "romance": "落ち着いた焼き菓子。",
       "lore_status": "theory",
       "lore_core": "深支子は、支子の黄をさらに濃くしたような黄橙。赤みが入り、熟れた光をもつ。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "こきくちなし"
     },
     {
       "id": "064",
@@ -728,7 +791,8 @@
       "romance": "琥珀、焼き菓子。",
       "lore_status": "theory",
       "lore_core": "胡桃は、薄い褐色のやさしい茶。木の皮や実を思わせる、落ち着いた色。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "くるみ"
     },
     {
       "id": "065",
@@ -739,7 +803,8 @@
       "romance": "琥珀、焚き火。",
       "lore_status": "theory",
       "lore_core": "代赭は、土の赤みを帯びた茶。乾いた地面の色のように、重みがある。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "たいや"
     },
     {
       "id": "066",
@@ -750,7 +815,8 @@
       "romance": "土の温度の気配。",
       "lore_status": "theory",
       "lore_core": "洗柿は、薄い柿色。渋みを洗い流したように、軽く明るい赤茶。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "あらいがき"
     },
     {
       "id": "067",
@@ -763,7 +829,8 @@
       "lore_core": "黄櫨染は、赤みを含む茶に黄が差す色。儀式や位階の語りが絡み、説明が揺れやすい。",
       "lore_details": [
         "染めの手順や象徴の意味づけに、いくつかの説が伝わる。"
-      ]
+      ],
+      "reading_hiragana": "こうろぜん"
     },
     {
       "id": "068",
@@ -774,7 +841,8 @@
       "romance": "焚き火、琥珀。",
       "lore_status": "theory",
       "lore_core": "赤朽葉は、朽葉に赤みを足した黄褐。枯れ葉の赤茶が残ったような色。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "あかくちば"
     },
     {
       "id": "069",
@@ -785,7 +853,8 @@
       "romance": "しっとりした煉瓦。",
       "lore_status": "theory",
       "lore_core": "礪茶は、渋い茶の名。研ぎ澄ました土の色を思わせる、硬めの茶色。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "とちゃ"
     },
     {
       "id": "070",
@@ -796,7 +865,8 @@
       "romance": "木の肌、土の温度。",
       "lore_status": "theory",
       "lore_core": "赤白橡は、赤みの淡い褐色。白橡より赤がにじみ、やわらかな茶に寄る。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "あかしりつるばみ"
     },
     {
       "id": "071",
@@ -807,7 +877,8 @@
       "romance": "焼き菓子の気配。",
       "lore_status": "theory",
       "lore_core": "煎茶は、茶葉を煎じた色を思わせる茶。黄みと渋みが静かに混じる。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "せんちゃ"
     },
     {
       "id": "072",
@@ -818,7 +889,8 @@
       "romance": "煉瓦の気配。",
       "lore_status": "theory",
       "lore_core": "萱草は、橙寄りの明るい黄。花の光をそのまま写したような、元気な色。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "かんぞ"
     },
     {
       "id": "073",
@@ -829,7 +901,8 @@
       "romance": "冴える焼き菓子。",
       "lore_status": "theory",
       "lore_core": "洒落柿は、柿色に赤みを足した橙。少しだけ派手に、でも品よく。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "しゃれがき"
     },
     {
       "id": "074",
@@ -840,7 +913,8 @@
       "romance": "土の温度、焼き菓子。",
       "lore_status": "theory",
       "lore_core": "紅鬱金は、濃い黄の系統に紅の気配を添えた名。黄が強いのに、どこか赤が匂う。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "べにうこん"
     },
     {
       "id": "075",
@@ -851,7 +925,8 @@
       "romance": "焚き火の気配。",
       "lore_status": "theory",
       "lore_core": "梅染は、梅の花を思わせる淡い紅。白に紅が溶けて、静かにやさしい。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "うめぞめ"
     },
     {
       "id": "076",
@@ -862,7 +937,8 @@
       "romance": "夕灯、琥珀。",
       "lore_status": "theory",
       "lore_core": "枇杷茶は、枇杷の実を思わせる黄褐。果肉の甘さより、皮の渋みが残る色。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "びわちゃ"
     },
     {
       "id": "077",
@@ -873,7 +949,8 @@
       "romance": "土の温度の気配。",
       "lore_status": "theory",
       "lore_core": "丁子茶は、紅みを帯びた渋い茶。香辛料の丁子の名を借りて、落ち着いた温度を出す。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "ちょじちゃ"
     },
     {
       "id": "078",
@@ -886,7 +963,8 @@
       "lore_core": "憲法染は、黒茶の系統にある渋い色名。名の由来は語りが分かれやすい。",
       "lore_details": [
         "人物の名に結ぶ話もあれば、染めの呼び名として語る話もある。"
-      ]
+      ],
+      "reading_hiragana": "けんぽぞめ"
     },
     {
       "id": "079",
@@ -897,7 +975,8 @@
       "romance": "すっとした土の温度。",
       "lore_status": "theory",
       "lore_core": "琥珀は、琥珀のような黄みの茶。光を含むのに、ぎらつかず落ち着く。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "こはく"
     },
     {
       "id": "080",
@@ -908,7 +987,8 @@
       "romance": "張りのある煉瓦。",
       "lore_status": "theory",
       "lore_core": "薄柿は、柿色を薄くほどいた赤茶。明るいのに渋みが残る。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "うすがき"
     },
     {
       "id": "081",
@@ -919,7 +999,8 @@
       "romance": "奥の焚き火。",
       "lore_status": "theory",
       "lore_core": "伽羅は、濃い茶の名。深い茶に、香木の気配を重ねるような呼び方。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "きゃら"
     },
     {
       "id": "082",
@@ -930,7 +1011,8 @@
       "romance": "煉瓦の気配。",
       "lore_status": "theory",
       "lore_core": "丁子染は、丁子の名を持つ染めの色。黒ずんだ茶寄りの渋さが出る。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "ちょじぞめ"
     },
     {
       "id": "083",
@@ -941,7 +1023,8 @@
       "romance": "しっとりした土の温度。",
       "lore_status": "theory",
       "lore_core": "柴染は、黄褐をくすませた茶。小枝の煙のように、乾いた渋み。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "ふしぞめ"
     },
     {
       "id": "084",
@@ -952,7 +1035,8 @@
       "romance": "土の温度、焼き菓子。",
       "lore_status": "theory",
       "lore_core": "朽葉は、枯れ葉の黄褐。赤にも黄にも寄りすぎず、秋の影を抱える。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "くちば"
     },
     {
       "id": "085",
@@ -965,7 +1049,8 @@
       "lore_core": "金茶は、金の気配を帯びた明るい茶。山吹に近い温度で、華やかさがある。",
       "lore_details": [
         "時代によって、呼び分けや近縁名が揺れることがある。"
-      ]
+      ],
+      "reading_hiragana": "きんちゃ"
     },
     {
       "id": "086",
@@ -976,7 +1061,8 @@
       "romance": "沈んだ焼き菓子。",
       "lore_status": "theory",
       "lore_core": "狐は、黄褐から橙へ寄る色。狐の毛並みのように、あたたかく渋い。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "きつね"
     },
     {
       "id": "087",
@@ -987,7 +1073,8 @@
       "romance": "しっとりした煉瓦。",
       "lore_status": "theory",
       "lore_core": "煤竹は、竹に煤が乗ったような茶。明るさを落として、渋みを増す。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "すすたけ"
     },
     {
       "id": "088",
@@ -998,7 +1085,8 @@
       "romance": "琥珀、焼き菓子。",
       "lore_status": "theory",
       "lore_core": "薄香は、香色を薄くした調子。黄に赤みが差して、やわらかい。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "うすこ"
     },
     {
       "id": "089",
@@ -1011,7 +1099,8 @@
       "lore_core": "砥粉は、砥石の粉を思わせる淡い茶。紙に近い明るさで、静かに馴染む。",
       "lore_details": [
         "木を磨く粉や化粧の粉の話と結びつくことがある。"
-      ]
+      ],
+      "reading_hiragana": "とのこ"
     },
     {
       "id": "090",
@@ -1022,7 +1111,8 @@
       "romance": "焼き菓子の気配。",
       "lore_status": "theory",
       "lore_core": "銀煤竹は、煤竹に灰を足したようなくすみ。茶の影に、金属の冷えが潜む。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "ぎんすすたけ"
     },
     {
       "id": "091",
@@ -1033,7 +1123,8 @@
       "romance": "落ち着いた琥珀。",
       "lore_status": "theory",
       "lore_core": "黄土は、土の黄みを写した色。赤みを含む黄褐で、壁の色にも近い。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "おど"
     },
     {
       "id": "092",
@@ -1046,7 +1137,8 @@
       "lore_core": "白茶は、茶を白くほどいたような薄茶。色褪せた渋みが、むしろ味になる。",
       "lore_details": [
         "「白茶ける」の語りがここにつながる。"
-      ]
+      ],
+      "reading_hiragana": "しらちゃ"
     },
     {
       "id": "093",
@@ -1057,7 +1149,8 @@
       "romance": "素朴な夕灯。",
       "lore_status": "theory",
       "lore_core": "媚茶は、渋くくすんだ茶。派手さを消して、深い落ち着きだけ残す。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "こびちゃ"
     },
     {
       "id": "094",
@@ -1068,7 +1161,8 @@
       "romance": "凛とした琥珀。",
       "lore_status": "theory",
       "lore_core": "黄唐茶は、黄みの強い茶。金茶より渋く、黄土より軽い。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "きがらちゃ"
     },
     {
       "id": "095",
@@ -1079,7 +1173,8 @@
       "romance": "木の肌の気配。",
       "lore_status": "theory",
       "lore_core": "山吹は、山吹の花の黄。ぱっと明るいのに、目にやさしい。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "やまぶき"
     },
     {
       "id": "096",
@@ -1090,7 +1185,8 @@
       "romance": "焚き火、琥珀。",
       "lore_status": "theory",
       "lore_core": "山吹茶は、山吹を茶へ寄せた深い黄。金茶に近い、とも言われる。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "やまぶきちゃ"
     },
     {
       "id": "097",
@@ -1101,7 +1197,8 @@
       "romance": "土の温度の気配。",
       "lore_status": "theory",
       "lore_core": "櫨染は、赤みの深い黄。染めの話や儀式の語りが重なって、格が立つ。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "はじぞめ"
     },
     {
       "id": "098",
@@ -1112,7 +1209,8 @@
       "romance": "夕灯、琥珀。",
       "lore_status": "theory",
       "lore_core": "桑茶は、桑の葉を思わせる渋い黄褐。緑へ寄りすぎない、乾いた葉の色。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "くわちゃ"
     },
     {
       "id": "099",
@@ -1123,7 +1221,8 @@
       "romance": "冴える木の肌。",
       "lore_status": "theory",
       "lore_core": "玉子は、卵の黄身の淡黄。やわらかい光が、そのまま丸く残る。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "たまご"
     },
     {
       "id": "100",
@@ -1134,7 +1233,8 @@
       "romance": "素直な土の温度。",
       "lore_status": "theory",
       "lore_core": "白橡は、橡の色を薄くした淡い褐。白みがあり、静かな黄褐に落ちる。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "しろつるばみ"
     },
     {
       "id": "101",
@@ -1145,7 +1245,8 @@
       "romance": "すっとした焼き菓子。",
       "lore_status": "theory",
       "lore_core": "黄橡は、橡の渋みを黄へ寄せた黄褐。木の葉が黄ばむ手前の色合い。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "きつるばみ"
     },
     {
       "id": "102",
@@ -1156,7 +1257,8 @@
       "romance": "煉瓦の気配。",
       "lore_status": "theory",
       "lore_core": "玉蜀黍は、とうもろこしの粒を思わせる黄。甘さの奥に、少し土の温度がある。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "たまもろこし"
     },
     {
       "id": "103",
@@ -1167,7 +1269,8 @@
       "romance": "焚き火、焼き菓子。",
       "lore_status": "theory",
       "lore_core": "花葉は、花の明るさと葉の渋みのあいだ。黄から黄緑へ、やわらかく移る。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "はなば"
     },
     {
       "id": "104",
@@ -1178,7 +1281,8 @@
       "romance": "琥珀、焼き菓子。",
       "lore_status": "theory",
       "lore_core": "生壁は、土壁のような黄褐。塗りたての壁が乾く前の、しっとりした渋み。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "なまかべ"
     },
     {
       "id": "105",
@@ -1189,7 +1293,8 @@
       "romance": "焼き菓子、琥珀。",
       "lore_status": "theory",
       "lore_core": "鳥の子は、卵殻を思わせる淡黄。白より温かく、黄より控えめ。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "とりのこ"
     },
     {
       "id": "106",
@@ -1202,7 +1307,8 @@
       "lore_core": "浅黄は、薄い黄の名。淡い光だけをすくったように、軽い。",
       "lore_details": [
         "字が似ている浅葱と混同されがち、という話もある。"
-      ]
+      ],
+      "reading_hiragana": "あさぎ"
     },
     {
       "id": "107",
@@ -1213,7 +1319,8 @@
       "romance": "煉瓦、琥珀。",
       "lore_status": "theory",
       "lore_core": "黄朽葉は、朽葉の黄みを強めた色。枯れ葉の黄がまだ残る調子。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "きくちば"
     },
     {
       "id": "108",
@@ -1224,7 +1331,8 @@
       "romance": "張りのある煉瓦。",
       "lore_status": "theory",
       "lore_core": "梔子は、濃い黄の名。赤みを含んで、熟れた実の色に寄る。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "くちなし"
     },
     {
       "id": "109",
@@ -1235,7 +1343,8 @@
       "romance": "ほどよい土の温度。",
       "lore_status": "theory",
       "lore_core": "籐黄は、赤みのある明るい黄。絵の具の名と重ねて語られることもある。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "とほ"
     },
     {
       "id": "110",
@@ -1248,7 +1357,8 @@
       "lore_core": "鬱金は、少し赤みのある黄。香辛のように、黄が強く立つ。",
       "lore_details": [
         "ターメリックの色、と言えば早い。"
-      ]
+      ],
+      "reading_hiragana": "うこん"
     },
     {
       "id": "111",
@@ -1259,7 +1369,8 @@
       "romance": "凛とした夕灯。",
       "lore_status": "theory",
       "lore_core": "芥子は、辛子の名を借りた黄。くすみを含んで、落ち着いた黄に寄る。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "からし"
     },
     {
       "id": "112",
@@ -1270,7 +1381,8 @@
       "romance": "土の温度の気配。",
       "lore_status": "theory",
       "lore_core": "肥後煤竹は、煤竹を濃く沈めた茶。地名を冠して呼び分けられる。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "ひごすすたけ"
     },
     {
       "id": "113",
@@ -1283,7 +1395,8 @@
       "lore_core": "利休白茶は、白みのある薄茶。渋さを残しつつ、柔らかく明るい。",
       "lore_details": [
         "利休の名に結ぶ語りが出ることもある。"
-      ]
+      ],
+      "reading_hiragana": "りきゅしらちゃ"
     },
     {
       "id": "114",
@@ -1294,7 +1407,8 @@
       "romance": "ほどよい霧。",
       "lore_status": "theory",
       "lore_core": "灰汁は、灰みの黄褐。少し濁りがあり、渋く静かな色合い。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "あく"
     },
     {
       "id": "115",
@@ -1307,7 +1421,8 @@
       "lore_core": "利休茶は、渋い茶緑の名。どの色合いを指すかは、語りが揺れやすい。",
       "lore_details": [
         "人名に結ぶ話もあれば、色の系統名として捉える話もある。"
-      ]
+      ],
+      "reading_hiragana": "りきゅちゃ"
     },
     {
       "id": "116",
@@ -1318,7 +1433,8 @@
       "romance": "焼き菓子、土の温度。",
       "lore_status": "theory",
       "lore_core": "路考茶は、渋い緑茶の名。人名にちなむ、と語られることがある。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "ろこちゃ"
     },
     {
       "id": "117",
@@ -1329,7 +1445,8 @@
       "romance": "煉瓦、焼き菓子。",
       "lore_status": "theory",
       "lore_core": "菜種油は、油のような黄みの茶。黄が強いのに、派手ではない。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "なたねゆ"
     },
     {
       "id": "118",
@@ -1340,7 +1457,8 @@
       "romance": "沈んだ春の光。",
       "lore_status": "theory",
       "lore_core": "鶯茶は、鶯色に茶が混じる黄緑。見る角度で、鶯にも茶にも寄る。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "うぐいすちゃ"
     },
     {
       "id": "119",
@@ -1351,7 +1469,8 @@
       "romance": "土の温度、焼き菓子。",
       "lore_status": "theory",
       "lore_core": "黄海松茶は、海松茶の黄みを強めた渋色。黄緑の影が深くなる。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "きみるちゃ"
     },
     {
       "id": "120",
@@ -1362,7 +1481,8 @@
       "romance": "琥珀の気配。",
       "lore_status": "theory",
       "lore_core": "海松茶は、暗い黄緑を茶へ沈めた色。海藻の名を借りた、渋い緑褐。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "みるちゃ"
     },
     {
       "id": "121",
@@ -1373,7 +1493,8 @@
       "romance": "焚き火の気配。",
       "lore_status": "theory",
       "lore_core": "刈安は、明るい黄の名。染めの話がよく添えられ、黄が澄んで見える。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "かりやす"
     },
     {
       "id": "122",
@@ -1384,7 +1505,8 @@
       "romance": "木の肌の気配。",
       "lore_status": "theory",
       "lore_core": "菜の花は、花弁のように明るい黄。ぱっと咲く光が、そのまま色になる。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "なのはな"
     },
     {
       "id": "123",
@@ -1395,7 +1517,8 @@
       "romance": "陽だまりの気配。",
       "lore_status": "theory",
       "lore_core": "黄蘗は、鮮やかな黄。少し緑みが立ち、黄がすっと冴える。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "きはだ"
     },
     {
       "id": "124",
@@ -1408,7 +1531,8 @@
       "lore_core": "蒸栗は、蒸した栗の身のような淡黄。黄に緑みが混じり、やさしく曇る。",
       "lore_details": [
         "呼び名の由来や範囲に、いくつかの語りがある。"
-      ]
+      ],
+      "reading_hiragana": "むしくり"
     },
     {
       "id": "125",
@@ -1419,7 +1543,8 @@
       "romance": "馴染む稲穂。",
       "lore_status": "theory",
       "lore_core": "青朽葉は、朽葉に緑みを足した渋い色。黄褐から黄緑へ、静かに寄る。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "あおくちば"
     },
     {
       "id": "126",
@@ -1432,7 +1557,8 @@
       "lore_core": "女郎花は、明るい黄に緑みが差す色。秋の花の気配が、そのまま色名になる。",
       "lore_details": [
         "襲の色目として語られることもある。"
-      ]
+      ],
+      "reading_hiragana": "おみなえし"
     },
     {
       "id": "127",
@@ -1443,7 +1569,8 @@
       "romance": "にじむ春の光。",
       "lore_status": "theory",
       "lore_core": "鶸茶は、鶸色を茶へ沈めた渋い黄緑。明るさを落として、落ち着きを足す。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "ひわちゃ"
     },
     {
       "id": "128",
@@ -1454,7 +1581,8 @@
       "romance": "陽だまりの気配。",
       "lore_status": "theory",
       "lore_core": "鶸は、羽のように明るい黄緑。黄と緑が、軽やかに混ざる。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "ひわ"
     },
     {
       "id": "129",
@@ -1465,7 +1593,8 @@
       "romance": "陽だまりの気配。",
       "lore_status": "theory",
       "lore_core": "鶯は、羽の影を思わせる黄緑。明るいのに、どこか渋い。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "うぐいす"
     },
     {
       "id": "130",
@@ -1476,7 +1605,8 @@
       "romance": "砂のきらめき、稲穂。",
       "lore_status": "theory",
       "lore_core": "柳茶は、柳の黄緑を茶へ寄せた色。灰みが混じり、静かに馴染む。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "やなぎちゃ"
     },
     {
       "id": "131",
@@ -1489,7 +1619,8 @@
       "lore_core": "苔は、鈍い黄緑。乾いた苔と湿った苔の間を行き来する、落ち着いた緑。",
       "lore_details": [
         "襲の色目としても語られる。"
-      ]
+      ],
+      "reading_hiragana": "こけ"
     },
     {
       "id": "132",
@@ -1500,7 +1631,8 @@
       "romance": "蜂蜜の気配。",
       "lore_status": "theory",
       "lore_core": "麹塵は、黄緑をくすませた渋色。麹の気配を借りて、濁りの美しさを言う。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "きくじん"
     },
     {
       "id": "133",
@@ -1511,7 +1643,8 @@
       "romance": "奥の稲穂。",
       "lore_status": "theory",
       "lore_core": "璃寛茶は、暗い茶緑の渋色。緑と茶がほどよく混じって沈む。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "りかんちゃ"
     },
     {
       "id": "134",
@@ -1522,7 +1655,8 @@
       "romance": "重い稲穂。",
       "lore_status": "theory",
       "lore_core": "藍媚茶は、藍の気配を含む暗い茶緑。青を落として、渋みを残す。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "あいこびちゃ"
     },
     {
       "id": "135",
@@ -1533,7 +1667,8 @@
       "romance": "陽だまりの気配。",
       "lore_status": "theory",
       "lore_core": "海松は、海藻の色に寄せた深い黄緑。茶みを含んで、渋く落ち着く。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "みる"
     },
     {
       "id": "136",
@@ -1544,7 +1679,8 @@
       "romance": "陽だまりの気配。",
       "lore_status": "theory",
       "lore_core": "千歳茶は、深い緑を茶へ沈めた色。長寿の名を借りて、渋い縁起をまとう。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "せんさいちゃ"
     },
     {
       "id": "137",
@@ -1555,7 +1691,8 @@
       "romance": "砂のきらめき、蜂蜜。",
       "lore_status": "theory",
       "lore_core": "梅幸茶は、渋い黄緑から茶緑のあたり。名に人の気配が混じる、と語られることもある。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "ばいこちゃ"
     },
     {
       "id": "138",
@@ -1566,7 +1703,8 @@
       "romance": "木陰、露。",
       "lore_status": "theory",
       "lore_core": "鶸萌黄は、鶸の明るさに萌黄の青みを足した黄緑。芽吹きの勢いが出る。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "ひわもえぎ"
     },
     {
       "id": "139",
@@ -1579,7 +1717,8 @@
       "lore_core": "柳染は、柳の葉のような柔らかな黄緑。ふんわり明るく、目にやさしい。",
       "lore_details": [
         "襲の色目としても語られる。"
-      ]
+      ],
+      "reading_hiragana": "やなぎぞめ"
     },
     {
       "id": "140",
@@ -1590,7 +1729,8 @@
       "romance": "竹の息の気配。",
       "lore_status": "theory",
       "lore_core": "裏柳は、柳の淡さをさらに薄くしたような黄緑。白へ寄る、軽い柳の気配。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "うらやなぎ"
     },
     {
       "id": "141",
@@ -1601,7 +1741,8 @@
       "romance": "影の和紙の白。",
       "lore_status": "theory",
       "lore_core": "岩井茶は、茶色がかった暗い緑。渋さの中に、少し土の匂いがある。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "いわいちゃ"
     },
     {
       "id": "142",
@@ -1612,7 +1753,8 @@
       "romance": "素直な森の静けさ。",
       "lore_status": "theory",
       "lore_core": "萌黄は、芽吹きの黄緑。若い葉の光が、まっすぐ立ち上がる。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "もえぎ"
     },
     {
       "id": "143",
@@ -1623,7 +1765,8 @@
       "romance": "木陰の気配。",
       "lore_status": "theory",
       "lore_core": "苗は、若い芽の明るい緑。青みより、黄みが先に来る。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "なえ"
     },
     {
       "id": "144",
@@ -1634,7 +1777,8 @@
       "romance": "控えめな森の静けさ。",
       "lore_status": "theory",
       "lore_core": "柳煤竹は、柳色に煤竹のくすみを足した渋い黄緑。明るさを落として、深みを増す。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "やなぎすすたけ"
     },
     {
       "id": "145",
@@ -1645,7 +1789,8 @@
       "romance": "苔、抹茶。",
       "lore_status": "theory",
       "lore_core": "松葉は、松の葉の深い緑。黄みを含み、強すぎず渋く締まる。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "まつば"
     },
     {
       "id": "146",
@@ -1658,7 +1803,8 @@
       "lore_core": "青丹は、青と緑の中間にある渋い色。古い名にふさわしい落ち着きがある。",
       "lore_details": [
         "襲の色目として語られることもある。"
-      ]
+      ],
+      "reading_hiragana": "あおに"
     },
     {
       "id": "147",
@@ -1669,7 +1815,8 @@
       "romance": "ほどよい抹茶。",
       "lore_status": "theory",
       "lore_core": "薄青は、淡い青緑から薄い青のあたり。空気が多く、軽い色合い。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "うすあお"
     },
     {
       "id": "148",
@@ -1680,7 +1827,8 @@
       "romance": "落ち着いた墨の余白。",
       "lore_status": "theory",
       "lore_core": "柳鼠は、柳の黄緑に灰を混ぜた色。淡くくすんで、静かに馴染む。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "やなぎねずみ"
     },
     {
       "id": "149",
@@ -1691,7 +1839,8 @@
       "romance": "きらりとした露。",
       "lore_status": "theory",
       "lore_core": "常磐は、常緑の葉の濃い緑。変わらぬ色、という意味を名に背負う。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "ときわ"
     },
     {
       "id": "150",
@@ -1702,7 +1851,8 @@
       "romance": "木陰、苔。",
       "lore_status": "theory",
       "lore_core": "若竹は、若い竹の爽やかな緑。黄みが薄く、すっと涼しい。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "わかたけ"
     },
     {
       "id": "151",
@@ -1713,7 +1863,8 @@
       "romance": "抹茶の気配。",
       "lore_status": "theory",
       "lore_core": "千歳緑は、松葉のように深い緑。長い時を思わせる名で、渋く強い。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "ちとせみどり"
     },
     {
       "id": "152",
@@ -1724,7 +1875,8 @@
       "romance": "しっとりした森の静けさ。",
       "lore_status": "theory",
       "lore_core": "緑は、まっすぐに緑と呼ぶ色。葉の色の中心にある、基本の調子。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "みどり"
     },
     {
       "id": "153",
@@ -1735,7 +1887,8 @@
       "romance": "軽い露。",
       "lore_status": "theory",
       "lore_core": "白緑は、白みを帯びた淡い青緑。水気のある薄い緑が、ふわっと立つ。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "びゃくろく"
     },
     {
       "id": "154",
@@ -1746,7 +1899,8 @@
       "romance": "墨の余白、霧。",
       "lore_status": "theory",
       "lore_core": "老竹は、青竹が年を重ねてくすんだような緑。灰が混じり、静かな渋み。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "おいたけ"
     },
     {
       "id": "155",
@@ -1759,7 +1913,8 @@
       "lore_core": "木賊は、深い緑の渋色。葉の色を思わせ、落ち着きが強い。",
       "lore_details": [
         "襲の色目として語られることもある。"
-      ]
+      ],
+      "reading_hiragana": "とくさ"
     },
     {
       "id": "156",
@@ -1770,7 +1925,8 @@
       "romance": "にじむ抹茶。",
       "lore_status": "theory",
       "lore_core": "御納戸茶は、御納戸の青みを茶へ沈めた色。暗い青緑が、渋く落ち着く。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "おなんどちゃ"
     },
     {
       "id": "157",
@@ -1781,7 +1937,8 @@
       "romance": "冴える雨上がり。",
       "lore_status": "theory",
       "lore_core": "緑青は、銅のさびの青緑。顔料の名にもなり、青と緑が硬質に交わる。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "ろくよ"
     },
     {
       "id": "158",
@@ -1792,7 +1949,8 @@
       "romance": "森の静けさの気配。",
       "lore_status": "theory",
       "lore_core": "錆青磁は、青磁をくすませた青緑。灰が差して、やわらかな影が出る。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "さびせいじ"
     },
     {
       "id": "159",
@@ -1803,7 +1961,8 @@
       "romance": "水面の気配。",
       "lore_status": "theory",
       "lore_core": "青竹は、成長した竹の青緑。若竹より濃く、すっと力がある。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "あおたけ"
     },
     {
       "id": "160",
@@ -1814,7 +1973,8 @@
       "romance": "硝子、涼風。",
       "lore_status": "theory",
       "lore_core": "ビロードは、深い青緑。布の艶を思わせる名で、暗くなめらか。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "えうど"
     },
     {
       "id": "161",
@@ -1825,7 +1985,8 @@
       "romance": "涼風、波の泡。",
       "lore_status": "theory",
       "lore_core": "虫襖は、青緑を少し渋くした色。緑の中に青が潜み、静かな明るさがある。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "むしあお"
     },
     {
       "id": "162",
@@ -1836,7 +1997,8 @@
       "romance": "きらりとした波の泡。",
       "lore_status": "theory",
       "lore_core": "藍海松茶は、海松茶に藍の気配を足した渋色。暗い青緑が、さらに沈む。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "あいみるちゃ"
     },
     {
       "id": "163",
@@ -1847,7 +2009,8 @@
       "romance": "にじむ雨上がり。",
       "lore_status": "theory",
       "lore_core": "沈香茶は、香木の名を借りた渋い青緑。匂い立つように、深く静か。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "とのちゃ"
     },
     {
       "id": "164",
@@ -1858,7 +2021,8 @@
       "romance": "水面の気配。",
       "lore_status": "theory",
       "lore_core": "青緑は、青と緑のまんなか。どちらにも寄りすぎない中間の色名。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "あおみどり"
     },
     {
       "id": "165",
@@ -1869,7 +2033,8 @@
       "romance": "すっとした波の泡。",
       "lore_status": "theory",
       "lore_core": "青磁は、青磁の器を思わせる淡い青緑。水気と土気がほどよく混じる。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "せいじ"
     },
     {
       "id": "166",
@@ -1880,7 +2045,8 @@
       "romance": "水面の気配。",
       "lore_status": "theory",
       "lore_core": "鉄は、黒に近い青緑。硬さと冷えが残る、締まった暗色。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "てつ"
     },
     {
       "id": "167",
@@ -1891,7 +2057,8 @@
       "romance": "涼風、硝子。",
       "lore_status": "theory",
       "lore_core": "水浅葱は、浅葱を薄くした青緑。淡いのに少しくすみ、静かな水色寄り。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "みずあさぎ"
     },
     {
       "id": "168",
@@ -1902,7 +2069,8 @@
       "romance": "浅瀬の気配。",
       "lore_status": "theory",
       "lore_core": "青碧は、澄んだ青緑。深さはあるのに濁らず、すっと通る。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "せいへき"
     },
     {
       "id": "169",
@@ -1915,7 +2083,8 @@
       "lore_core": "錆鉄御納戸は、御納戸に鉄と錆の気配を重ねた暗い青緑。どの系統に置くかは語りが揺れる。",
       "lore_details": [
         "派生色としてまとめる話もあれば、独立名として扱う話もある。"
-      ]
+      ],
+      "reading_hiragana": "さびてつおなんど"
     },
     {
       "id": "170",
@@ -1926,7 +2095,8 @@
       "romance": "涼風、硝子。",
       "lore_status": "theory",
       "lore_core": "高麗納戸は、納戸の暗い青緑の一つ。異国の名を冠して、渋い深みを言う。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "こらいなんど"
     },
     {
       "id": "171",
@@ -1937,7 +2107,8 @@
       "romance": "水面の気配。",
       "lore_status": "theory",
       "lore_core": "白群は、群青を薄めたような淡い青。白みが強く、やわらかい空気を含む。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "びゃくぐん"
     },
     {
       "id": "172",
@@ -1948,7 +2119,8 @@
       "romance": "沈んだ波の泡。",
       "lore_status": "theory",
       "lore_core": "御召茶は、暗い青緑から青灰のあたり。布地の名と結びついて語られることもある。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "おめしちゃ"
     },
     {
       "id": "173",
@@ -1959,7 +2131,8 @@
       "romance": "涼風、硝子。",
       "lore_status": "theory",
       "lore_core": "瓶覗は、藍のごく薄い段階の青。淡い空色に、藍の気配が残る。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "かめのぞき"
     },
     {
       "id": "174",
@@ -1970,7 +2143,8 @@
       "romance": "水面の気配。",
       "lore_status": "theory",
       "lore_core": "深川鼠は、浅葱の色みをさらに抑えた青灰。水気のある鼠色に落ちる。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "ふかがわねずみ"
     },
     {
       "id": "175",
@@ -1981,7 +2155,8 @@
       "romance": "硝子、浅瀬。",
       "lore_status": "theory",
       "lore_core": "錆浅葱は、浅葱をくすませた青緑。灰が差して、静かな曇りが出る。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "さびあさぎ"
     },
     {
       "id": "176",
@@ -1992,7 +2167,8 @@
       "romance": "水面の気配。",
       "lore_status": "theory",
       "lore_core": "水は、ごく薄い青。水面に空が映ったような、透明に近い淡さ。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "みず"
     },
     {
       "id": "177",
@@ -2003,7 +2179,8 @@
       "romance": "素直な雨上がり。",
       "lore_status": "theory",
       "lore_core": "浅葱は、青と緑のあいだの冴えた色。水気があり、すっと涼しい。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "あさぎ"
     },
     {
       "id": "178",
@@ -2014,7 +2191,8 @@
       "romance": "水面の気配。",
       "lore_status": "theory",
       "lore_core": "御納戸は、鼠みの暗い藍。渋く沈んだ青が、静かに締まる。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "おなんど"
     },
     {
       "id": "179",
@@ -2025,7 +2203,8 @@
       "romance": "きらりとした波の泡。",
       "lore_status": "theory",
       "lore_core": "藍は、藍の青。濃淡の幅を持ち、青の芯として語られることが多い。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "あい"
     },
     {
       "id": "180",
@@ -2036,7 +2215,8 @@
       "romance": "水面の気配。",
       "lore_status": "theory",
       "lore_core": "新橋は、少し緑みを含む明るい青。粋な都会の名を借りた、澄んだ色。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "しんばし"
     },
     {
       "id": "181",
@@ -2047,7 +2227,8 @@
       "romance": "奥の波の泡。",
       "lore_status": "theory",
       "lore_core": "錆御納戸は、御納戸をくすませた青。灰が差して、渋く落ち着く。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "さびおなんど"
     },
     {
       "id": "182",
@@ -2058,7 +2239,8 @@
       "romance": "涼風、波の泡。",
       "lore_status": "theory",
       "lore_core": "鉄御納戸は、御納戸に鉄の気配を足した暗色。青緑が黒へ寄り、硬く締まる。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "てつおなんど"
     },
     {
       "id": "183",
@@ -2069,7 +2251,8 @@
       "romance": "きらりとした波の泡。",
       "lore_status": "theory",
       "lore_core": "花浅葱は、浅葱に花の明るさを添えた青緑。露草の気配が差す、とも語られる。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "はなあさぎ"
     },
     {
       "id": "184",
@@ -2080,7 +2263,8 @@
       "romance": "静かな波の泡。",
       "lore_status": "theory",
       "lore_core": "藍鼠は、藍に灰を混ぜた青灰。青の気配を残しつつ、静かに鈍る。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "あいねずみ"
     },
     {
       "id": "185",
@@ -2093,7 +2277,8 @@
       "lore_core": "舛花は、灰みのある淡い青。藍より薄く、浅葱より深いあたりでくすむ。",
       "lore_details": [
         "名の由来に家紋を結ぶ語りが出ることがある。"
-      ]
+      ],
+      "reading_hiragana": "ますはな"
     },
     {
       "id": "186",
@@ -2104,7 +2289,8 @@
       "romance": "涼風、水面。",
       "lore_status": "theory",
       "lore_core": "空は、晴れた空の明るい青。軽く、ひらけた光がそのまま残る。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "そら"
     },
     {
       "id": "187",
@@ -2115,7 +2301,8 @@
       "romance": "硝子、雨上がり。",
       "lore_status": "theory",
       "lore_core": "熨斗目花は、濃い青を灰でくすませた色。藍の深さに、渋い影がかかる。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "のしめはな"
     },
     {
       "id": "188",
@@ -2126,7 +2313,8 @@
       "romance": "馴染む雨上がり。",
       "lore_status": "theory",
       "lore_core": "千草は、灰みを含む水色。くすみがあるのに、どこか爽やか。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "ちぐさ"
     },
     {
       "id": "189",
@@ -2137,7 +2325,8 @@
       "romance": "浅瀬の気配。",
       "lore_status": "theory",
       "lore_core": "御召御納戸は、御納戸をさらに渋くした青灰。布地の名と結びついて語られることもある。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "おめしおなんど"
     },
     {
       "id": "190",
@@ -2148,7 +2337,8 @@
       "romance": "きらりとした雨上がり。",
       "lore_status": "theory",
       "lore_core": "縹は、藍の青を少し薄めたような青。花田とも呼ばれ、青が澄む。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "はなだ"
     },
     {
       "id": "191",
@@ -2159,7 +2349,8 @@
       "romance": "ほどよく色づく遠い山影。",
       "lore_status": "theory",
       "lore_core": "勿忘草は、花の名を借りた明るい青。軽いのに、しっかり青い。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "わすれなぐさ"
     },
     {
       "id": "192",
@@ -2170,7 +2361,8 @@
       "romance": "夜明け、遠い山影。",
       "lore_status": "theory",
       "lore_core": "群青は、濃く鮮やかな青。顔料の名とも重なり、青の深さを言う。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "ぐんよ"
     },
     {
       "id": "193",
@@ -2181,7 +2373,8 @@
       "romance": "涼風、硝子。",
       "lore_status": "theory",
       "lore_core": "露草は、露草の花の青。明るく澄み、少し紫みが差すこともある。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "つゆくさ"
     },
     {
       "id": "194",
@@ -2194,7 +2387,8 @@
       "lore_core": "黒橡は、青みを含んだ黒。黒の中に冷えた青が潜む、渋い暗色。",
       "lore_details": [
         "喪の色として語られることもある。"
-      ]
+      ],
+      "reading_hiragana": "くろつるばみ"
     },
     {
       "id": "195",
@@ -2205,7 +2399,8 @@
       "romance": "冴える風の青さ。",
       "lore_status": "theory",
       "lore_core": "紺は、深い藍の青。黒に寄るほど濃く、夜の底のように沈む。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "こん"
     },
     {
       "id": "196",
@@ -2216,7 +2411,8 @@
       "romance": "深海の気配。",
       "lore_status": "theory",
       "lore_core": "褐は、青みの暗色。黒に近いのに、わずかに青が残る、と言われる。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "かち"
     },
     {
       "id": "197",
@@ -2227,7 +2423,8 @@
       "romance": "深海の気配。",
       "lore_status": "theory",
       "lore_core": "瑠璃は、宝石の名を借りた深い青。紫みを含んで、艶のある青になる。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "るり"
     },
     {
       "id": "198",
@@ -2238,7 +2435,8 @@
       "romance": "朝の空の気配。",
       "lore_status": "theory",
       "lore_core": "瑠璃紺は、瑠璃の艶を紺へ沈めた青。光沢を帯びた深い藍の気配。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "るりこん"
     },
     {
       "id": "199",
@@ -2249,7 +2447,8 @@
       "romance": "朝の空の気配。",
       "lore_status": "theory",
       "lore_core": "紅碧は、淡い空色に紅をひとさじ。青の中に、ほんのり赤が透ける。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "べにみどり"
     },
     {
       "id": "200",
@@ -2260,7 +2459,8 @@
       "romance": "凛とした風の青さ。",
       "lore_status": "theory",
       "lore_core": "藤鼠は、藤色に灰を重ねた淡い紫。柔らかくくすんで、静かな余韻が残る。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "ふじねずみ"
     },
     {
       "id": "201",
@@ -2271,7 +2471,8 @@
       "romance": "宵闇の気配。",
       "lore_status": "theory",
       "lore_core": "鉄紺は、鉄の冷えを含む濃い紺。黒に寄るのに、青緑の気配が残る。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "てつこん"
     },
     {
       "id": "202",
@@ -2282,7 +2483,8 @@
       "romance": "夜明け、インク。",
       "lore_status": "theory",
       "lore_core": "紺青は、紫みの強い青。冴えた青に、少しだけ夜の気配が混じる。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "こんよ"
     },
     {
       "id": "203",
@@ -2295,7 +2497,8 @@
       "lore_core": "紅掛花は、花色に紅を重ねた青紫。青の上に赤が薄く透けて見える。",
       "lore_details": [
         "染めの順を名に残す、とも言われる。"
-      ]
+      ],
+      "reading_hiragana": "べにかけはな"
     },
     {
       "id": "204",
@@ -2306,7 +2509,8 @@
       "romance": "朝の空の気配。",
       "lore_status": "theory",
       "lore_core": "紺桔梗は、桔梗を紺へ寄せた青紫。青が深く、紫は控えめに残る。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "こんききょ"
     },
     {
       "id": "205",
@@ -2317,7 +2521,8 @@
       "romance": "深海の気配。",
       "lore_status": "theory",
       "lore_core": "藤は、藤の花の薄い紫。白に紫が溶けて、やさしく霞む。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "ふじ"
     },
     {
       "id": "206",
@@ -2328,7 +2533,8 @@
       "romance": "凛とした星の余韻。",
       "lore_status": "theory",
       "lore_core": "二藍は、藍の青にもう一段紫が混じる調子。青紫のあたりで深く落ち着く。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "ふたいあい"
     },
     {
       "id": "207",
@@ -2339,7 +2545,8 @@
       "romance": "夜の布、星の余韻。",
       "lore_status": "theory",
       "lore_core": "楝は、淡い紫の名。青みの紫がふわっと立ち、冷たい霞のよう。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "おうち"
     },
     {
       "id": "208",
@@ -2350,7 +2557,8 @@
       "romance": "ほどよい葡萄の皮。",
       "lore_status": "theory",
       "lore_core": "藤紫は、藤色より少し濃い紫。薄紫のまま、輪郭だけを足す。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "ふじむらさき"
     },
     {
       "id": "209",
@@ -2361,7 +2569,8 @@
       "romance": "藤の影の気配。",
       "lore_status": "theory",
       "lore_core": "桔梗は、青紫の名。花の色を思わせ、青と紫がきれいに交わる。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "ききょう"
     },
     {
       "id": "210",
@@ -2374,7 +2583,8 @@
       "lore_core": "紫苑は、くすみを含む青紫。明るすぎず、渋い紫の気配が残る。",
       "lore_details": [
         "襲の色目の語りが添えられることもある。"
-      ]
+      ],
+      "reading_hiragana": "しおん"
     },
     {
       "id": "211",
@@ -2385,7 +2595,8 @@
       "romance": "藤の影の気配。",
       "lore_status": "theory",
       "lore_core": "滅紫は、紫をくすませた暗色。華やぎを落として、静かな渋みだけ残す。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "けしむらさき"
     },
     {
       "id": "212",
@@ -2396,7 +2607,8 @@
       "romance": "夜の布、星の余韻。",
       "lore_status": "theory",
       "lore_core": "薄は、淡い紫の名。光が多く、白に紫がほんのり差す。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "うす"
     },
     {
       "id": "213",
@@ -2407,7 +2619,8 @@
       "romance": "渋い葡萄の皮。",
       "lore_status": "theory",
       "lore_core": "半は、薄紫を少し締めた色。淡いまま、陰影だけを増やす。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "はん"
     },
     {
       "id": "214",
@@ -2420,7 +2633,8 @@
       "lore_core": "江戸紫は、紫をきりっと締めた色名。江戸の名を冠する語りは、いくつか残る。",
       "lore_details": [
         "由来の説明には揺れがある、と言われることがある。"
-      ]
+      ],
+      "reading_hiragana": "えどむらさき"
     },
     {
       "id": "215",
@@ -2433,7 +2647,8 @@
       "lore_core": "紫紺は、紫と紺のあいだ。紫を紺へ沈めるのか、紺に紫を差すのか、語りが割れやすい。",
       "lore_details": [
         "両方の捉え方が並ぶことがある。"
-      ]
+      ],
+      "reading_hiragana": "しこん"
     },
     {
       "id": "216",
@@ -2444,7 +2659,8 @@
       "romance": "香の煙、葡萄の皮。",
       "lore_status": "theory",
       "lore_core": "深紫は、黒紫に近い濃い紫。紫の底をさらに沈めて、夜へ寄せる。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "こきむらさき"
     },
     {
       "id": "217",
@@ -2457,7 +2673,8 @@
       "lore_core": "菫は、青みの紫。花の名のとおり、青紫が鮮やかに立つ。",
       "lore_details": [
         "襲の色目の語りが添えられることもある。"
-      ]
+      ],
+      "reading_hiragana": "すみれ"
     },
     {
       "id": "218",
@@ -2468,7 +2685,8 @@
       "romance": "奥の葡萄の皮。",
       "lore_status": "theory",
       "lore_core": "紫は、紫の名そのもの。青でも赤でもなく、二つの気配を抱えて落ち着く。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "むらさき"
     },
     {
       "id": "219",
@@ -2479,7 +2697,8 @@
       "romance": "素朴な星の余韻。",
       "lore_status": "theory",
       "lore_core": "菖蒲は、紫に赤みが差す調子。花の気配を残しつつ、深い紫へ寄る。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "あやめ"
     },
     {
       "id": "220",
@@ -2490,7 +2709,8 @@
       "romance": "石の気配。",
       "lore_status": "theory",
       "lore_core": "藤煤竹は、藤の紫に煤竹のくすみを足した色。紫が渋く沈んで、灰が差す。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "ふじすすたけ"
     },
     {
       "id": "221",
@@ -2503,7 +2723,8 @@
       "lore_core": "紅藤は、藤色に紅をひとさじ。淡い紫に赤みが加わり、やわらかく華やぐ。",
       "lore_details": [
         "紅掛藤と呼ぶ語りもある。"
-      ]
+      ],
+      "reading_hiragana": "べにふじ"
     },
     {
       "id": "222",
@@ -2516,7 +2737,8 @@
       "lore_core": "黒紅は、黒の中に紅が潜む色。下に紅を敷いて黒を重ねる、という語りが残る。",
       "lore_details": [
         "染め方や呼び名の説明は、いくつかの語りが並ぶ。"
-      ]
+      ],
+      "reading_hiragana": "くろべに"
     },
     {
       "id": "223",
@@ -2527,7 +2749,8 @@
       "romance": "甘い毒、夜の花。",
       "lore_status": "theory",
       "lore_core": "茄子紺は、茄子の皮のような赤みの紺。黒に寄るのに、紫の気配が残る。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "なすこん"
     },
     {
       "id": "224",
@@ -2538,7 +2761,8 @@
       "romance": "夜の花、甘い毒。",
       "lore_status": "theory",
       "lore_core": "葡萄鼠は、葡萄の気配を含む鼠色。赤みの灰紫が、渋く落ち着く。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "ぶどうねずみ"
     },
     {
       "id": "225",
@@ -2549,7 +2773,8 @@
       "romance": "霧の気配。",
       "lore_status": "theory",
       "lore_core": "鳩羽鼠は、鳩の羽の灰紫。淡くくすんで、やさしい影になる。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "はとばねずみ"
     },
     {
       "id": "226",
@@ -2562,7 +2787,8 @@
       "lore_core": "杜若は、紫みの青。花の色を思わせ、青の中に紫がすっと立つ。",
       "lore_details": [
         "古くは染めの語りが添えられることもある。"
-      ]
+      ],
+      "reading_hiragana": "かきつばた"
     },
     {
       "id": "227",
@@ -2573,7 +2799,8 @@
       "romance": "艶の気配。",
       "lore_status": "theory",
       "lore_core": "蒲葡は、薄い赤紫。葡萄の実の色の気配を、軽くまとわせる。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "えびぞめ"
     },
     {
       "id": "228",
@@ -2584,7 +2811,8 @@
       "romance": "落ち着いたきらめき。",
       "lore_status": "theory",
       "lore_core": "牡丹は、紫がかった紅。花の名のとおり、華やぎが濃く出る。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "ぼたん"
     },
     {
       "id": "229",
@@ -2595,7 +2823,8 @@
       "romance": "艶の気配。",
       "lore_status": "theory",
       "lore_core": "梅紫は、赤紫を少し鈍らせた調子。派手さを落として、渋い華だけ残す。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "うめむらさき"
     },
     {
       "id": "230",
@@ -2608,7 +2837,8 @@
       "lore_core": "似紫は、本紫ほど澄まない紫。紫をまねて染めた、と語られる渋い紫。",
       "lore_details": [
         "本紫との対比で語られることがある。"
-      ]
+      ],
+      "reading_hiragana": "にせむらさき"
     },
     {
       "id": "231",
@@ -2619,7 +2849,8 @@
       "romance": "夜の花、甘い毒。",
       "lore_status": "theory",
       "lore_core": "躑躅は、紅紫の強い色。花の鮮やかさが、そのまま色名になる。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "つつじ"
     },
     {
       "id": "232",
@@ -2632,7 +2863,8 @@
       "lore_core": "紫鳶は、暗い赤紫に灰が差す色。鳶の渋さに紫を重ねて、深く沈む。",
       "lore_details": [
         "流行や染めの語りが添えられることがある。"
-      ]
+      ],
+      "reading_hiragana": "むらさきとび"
     },
     {
       "id": "233",
@@ -2643,7 +2875,8 @@
       "romance": "木の肌の気配。",
       "lore_status": "theory",
       "lore_core": "白練は、真っ白より少しやわらかい白。絹を練って出す白の気配。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "しろねり"
     },
     {
       "id": "234",
@@ -2654,7 +2887,8 @@
       "romance": "薄い金箔、陽だまり。",
       "lore_status": "theory",
       "lore_core": "胡粉は、わずかに黄みを含む白。粉の白さが、やさしく光る。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "ごふん"
     },
     {
       "id": "235",
@@ -2665,7 +2899,8 @@
       "romance": "影、石。",
       "lore_status": "theory",
       "lore_core": "白鼠は、明るい鼠色。白に寄りながら、灰が静かに残る。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "しろねずみ"
     },
     {
       "id": "236",
@@ -2676,7 +2911,8 @@
       "romance": "霧の気配。",
       "lore_status": "theory",
       "lore_core": "銀鼠は、銀の冷えを含む鼠色。灰の中に、金属の気配が潜む。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "ぎんねずみ"
     },
     {
       "id": "237",
@@ -2687,7 +2923,8 @@
       "romance": "粉っぽい石。",
       "lore_status": "theory",
       "lore_core": "鉛は、鉛のような灰色。光を鈍く返し、重みが出る。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "なまり"
     },
     {
       "id": "238",
@@ -2698,7 +2935,8 @@
       "romance": "霧の気配。",
       "lore_status": "theory",
       "lore_core": "灰は、灰の色の無彩色。明るさを落として、素朴に馴染む。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "はい"
     },
     {
       "id": "239",
@@ -2709,7 +2947,8 @@
       "romance": "落ち着いた和紙の白。",
       "lore_status": "theory",
       "lore_core": "素鼠は、まじりけの少ない鼠色。飾らず、灰の調子だけで決まる。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "すねずみ"
     },
     {
       "id": "240",
@@ -2722,7 +2961,8 @@
       "lore_core": "利休鼠は、緑みのある鼠色。利休の名に結ぶ語りがあり、捉え方が揺れる。",
       "lore_details": [
         "人の好みとして語る話と、色の系統名として語る話が並ぶことがある。"
-      ]
+      ],
+      "reading_hiragana": "りきゅうねずみ"
     },
     {
       "id": "241",
@@ -2733,7 +2973,8 @@
       "romance": "灰、和紙の白。",
       "lore_status": "theory",
       "lore_core": "鈍は、濃い鼠色。薄墨に青が少し差したような、重い灰。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "にび"
     },
     {
       "id": "242",
@@ -2744,7 +2985,8 @@
       "romance": "影、墨の余白。",
       "lore_status": "theory",
       "lore_core": "青鈍は、鈍に青みを足した暗色。灰の中に青が沈み、静かに冷える。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "あおにび"
     },
     {
       "id": "243",
@@ -2755,7 +2997,8 @@
       "romance": "霧の気配。",
       "lore_status": "theory",
       "lore_core": "溝鼠は、黒ずんだ鼠色。暗いのに、灰の気配が残る。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "どぶねずみ"
     },
     {
       "id": "244",
@@ -2766,7 +3009,8 @@
       "romance": "熟れた果実の気配。",
       "lore_status": "theory",
       "lore_core": "紅消鼠は、鼠色に紅がにじむ色。灰の中で赤がそっと消えていく。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "べにけしねずみ"
     },
     {
       "id": "245",
@@ -2777,7 +3021,8 @@
       "romance": "重い灰。",
       "lore_status": "theory",
       "lore_core": "藍墨茶は、藍と墨の気配を重ねた暗色。黒に寄るのに、青が沈まず残る。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "あいすみちゃ"
     },
     {
       "id": "246",
@@ -2788,7 +3033,8 @@
       "romance": "土の温度の気配。",
       "lore_status": "theory",
       "lore_core": "檳榔子染は、黒褐の渋色。黒に茶が混じり、深い落ち着きが出る。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "びんろうじぞめ"
     },
     {
       "id": "247",
@@ -2799,7 +3045,8 @@
       "romance": "静かな影。",
       "lore_status": "theory",
       "lore_core": "消炭は、黒に近い暗い灰。火が消えたあとの、静かな影。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "けしずみ"
     },
     {
       "id": "248",
@@ -2810,7 +3057,8 @@
       "romance": "重い霧。",
       "lore_status": "theory",
       "lore_core": "墨は、墨の黒。濃淡の幅があり、黒の中に艶が生まれる。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "すみ"
     },
     {
       "id": "249",
@@ -2821,7 +3069,8 @@
       "romance": "墨の余白の気配。",
       "lore_status": "theory",
       "lore_core": "黒は、いちばん暗い無彩色。光を吸って、輪郭だけを残す。",
-      "lore_details": []
+      "lore_details": [],
+      "reading_hiragana": "くろ"
     },
     {
       "id": "250",
@@ -2834,7 +3083,8 @@
       "lore_core": "呂は、黒の艶を強めたような黒。磨いた黒が、静かに光る。",
       "lore_details": [
         "漆の艶の語りと結びつくことがある。"
-      ]
+      ],
+      "reading_hiragana": "ろ"
     }
   ]
 }

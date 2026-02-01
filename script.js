@@ -342,9 +342,8 @@ function showColorInfo(r, g, b) {
     const wairo = result.wairo;
     wairoName.textContent = wairo.name_ja;
 
-    // ローマ字をひらがなに変換
-    const hiragana = convertRomajiToHiragana(wairo.reading_romaji);
-    wairoReading.textContent = hiragana;
+    // ひらがな読みを使用
+    wairoReading.textContent = wairo.reading_hiragana || '';
 
     // 日付ベースの表示文を生成
     const loreText = generateLoreText(wairo);
