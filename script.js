@@ -13,11 +13,25 @@ const wairoDescription = document.getElementById('wairo-description');
 const closePopup = document.getElementById('close-popup');
 const statusEl = document.getElementById('status');
 
-// 和色データベース（後で差し替え）
-const wairoDatabase = [];
+// 和色データベース
+let wairoDatabase = [];
+
+// 和色データを読み込み
+async function loadWairoDatabase() {
+  try {
+    const response = await fetch('wairo.json');
+    wairoDatabase = await response.json();
+    console.log(`和色データ読み込み完了: ${wairoDatabase.length}色`);
+  } catch (e) {
+    console.error('和色データ読み込みエラー:', e);
+  }
+}
 
 async function init() {
   try {
+    // 和色データを先に読み込む
+    await loadWairoDatabase();
+
     const stream = await navigator.mediaDevices.getUserMedia({
       video: {
         facingMode: { ideal: 'environment' },
@@ -109,33 +123,69 @@ function rgbToHsl(r, g, b) {
   };
 }
 
-// 色の距離を計算（CIE76 簡易版）
-function colorDistance(r1, g1, b1, r2, g2, b2) {
+// RGB → LAB 変換
+function rgbToLab(r, g, b) {
+  // RGB → XYZ
+  let rr = r / 255;
+  let gg = g / 255;
+  let bb = b / 255;
+
+  rr = rr > 0.04045 ? Math.pow((rr + 0.055) / 1.055, 2.4) : rr / 12.92;
+  gg = gg > 0.04045 ? Math.pow((gg + 0.055) / 1.055, 2.4) : gg / 12.92;
+  bb = bb > 0.04045 ? Math.pow((bb + 0.055) / 1.055, 2.4) : bb / 12.92;
+
+  rr *= 100;
+  gg *= 100;
+  bb *= 100;
+
+  const x = rr * 0.4124564 + gg * 0.3575761 + bb * 0.1804375;
+  const y = rr * 0.2126729 + gg * 0.7151522 + bb * 0.0721750;
+  const z = rr * 0.0193339 + gg * 0.1191920 + bb * 0.9503041;
+
+  // XYZ → LAB (D65 illuminant)
+  let xx = x / 95.047;
+  let yy = y / 100.000;
+  let zz = z / 108.883;
+
+  xx = xx > 0.008856 ? Math.pow(xx, 1/3) : (7.787 * xx) + (16 / 116);
+  yy = yy > 0.008856 ? Math.pow(yy, 1/3) : (7.787 * yy) + (16 / 116);
+  zz = zz > 0.008856 ? Math.pow(zz, 1/3) : (7.787 * zz) + (16 / 116);
+
+  const L = (116 * yy) - 16;
+  const a = 500 * (xx - yy);
+  const bVal = 200 * (yy - zz);
+
+  return { L, a, b: bVal };
+}
+
+// LAB色空間での距離（Delta E CIE76）
+function deltaE(L1, a1, b1, L2, a2, b2) {
   return Math.sqrt(
-    Math.pow(r1 - r2, 2) +
-    Math.pow(g1 - g2, 2) +
+    Math.pow(L1 - L2, 2) +
+    Math.pow(a1 - a2, 2) +
     Math.pow(b1 - b2, 2)
   );
 }
 
-// 最も近い和色を検索
+// 最も近い和色を検索（LAB距離使用）
 function findClosestWairo(r, g, b) {
   if (wairoDatabase.length === 0) {
     return null;
   }
 
+  const lab = rgbToLab(r, g, b);
   let closest = null;
   let minDistance = Infinity;
 
   for (const wairo of wairoDatabase) {
-    const distance = colorDistance(r, g, b, wairo.r, wairo.g, wairo.b);
+    const distance = deltaE(lab.L, lab.a, lab.b, wairo.L, wairo.a, wairo.b);
     if (distance < minDistance) {
       minDistance = distance;
       closest = wairo;
     }
   }
 
-  return closest;
+  return { wairo: closest, distance: minDistance };
 }
 
 function showColorInfo(r, g, b) {
@@ -147,13 +197,14 @@ function showColorInfo(r, g, b) {
   rgbValue.textContent = `${r}, ${g}, ${b}`;
   hslValue.textContent = `${hsl.h}°, ${hsl.s}%, ${hsl.l}%`;
 
-  // 和色を検索
-  const wairo = findClosestWairo(r, g, b);
-  if (wairo) {
+  // 和色を検索（LAB距離）
+  const result = findClosestWairo(r, g, b);
+  if (result && result.wairo) {
+    const wairo = result.wairo;
     wairoName.textContent = wairo.name;
     wairoReading.textContent = wairo.reading || '';
-    wairoDescription.textContent = wairo.description || '';
-    wairoDescription.style.display = wairo.description ? 'block' : 'none';
+    wairoDescription.textContent = wairo.memo || '';
+    wairoDescription.style.display = wairo.memo ? 'block' : 'none';
   } else {
     wairoName.textContent = '－';
     wairoReading.textContent = '和色データ準備中';
