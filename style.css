@@ -32,8 +32,20 @@ body {
 }
 
 .intro-content {
-  text-align: center;
+  text-align: left;
   max-width: 320px;
+}
+
+.intro-title {
+  text-align: center;
+}
+
+.intro-hint {
+  text-align: center;
+}
+
+.intro-agreement {
+  text-align: center;
 }
 
 .intro-title {
