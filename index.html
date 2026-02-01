@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-  <title>Color Picker</title>
+  <title>和色 - Color Picker</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,26 +15,31 @@
     </div>
     <div id="color-popup" class="color-popup hidden">
       <div id="color-preview" class="color-preview"></div>
+      <div class="wairo-section">
+        <div id="wairo-name" class="wairo-name">－</div>
+        <div id="wairo-reading" class="wairo-reading"></div>
+        <div id="wairo-description" class="wairo-description"></div>
+      </div>
       <div class="color-info">
         <div class="color-row">
           <span class="label">HEX</span>
           <span id="hex-value" class="value">#000000</span>
-          <button class="copy-btn" data-target="hex-value">Copy</button>
+          <button class="copy-btn" data-target="hex-value">写</button>
         </div>
         <div class="color-row">
           <span class="label">RGB</span>
           <span id="rgb-value" class="value">0, 0, 0</span>
-          <button class="copy-btn" data-target="rgb-value">Copy</button>
+          <button class="copy-btn" data-target="rgb-value">写</button>
         </div>
         <div class="color-row">
           <span class="label">HSL</span>
           <span id="hsl-value" class="value">0°, 0%, 0%</span>
-          <button class="copy-btn" data-target="hsl-value">Copy</button>
+          <button class="copy-btn" data-target="hsl-value">写</button>
         </div>
       </div>
       <button id="close-popup" class="close-btn">閉じる</button>
     </div>
-    <div id="status" class="status">カメラを起動中...</div>
+    <div id="status" class="status">準備中...</div>
   </div>
   <script src="script.js"></script>
 </body>

@@ -7,8 +7,14 @@ const colorPreview = document.getElementById('color-preview');
 const hexValue = document.getElementById('hex-value');
 const rgbValue = document.getElementById('rgb-value');
 const hslValue = document.getElementById('hsl-value');
+const wairoName = document.getElementById('wairo-name');
+const wairoReading = document.getElementById('wairo-reading');
+const wairoDescription = document.getElementById('wairo-description');
 const closePopup = document.getElementById('close-popup');
 const statusEl = document.getElementById('status');
+
+// 和色データベース（後で差し替え）
+const wairoDatabase = [];
 
 async function init() {
   try {
@@ -103,6 +109,35 @@ function rgbToHsl(r, g, b) {
   };
 }
 
+// 色の距離を計算（CIE76 簡易版）
+function colorDistance(r1, g1, b1, r2, g2, b2) {
+  return Math.sqrt(
+    Math.pow(r1 - r2, 2) +
+    Math.pow(g1 - g2, 2) +
+    Math.pow(b1 - b2, 2)
+  );
+}
+
+// 最も近い和色を検索
+function findClosestWairo(r, g, b) {
+  if (wairoDatabase.length === 0) {
+    return null;
+  }
+
+  let closest = null;
+  let minDistance = Infinity;
+
+  for (const wairo of wairoDatabase) {
+    const distance = colorDistance(r, g, b, wairo.r, wairo.g, wairo.b);
+    if (distance < minDistance) {
+      minDistance = distance;
+      closest = wairo;
+    }
+  }
+
+  return closest;
+}
+
 function showColorInfo(r, g, b) {
   const hex = rgbToHex(r, g, b);
   const hsl = rgbToHsl(r, g, b);
@@ -111,6 +146,20 @@ function showColorInfo(r, g, b) {
   hexValue.textContent = hex;
   rgbValue.textContent = `${r}, ${g}, ${b}`;
   hslValue.textContent = `${hsl.h}°, ${hsl.s}%, ${hsl.l}%`;
+
+  // 和色を検索
+  const wairo = findClosestWairo(r, g, b);
+  if (wairo) {
+    wairoName.textContent = wairo.name;
+    wairoReading.textContent = wairo.reading || '';
+    wairoDescription.textContent = wairo.description || '';
+    wairoDescription.style.display = wairo.description ? 'block' : 'none';
+  } else {
+    wairoName.textContent = '－';
+    wairoReading.textContent = '和色データ準備中';
+    wairoDescription.textContent = '';
+    wairoDescription.style.display = 'none';
+  }
 
   colorPopup.classList.remove('hidden');
 }
@@ -121,8 +170,9 @@ document.querySelectorAll('.copy-btn').forEach(btn => {
     const targetId = btn.dataset.target;
     const text = document.getElementById(targetId).textContent;
     navigator.clipboard.writeText(text).then(() => {
-      btn.textContent = 'Copied!';
-      setTimeout(() => btn.textContent = 'Copy', 1000);
+      const original = btn.textContent;
+      btn.textContent = '済';
+      setTimeout(() => btn.textContent = original, 1000);
     });
   });
 });
