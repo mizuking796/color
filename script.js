@@ -19,11 +19,15 @@ let wairoDatabase = [];
 // 和色データを読み込み
 async function loadWairoDatabase() {
   try {
-    const response = await fetch('wairo.json');
+    const response = await fetch('./wairo.json');
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}`);
+    }
     wairoDatabase = await response.json();
     console.log(`和色データ読み込み完了: ${wairoDatabase.length}色`);
   } catch (e) {
     console.error('和色データ読み込みエラー:', e);
+    wairoDatabase = [];
   }
 }
 
@@ -207,7 +211,7 @@ function showColorInfo(r, g, b) {
     wairoDescription.style.display = wairo.memo ? 'block' : 'none';
   } else {
     wairoName.textContent = '－';
-    wairoReading.textContent = '和色データ準備中';
+    wairoReading.textContent = wairoDatabase.length === 0 ? '読み込みエラー' : '該当なし';
     wairoDescription.textContent = '';
     wairoDescription.style.display = 'none';
   }
