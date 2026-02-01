@@ -2,55 +2,40 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Heart Rate Monitor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Color Picker</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
-    <h1>Heart Rate Monitor</h1>
-    <div class="video-container">
+    <div class="camera-container">
       <video id="video" autoplay playsinline></video>
       <canvas id="canvas"></canvas>
-      <div id="roi-box" class="roi-box"></div>
-      <div id="eye-fatigue" class="eye-fatigue">目の疲労度: 20%</div>
+      <div id="crosshair" class="crosshair"></div>
     </div>
-    <div class="status-container">
-      <div id="status" class="status">Loading...</div>
-      <div class="progress-container">
-        <div class="progress-bar">
-          <div id="progress-fill" class="progress-fill"></div>
+    <div id="color-popup" class="color-popup hidden">
+      <div id="color-preview" class="color-preview"></div>
+      <div class="color-info">
+        <div class="color-row">
+          <span class="label">HEX</span>
+          <span id="hex-value" class="value">#000000</span>
+          <button class="copy-btn" data-target="hex-value">Copy</button>
         </div>
-        <div id="progress-text" class="progress-text"></div>
+        <div class="color-row">
+          <span class="label">RGB</span>
+          <span id="rgb-value" class="value">0, 0, 0</span>
+          <button class="copy-btn" data-target="rgb-value">Copy</button>
+        </div>
+        <div class="color-row">
+          <span class="label">HSL</span>
+          <span id="hsl-value" class="value">0°, 0%, 0%</span>
+          <button class="copy-btn" data-target="hsl-value">Copy</button>
+        </div>
       </div>
+      <button id="close-popup" class="close-btn">閉じる</button>
     </div>
-    <div class="result-container">
-      <div class="heart-display">
-        <div id="heart" class="heart">❤️</div>
-        <div class="bpm-display">
-          <span id="bpm" class="bpm">--</span>
-          <span class="bpm-label">BPM</span>
-        </div>
-      </div>
-      <div class="confidence-display">
-        <div class="confidence-label">Confidence</div>
-        <div class="confidence-bar">
-          <div id="confidence-fill" class="confidence-fill"></div>
-        </div>
-        <span id="confidence-value" class="confidence-value">--%</span>
-      </div>
-      <div class="samples-display">
-        <div class="samples-label">10秒間の高信頼サンプル</div>
-        <div id="samples" class="samples">収集中...</div>
-        <div class="samples-bar">
-          <div id="samples-fill" class="samples-fill"></div>
-        </div>
-      </div>
-      <div class="signal-container">
-        <canvas id="signal-canvas" class="signal-canvas"></canvas>
-      </div>
-    </div>
+    <div id="status" class="status">カメラを起動中...</div>
   </div>
-  <script type="module" src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
