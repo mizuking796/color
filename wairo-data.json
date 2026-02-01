@@ -1,0 +1,2840 @@
+{
+  "meta": {
+    "schema_version": "1.0",
+    "note": "core_fact/romance derived from color values and impressions. lore_* slots intentionally empty until sources are added."
+  },
+  "colors": [
+    {
+      "id": "001",
+      "name_ja": "撫子",
+      "reading_romaji": "NADESHIKO",
+      "hex": "#DC9F84",
+      "core_fact": "中くらいの赤み（朱寄り）で、ほどよい彩度。",
+      "romance": "灯のにじみの気配。",
+      "lore_status": "theory",
+      "lore_core": "撫子色は、やさしい紅に少し紫が寄った薄い色。撫子の花を思わせる呼び名。",
+      "lore_details": []
+    },
+    {
+      "id": "002",
+      "name_ja": "紅梅",
+      "reading_romaji": "KOHBAI",
+      "hex": "#E16B8C",
+      "core_fact": "中くらいの赤み（赤寄り）で、鮮やか。",
+      "romance": "夕焼け、頬の熱。",
+      "lore_status": "theory",
+      "lore_core": "紅梅色は、梅の花の紅をほのかに映した桃色寄りの色。赤より柔らかい。",
+      "lore_details": []
+    },
+    {
+      "id": "003",
+      "name_ja": "蘇芳",
+      "reading_romaji": "SUOH",
+      "hex": "#8E354A",
+      "core_fact": "ほどよい彩度な赤み（赤寄り）。暗め。",
+      "romance": "朱印の余韻の気配。",
+      "lore_status": "theory",
+      "lore_core": "蘇芳は、深い赤紫の気配をもつ暗めの赤。染めの名としても語られる。",
+      "lore_details": []
+    },
+    {
+      "id": "004",
+      "name_ja": "退紅",
+      "reading_romaji": "TAIKOH",
+      "hex": "#F8C3CD",
+      "core_fact": "赤み（赤寄り）の鮮やかトーン。かなり明るい。",
+      "romance": "熟れた果実、胸の鼓動。",
+      "lore_status": "theory",
+      "lore_core": "退紅は、紅を薄く引いたような淡い紅。ふわりとくすみを含む。",
+      "lore_details": []
+    },
+    {
+      "id": "005",
+      "name_ja": "一斥染",
+      "reading_romaji": "IKKONZOME",
+      "hex": "#F4A7B9",
+      "core_fact": "赤み（赤寄り）。明るめで鮮やか。",
+      "romance": "熟れた果実の気配。",
+      "lore_status": "theory",
+      "lore_core": "一斤染は、淡い桃色の一種。紅をぜいたくに使った、と伝わる名。",
+      "lore_details": []
+    },
+    {
+      "id": "006",
+      "name_ja": "桑染",
+      "reading_romaji": "KUWAZOME",
+      "hex": "#64363C",
+      "core_fact": "暗めの赤み（赤寄り）で、くすみ気味。",
+      "romance": "控えめな花弁の影。",
+      "lore_status": "theory",
+      "lore_core": "桑染は、黄みを帯びた渋い褐色。桑にちなむ名で呼ばれる。",
+      "lore_details": [
+        "黄そのものより一段落ち着いた調子、と語られることがある。"
+      ]
+    },
+    {
+      "id": "007",
+      "name_ja": "桃",
+      "reading_romaji": "MOMO",
+      "hex": "#F596AA",
+      "core_fact": "赤み（赤寄り）の鮮やかトーン。明るめ。",
+      "romance": "軽い灯のにじみ。",
+      "lore_status": "theory",
+      "lore_core": "桃色は、桃の花のような薄紅。明るく、やわらかな赤み。",
+      "lore_details": []
+    },
+    {
+      "id": "008",
+      "name_ja": "莓",
+      "reading_romaji": "ICHIGO",
+      "hex": "#B5495B",
+      "core_fact": "中くらいの赤み（赤寄り）で、ほどよい彩度。",
+      "romance": "落ち着いた灯のにじみ。",
+      "lore_status": "theory",
+      "lore_core": "苺色は、苺の実を思わせる濃い赤。少し紫みが入って見えることもある。",
+      "lore_details": [
+        "色名としては比較的新しい、と言われることがある。"
+      ]
+    },
+    {
+      "id": "009",
+      "name_ja": "薄紅",
+      "reading_romaji": "USUBENI",
+      "hex": "#E87A90",
+      "core_fact": "鮮やかな赤み（赤寄り）。中くらい。",
+      "romance": "張りのある夕焼け。",
+      "lore_status": "theory",
+      "lore_core": "薄紅は、紅の薄い色合い。桜色に近い、と感じる人もいる。",
+      "lore_details": []
+    },
+    {
+      "id": "010",
+      "name_ja": "今様",
+      "reading_romaji": "IMAYOH",
+      "hex": "#D05A6E",
+      "core_fact": "赤み（赤寄り）のほどよい彩度トーン。中くらい。",
+      "romance": "素朴な胸の鼓動。",
+      "lore_status": "disputed",
+      "lore_core": "今様色は、当世好みの紅系の色を指す呼び名。どの濃さを指すかは語りが揺れる。",
+      "lore_details": [
+        "濃い紅梅に寄せる説明もあれば、別の呼び名と重ねる説明もある。"
+      ]
+    },
+    {
+      "id": "011",
+      "name_ja": "中紅",
+      "reading_romaji": "NAKABENI",
+      "hex": "#DB4D6D",
+      "core_fact": "赤み（赤寄り）。中くらいで鮮やか。",
+      "romance": "頬の熱、花弁の影。",
+      "lore_status": "theory",
+      "lore_core": "中紅は、濃い紅と淡い紅のちょうど間。赤みの強さを調えるための呼び分け。",
+      "lore_details": []
+    },
+    {
+      "id": "012",
+      "name_ja": "桜",
+      "reading_romaji": "SAKURA",
+      "hex": "#FEDFE1",
+      "core_fact": "かなり明るい赤み（赤寄り）で、鮮やか。",
+      "romance": "頬の熱、朱印の余韻。",
+      "lore_status": "theory",
+      "lore_core": "桜色は、桜の花びらを思わせる淡い紅。白に紅がそっと混じる。",
+      "lore_details": []
+    },
+    {
+      "id": "013",
+      "name_ja": "梅鼠",
+      "reading_romaji": "UMENEZUMI",
+      "hex": "#9E7A7A",
+      "core_fact": "赤み（赤寄り）。中くらいでくすみ気味。",
+      "romance": "熟れた果実、頬の熱。",
+      "lore_status": "theory",
+      "lore_core": "梅鼠は、赤みを帯びた鼠色。梅の気配をほんのり残す灰紅。",
+      "lore_details": []
+    },
+    {
+      "id": "014",
+      "name_ja": "韓紅花",
+      "reading_romaji": "KARAKURENAI",
+      "hex": "#D0104C",
+      "core_fact": "赤み（赤寄り）。暗めで鮮やか。",
+      "romance": "しっとりした胸の鼓動。",
+      "lore_status": "theory",
+      "lore_core": "韓紅花は、濃い紅の名。深く鮮やかな赤として語られる。",
+      "lore_details": [
+        "呼び名の由来や「から」の解釈は諸説と言われることがある。"
+      ]
+    },
+    {
+      "id": "015",
+      "name_ja": "燕脂",
+      "reading_romaji": "ENJI",
+      "hex": "#9F353A",
+      "core_fact": "ほどよい彩度な赤み（赤寄り）。暗め。",
+      "romance": "素朴な熟れた果実。",
+      "lore_status": "theory",
+      "lore_core": "燕脂は、黒みを含んだ濃い紅。深い赤としてまとまる色名。",
+      "lore_details": []
+    },
+    {
+      "id": "016",
+      "name_ja": "紅",
+      "reading_romaji": "KURENAI",
+      "hex": "#CB1B45",
+      "core_fact": "鮮やかな赤み（赤寄り）。中くらい。",
+      "romance": "頬の熱の気配。",
+      "lore_status": "theory",
+      "lore_core": "紅は、まっすぐな赤の名。とりわけ紅花の赤を指すことが多い。",
+      "lore_details": []
+    },
+    {
+      "id": "017",
+      "name_ja": "鴇",
+      "reading_romaji": "TOKI",
+      "hex": "#EEA9A9",
+      "core_fact": "鮮やかな赤み（赤寄り）。明るめ。",
+      "romance": "灯のにじみ、頬の熱。",
+      "lore_status": "theory",
+      "lore_core": "鴇色は、鴇の羽にちなむ薄桃色。黄みを含むやさしいピンク。",
+      "lore_details": []
+    },
+    {
+      "id": "018",
+      "name_ja": "長春",
+      "reading_romaji": "CYOHSYUN",
+      "hex": "#BF6766",
+      "core_fact": "赤み（赤寄り）。中くらいでほどよい彩度。",
+      "romance": "花弁の影、熟れた果実。",
+      "lore_status": "theory",
+      "lore_core": "長春は、赤みのある落ち着いた色名の一つ。派手すぎない紅の系統。",
+      "lore_details": []
+    },
+    {
+      "id": "019",
+      "name_ja": "深緋",
+      "reading_romaji": "KOKIAKE",
+      "hex": "#86473F",
+      "core_fact": "暗めの赤み（朱寄り）で、ほどよい彩度。",
+      "romance": "頬の熱の気配。",
+      "lore_status": "theory",
+      "lore_core": "深緋は、緋をぐっと深めた赤。火の気配を沈ませたような調子。",
+      "lore_details": []
+    },
+    {
+      "id": "020",
+      "name_ja": "桜鼠",
+      "reading_romaji": "SAKURANEZUMI",
+      "hex": "#B19693",
+      "core_fact": "赤み（朱寄り）のくすみ気味トーン。中くらい。",
+      "romance": "控えめな灯のにじみ。",
+      "lore_status": "disputed",
+      "lore_core": "桜鼠は、桜色に薄墨を重ねたようなくすみ。淡い紅に灰が寄る。",
+      "lore_details": [
+        "染めの手順や由来の語りは、いくつかの説が伝わる。"
+      ]
+    },
+    {
+      "id": "021",
+      "name_ja": "甚三紅",
+      "reading_romaji": "JINZAMOMI",
+      "hex": "#EB7A77",
+      "core_fact": "鮮やかな赤み（赤寄り）。中くらい。",
+      "romance": "きらりとした朱印の余韻。",
+      "lore_status": "theory",
+      "lore_core": "甚三紅は、紅の仲間の色名。鮮やかな赤みを持つ、とされる。",
+      "lore_details": []
+    },
+    {
+      "id": "022",
+      "name_ja": "小豆",
+      "reading_romaji": "AZUKI",
+      "hex": "#954A45",
+      "core_fact": "暗めの赤み（赤寄り）で、ほどよい彩度。",
+      "romance": "花弁の影の気配。",
+      "lore_status": "theory",
+      "lore_core": "小豆色は、小豆の実を思わせる暗い赤。渋く締まる赤褐。",
+      "lore_details": []
+    },
+    {
+      "id": "023",
+      "name_ja": "蘇芳香",
+      "reading_romaji": "SUOHKOH",
+      "hex": "#A96360",
+      "core_fact": "赤み（赤寄り）。中くらいでくすみ気味。",
+      "romance": "花弁の影の気配。",
+      "lore_status": "theory",
+      "lore_core": "蘇芳香は、蘇芳に香りの余韻を添えたような名。赤みを落ち着かせた調子。",
+      "lore_details": []
+    },
+    {
+      "id": "024",
+      "name_ja": "赤紅",
+      "reading_romaji": "AKABENI",
+      "hex": "#CB4042",
+      "core_fact": "ほどよい彩度な赤み（赤寄り）。中くらい。",
+      "romance": "朱印の余韻の気配。",
+      "lore_status": "theory",
+      "lore_core": "赤紅は、赤みの強い紅。くっきりした赤として呼び分けられる。",
+      "lore_details": []
+    },
+    {
+      "id": "025",
+      "name_ja": "真朱",
+      "reading_romaji": "SHINSYU",
+      "hex": "#AB3B3A",
+      "core_fact": "赤み（赤寄り）。暗めでほどよい彩度。",
+      "romance": "熟れた果実、花弁の影。",
+      "lore_status": "theory",
+      "lore_core": "真朱は、朱の中でも芯のある朱。まっすぐな朱赤として扱われる。",
+      "lore_details": []
+    },
+    {
+      "id": "026",
+      "name_ja": "灰桜",
+      "reading_romaji": "HAIZAKURA",
+      "hex": "#D7C4BB",
+      "core_fact": "くすみ気味な赤み（朱寄り）。明るめ。",
+      "romance": "ふわっとした夕焼け。",
+      "lore_status": "theory",
+      "lore_core": "灰桜は、桜の淡紅に灰をひとさじ落としたような色。やさしくくすんで落ち着く。",
+      "lore_details": []
+    },
+    {
+      "id": "027",
+      "name_ja": "栗梅",
+      "reading_romaji": "KURIUME",
+      "hex": "#904840",
+      "core_fact": "ほどよい彩度な赤み（朱寄り）。暗め。",
+      "romance": "頬の熱、灯のにじみ。",
+      "lore_status": "theory",
+      "lore_core": "栗梅は、赤みを沈ませた暗い紅。実の渋みを思わせる締まった色合い。",
+      "lore_details": []
+    },
+    {
+      "id": "028",
+      "name_ja": "海老茶",
+      "reading_romaji": "EBICHA",
+      "hex": "#734338",
+      "core_fact": "赤み（朱寄り）。暗めでくすみ気味。",
+      "romance": "朱印の余韻、灯のにじみ。",
+      "lore_status": "theory",
+      "lore_core": "海老茶は、赤茶をさらに深くした色。海老の殻のように艶を沈める。",
+      "lore_details": []
+    },
+    {
+      "id": "029",
+      "name_ja": "銀朱",
+      "reading_romaji": "GINSYU",
+      "hex": "#C73E3A",
+      "core_fact": "中くらいの赤み（赤寄り）で、ほどよい彩度。",
+      "romance": "落ち着いた灯のにじみ。",
+      "lore_status": "theory",
+      "lore_core": "銀朱は、朱に金属の気配を添えたような赤。赤いけれど硬質な印象も残る。",
+      "lore_details": []
+    },
+    {
+      "id": "030",
+      "name_ja": "黒鳶",
+      "reading_romaji": "KUROTOBI",
+      "hex": "#554236",
+      "core_fact": "暗めの朱〜橙み（赤寄り）で、くすみ気味。",
+      "romance": "琥珀の気配。",
+      "lore_status": "theory",
+      "lore_core": "黒鳶は、鳶色をさらに暗く沈めた茶。影の奥に赤みが潜む。",
+      "lore_details": []
+    },
+    {
+      "id": "031",
+      "name_ja": "紅鳶",
+      "reading_romaji": "BENITOBI",
+      "hex": "#994639",
+      "core_fact": "ほどよい彩度な赤み（朱寄り）。暗め。",
+      "romance": "花弁の影、熟れた果実。",
+      "lore_status": "theory",
+      "lore_core": "紅鳶は、鳶色に紅の気配を重ねた色。茶の中に赤がふっと立つ。",
+      "lore_details": []
+    },
+    {
+      "id": "032",
+      "name_ja": "曙",
+      "reading_romaji": "AKEBONO",
+      "hex": "#F19483",
+      "core_fact": "赤み（朱寄り）。明るめで鮮やか。",
+      "romance": "花弁の影の気配。",
+      "lore_status": "theory",
+      "lore_core": "曙は、夜明けの空に差す淡い紅。黄みを含んで、あたたかく明るい。",
+      "lore_details": []
+    },
+    {
+      "id": "033",
+      "name_ja": "紅樺",
+      "reading_romaji": "BENIKABA",
+      "hex": "#B54434",
+      "core_fact": "赤み（朱寄り）。中くらいでほどよい彩度。",
+      "romance": "花弁の影、熟れた果実。",
+      "lore_status": "theory",
+      "lore_core": "紅樺は、赤みを帯びたくすんだ茶。木肌の温度が残るような色。",
+      "lore_details": []
+    },
+    {
+      "id": "034",
+      "name_ja": "水がき",
+      "reading_romaji": "MIZUGAKI",
+      "hex": "#B9887D",
+      "core_fact": "中くらいの赤み（朱寄り）で、くすみ気味。",
+      "romance": "夕焼けの気配。",
+      "lore_status": "theory",
+      "lore_core": "水がきは、薄い柿色を水でほどいたような調子。赤みは控えめで、肌に近い。",
+      "lore_details": [
+        "呼び名や別名の語りは揺れることがある。"
+      ]
+    },
+    {
+      "id": "035",
+      "name_ja": "珊瑚朱",
+      "reading_romaji": "SANGOSYU",
+      "hex": "#F17C67",
+      "core_fact": "中くらいの赤み（朱寄り）で、鮮やか。",
+      "romance": "花弁の影の気配。",
+      "lore_status": "disputed",
+      "lore_core": "珊瑚朱は、珊瑚の珠のような赤橙。明るく、つやっとした温度をもつ。",
+      "lore_details": [
+        "珊瑚色と同一視する語りもある。"
+      ]
+    },
+    {
+      "id": "036",
+      "name_ja": "紅檜皮",
+      "reading_romaji": "BENIHIWADA",
+      "hex": "#884C3A",
+      "core_fact": "暗めの赤み（朱寄り）で、ほどよい彩度。",
+      "romance": "熟れた果実、花弁の影。",
+      "lore_status": "theory",
+      "lore_core": "紅檜皮は、紅に黒みを落としたような色。紫の気配を含む暗い紅。",
+      "lore_details": []
+    },
+    {
+      "id": "037",
+      "name_ja": "猩猩緋",
+      "reading_romaji": "SYOJYOHI",
+      "hex": "#E83015",
+      "core_fact": "中くらいの赤み（朱寄り）で、鮮やか。",
+      "romance": "灯のにじみの気配。",
+      "lore_status": "theory",
+      "lore_core": "猩猩緋は、深く鮮やかな赤。遠くからでも目を引く強い紅として語られる。",
+      "lore_details": [
+        "名前の由来には俗説も混ざる、と言われることがある。"
+      ]
+    },
+    {
+      "id": "038",
+      "name_ja": "鉛丹",
+      "reading_romaji": "ENTAN",
+      "hex": "#D75455",
+      "core_fact": "中くらいの赤み（赤寄り）で、鮮やか。",
+      "romance": "頬の熱の気配。",
+      "lore_status": "theory",
+      "lore_core": "鉛丹は、赤みの強い橙。顔料の名としても知られ、朱より橙に寄る。",
+      "lore_details": []
+    },
+    {
+      "id": "039",
+      "name_ja": "芝翫茶",
+      "reading_romaji": "SHIKANCHA",
+      "hex": "#B55D4C",
+      "core_fact": "赤み（朱寄り）のほどよい彩度トーン。中くらい。",
+      "romance": "熟れた果実の気配。",
+      "lore_status": "theory",
+      "lore_core": "芝翫茶は、淡い茶に紫の気配が差す色。人名にちなむ、と語られることもある。",
+      "lore_details": []
+    },
+    {
+      "id": "040",
+      "name_ja": "檜皮",
+      "reading_romaji": "HIWADA",
+      "hex": "#854836",
+      "core_fact": "ほどよい彩度な赤み（朱寄り）。暗め。",
+      "romance": "奥の花弁の影。",
+      "lore_status": "theory",
+      "lore_core": "檜皮は、赤茶を黒く締めたような色。樹皮を思わせる渋い赤褐。",
+      "lore_details": []
+    },
+    {
+      "id": "041",
+      "name_ja": "柿渋",
+      "reading_romaji": "KAKISHIBU",
+      "hex": "#A35E47",
+      "core_fact": "赤み（朱寄り）のほどよい彩度トーン。中くらい。",
+      "romance": "花弁の影の気配。",
+      "lore_status": "theory",
+      "lore_core": "柿渋は、渋柿の汁を思わせる赤褐。乾くほどに、色が締まって見える。",
+      "lore_details": []
+    },
+    {
+      "id": "042",
+      "name_ja": "緋",
+      "reading_romaji": "AKE",
+      "hex": "#CC543A",
+      "core_fact": "赤み（朱寄り）のほどよい彩度トーン。中くらい。",
+      "romance": "花弁の影の気配。",
+      "lore_status": "theory",
+      "lore_core": "緋は、まっすぐな赤の名。火の色のように、熱の気配を帯びる。",
+      "lore_details": []
+    },
+    {
+      "id": "043",
+      "name_ja": "鳶",
+      "reading_romaji": "TOBI",
+      "hex": "#724832",
+      "core_fact": "朱〜橙み（赤寄り）のほどよい彩度トーン。暗め。",
+      "romance": "夕灯の気配。",
+      "lore_status": "theory",
+      "lore_core": "鳶は、鳶の羽を思わせる暗い茶。赤みを沈めた、渋い色合い。",
+      "lore_details": []
+    },
+    {
+      "id": "044",
+      "name_ja": "紅緋",
+      "reading_romaji": "BENIHI",
+      "hex": "#F75C2F",
+      "core_fact": "鮮やかな赤み（朱寄り）。中くらい。",
+      "romance": "灯のにじみの気配。",
+      "lore_status": "theory",
+      "lore_core": "紅緋は、朱と紅のあいだを行き来する赤。明るいのに、芯がある。",
+      "lore_details": []
+    },
+    {
+      "id": "045",
+      "name_ja": "栗皮茶",
+      "reading_romaji": "KURIKAWACHA",
+      "hex": "#6A4028",
+      "core_fact": "朱〜橙み（赤寄り）のほどよい彩度トーン。暗め。",
+      "romance": "素朴な夕灯。",
+      "lore_status": "theory",
+      "lore_core": "栗皮茶は、栗の皮のような赤黒い茶。深みがあり、落ち着いて締まる。",
+      "lore_details": []
+    },
+    {
+      "id": "046",
+      "name_ja": "弁柄",
+      "reading_romaji": "BENGARA",
+      "hex": "#9A5034",
+      "core_fact": "暗めの赤み（朱寄り）で、ほどよい彩度。",
+      "romance": "胸の鼓動の気配。",
+      "lore_status": "theory",
+      "lore_core": "弁柄は、土と鉄の匂いを帯びた赤茶。顔料の名にもなる、渋い赤。",
+      "lore_details": []
+    },
+    {
+      "id": "047",
+      "name_ja": "照柿",
+      "reading_romaji": "TERIGAKI",
+      "hex": "#C46243",
+      "core_fact": "赤み（朱寄り）のほどよい彩度トーン。中くらい。",
+      "romance": "素朴な夕焼け。",
+      "lore_status": "theory",
+      "lore_core": "照柿は、熟した柿の皮のような濃い橙。赤みが強く、艶がある。",
+      "lore_details": []
+    },
+    {
+      "id": "048",
+      "name_ja": "江戸茶",
+      "reading_romaji": "EDOCHA",
+      "hex": "#AF5F3C",
+      "core_fact": "赤み（朱寄り）。中くらいでほどよい彩度。",
+      "romance": "胸の鼓動、灯のにじみ。",
+      "lore_status": "theory",
+      "lore_core": "江戸茶は、薄い茶の名。さらりとした渋みで、派手さを抑える。",
+      "lore_details": []
+    },
+    {
+      "id": "049",
+      "name_ja": "洗朱",
+      "reading_romaji": "ARAISYU",
+      "hex": "#FB966E",
+      "core_fact": "赤み（朱寄り）。明るめで鮮やか。",
+      "romance": "熟れた果実、灯のにじみ。",
+      "lore_status": "theory",
+      "lore_core": "洗朱は、朱を水で洗ったような明るさ。黄みが入り、軽やかな朱。",
+      "lore_details": [
+        "漆器の語りと結びつくこともある。"
+      ]
+    },
+    {
+      "id": "050",
+      "name_ja": "百塩茶",
+      "reading_romaji": "MOMOSHIOCHA",
+      "hex": "#724938",
+      "core_fact": "赤み（朱寄り）。暗めでくすみ気味。",
+      "romance": "朱印の余韻の気配。",
+      "lore_status": "theory",
+      "lore_core": "百塩茶は、暗い茶のひとつ。塩気のような渋みを連想させる名。",
+      "lore_details": []
+    },
+    {
+      "id": "051",
+      "name_ja": "唐茶",
+      "reading_romaji": "KARACHA",
+      "hex": "#B47157",
+      "core_fact": "赤み（朱寄り）のほどよい彩度トーン。中くらい。",
+      "romance": "夕焼け、花弁の影。",
+      "lore_status": "theory",
+      "lore_core": "唐茶は、どこか異国の気配をまとった茶色。赤みと黄みのあいだで渋く揺れる。",
+      "lore_details": []
+    },
+    {
+      "id": "052",
+      "name_ja": "ときがら茶",
+      "reading_romaji": "TOKIGARACHA",
+      "hex": "#DB8E71",
+      "core_fact": "ほどよい彩度な赤み（朱寄り）。中くらい。",
+      "romance": "頬の熱の気配。",
+      "lore_status": "theory",
+      "lore_core": "ときがら茶は、橙みの茶をやさしく曇らせた色。あたたかいのに派手ではない。",
+      "lore_details": []
+    },
+    {
+      "id": "053",
+      "name_ja": "黄丹",
+      "reading_romaji": "OHNI",
+      "hex": "#F05E1C",
+      "core_fact": "赤み（朱寄り）の鮮やかトーン。中くらい。",
+      "romance": "夕焼けの気配。",
+      "lore_status": "theory",
+      "lore_core": "黄丹は、朱に黄みが差した橙。光を含んで、ころんと明るい。",
+      "lore_details": []
+    },
+    {
+      "id": "054",
+      "name_ja": "纁",
+      "reading_romaji": "SOHI",
+      "hex": "#ED784A",
+      "core_fact": "赤み（朱寄り）の鮮やかトーン。中くらい。",
+      "romance": "落ち着いた灯のにじみ。",
+      "lore_status": "theory",
+      "lore_core": "纁は、淡い朱寄りの橙。強さより、にごりの少ない温度を残す。",
+      "lore_details": []
+    },
+    {
+      "id": "055",
+      "name_ja": "遠州茶",
+      "reading_romaji": "ENSYUCHA",
+      "hex": "#CA7853",
+      "core_fact": "ほどよい彩度な赤み（朱寄り）。中くらい。",
+      "romance": "熟れた果実の気配。",
+      "lore_status": "theory",
+      "lore_core": "遠州茶は、渋い茶の名。さらりと乾いた土の色を思わせる。",
+      "lore_details": []
+    },
+    {
+      "id": "056",
+      "name_ja": "樺茶",
+      "reading_romaji": "KABACHA",
+      "hex": "#B35C37",
+      "core_fact": "赤み（朱寄り）。中くらいでほどよい彩度。",
+      "romance": "夕焼け、花弁の影。",
+      "lore_status": "theory",
+      "lore_core": "樺茶は、赤みのある茶。木肌の赤茶をぎゅっと締めたような調子。",
+      "lore_details": []
+    },
+    {
+      "id": "057",
+      "name_ja": "焦茶",
+      "reading_romaji": "KOGECHA",
+      "hex": "#563F2E",
+      "core_fact": "朱〜橙み（赤寄り）。暗めでくすみ気味。",
+      "romance": "琥珀の気配。",
+      "lore_status": "theory",
+      "lore_core": "焦茶は、焼け焦げたように黒みを含む茶。暗いのに、奥で赤が息をする。",
+      "lore_details": []
+    },
+    {
+      "id": "058",
+      "name_ja": "赤香",
+      "reading_romaji": "AKAKOH",
+      "hex": "#E3916E",
+      "core_fact": "赤み（朱寄り）の鮮やかトーン。中くらい。",
+      "romance": "頬の熱、熟れた果実。",
+      "lore_status": "theory",
+      "lore_core": "赤香は、橙に茶が混じった薄い色。香りの名のとおり、ふわりと甘い温度。",
+      "lore_details": [
+        "丁子や香色の話とつながって語られることがある。"
+      ]
+    },
+    {
+      "id": "059",
+      "name_ja": "雀茶",
+      "reading_romaji": "SUZUMECHA",
+      "hex": "#8F5A3C",
+      "core_fact": "ほどよい彩度な朱〜橙み（赤寄り）。暗め。",
+      "romance": "夕灯の気配。",
+      "lore_status": "theory",
+      "lore_core": "雀茶は、羽の色を思わせる茶。明るさを抑えた、素朴で渋い茶色。",
+      "lore_details": []
+    },
+    {
+      "id": "060",
+      "name_ja": "宍",
+      "reading_romaji": "SHISHI",
+      "hex": "#F0A986",
+      "core_fact": "赤み（朱寄り）。明るめで鮮やか。",
+      "romance": "冴える熟れた果実。",
+      "lore_status": "theory",
+      "lore_core": "宍は、朱寄りの明るい橙。肌の温度に近く、やわらかい赤みが残る。",
+      "lore_details": []
+    },
+    {
+      "id": "061",
+      "name_ja": "宗伝唐茶",
+      "reading_romaji": "SODENKARACHA",
+      "hex": "#A0674B",
+      "core_fact": "ほどよい彩度な赤み（朱寄り）。中くらい。",
+      "romance": "花弁の影、頬の熱。",
+      "lore_status": "theory",
+      "lore_core": "宗伝唐茶は、唐茶の系統にある渋い茶。名の来歴の語りは一筋ではない。",
+      "lore_details": [
+        "人名や流行と結びつける話が出ることがある。"
+      ]
+    },
+    {
+      "id": "062",
+      "name_ja": "樺",
+      "reading_romaji": "KABA",
+      "hex": "#C1693C",
+      "core_fact": "ほどよい彩度な朱〜橙み（赤寄り）。中くらい。",
+      "romance": "木の肌の気配。",
+      "lore_status": "theory",
+      "lore_core": "樺は、赤みの強い茶。赤茶を濃くして、渋みを足したような色合い。",
+      "lore_details": []
+    },
+    {
+      "id": "063",
+      "name_ja": "深支子",
+      "reading_romaji": "KOKIKUCHINASHI",
+      "hex": "#FB9966",
+      "core_fact": "鮮やかな朱〜橙み（赤寄り）。中くらい。",
+      "romance": "落ち着いた焼き菓子。",
+      "lore_status": "theory",
+      "lore_core": "深支子は、支子の黄をさらに濃くしたような黄橙。赤みが入り、熟れた光をもつ。",
+      "lore_details": []
+    },
+    {
+      "id": "064",
+      "name_ja": "胡桃",
+      "reading_romaji": "KURUMI",
+      "hex": "#947A6D",
+      "core_fact": "朱〜橙み（赤寄り）のくすみ気味トーン。中くらい。",
+      "romance": "琥珀、焼き菓子。",
+      "lore_status": "theory",
+      "lore_core": "胡桃は、薄い褐色のやさしい茶。木の皮や実を思わせる、落ち着いた色。",
+      "lore_details": []
+    },
+    {
+      "id": "065",
+      "name_ja": "代赭",
+      "reading_romaji": "TAISYA",
+      "hex": "#A36336",
+      "core_fact": "暗めの朱〜橙み（赤寄り）で、ほどよい彩度。",
+      "romance": "琥珀、焚き火。",
+      "lore_status": "theory",
+      "lore_core": "代赭は、土の赤みを帯びた茶。乾いた地面の色のように、重みがある。",
+      "lore_details": []
+    },
+    {
+      "id": "066",
+      "name_ja": "洗柿",
+      "reading_romaji": "ARAIGAKI",
+      "hex": "#E79460",
+      "core_fact": "朱〜橙み（赤寄り）。中くらいで鮮やか。",
+      "romance": "土の温度の気配。",
+      "lore_status": "theory",
+      "lore_core": "洗柿は、薄い柿色。渋みを洗い流したように、軽く明るい赤茶。",
+      "lore_details": []
+    },
+    {
+      "id": "067",
+      "name_ja": "黄櫨染",
+      "reading_romaji": "KOHROZEN",
+      "hex": "#7D532C",
+      "core_fact": "朱〜橙み（赤寄り）。暗めでほどよい彩度。",
+      "romance": "素直な煉瓦。",
+      "lore_status": "disputed",
+      "lore_core": "黄櫨染は、赤みを含む茶に黄が差す色。儀式や位階の語りが絡み、説明が揺れやすい。",
+      "lore_details": [
+        "染めの手順や象徴の意味づけに、いくつかの説が伝わる。"
+      ]
+    },
+    {
+      "id": "068",
+      "name_ja": "赤朽葉",
+      "reading_romaji": "AKAKUCHIBA",
+      "hex": "#C78550",
+      "core_fact": "ほどよい彩度な朱〜橙み（赤寄り）。中くらい。",
+      "romance": "焚き火、琥珀。",
+      "lore_status": "theory",
+      "lore_core": "赤朽葉は、朽葉に赤みを足した黄褐。枯れ葉の赤茶が残ったような色。",
+      "lore_details": []
+    },
+    {
+      "id": "069",
+      "name_ja": "礪茶",
+      "reading_romaji": "TONOCHA",
+      "hex": "#985F2A",
+      "core_fact": "朱〜橙み（赤寄り）のほどよい彩度トーン。暗め。",
+      "romance": "しっとりした煉瓦。",
+      "lore_status": "theory",
+      "lore_core": "礪茶は、渋い茶の名。研ぎ澄ました土の色を思わせる、硬めの茶色。",
+      "lore_details": []
+    },
+    {
+      "id": "070",
+      "name_ja": "赤白橡",
+      "reading_romaji": "AKASHIRITSURUBAMI",
+      "hex": "#E1A679",
+      "core_fact": "鮮やかな朱〜橙み（赤寄り）。中くらい。",
+      "romance": "木の肌、土の温度。",
+      "lore_status": "theory",
+      "lore_core": "赤白橡は、赤みの淡い褐色。白橡より赤がにじみ、やわらかな茶に寄る。",
+      "lore_details": []
+    },
+    {
+      "id": "071",
+      "name_ja": "煎茶",
+      "reading_romaji": "SENCHA",
+      "hex": "#855B32",
+      "core_fact": "ほどよい彩度な朱〜橙み（赤寄り）。暗め。",
+      "romance": "焼き菓子の気配。",
+      "lore_status": "theory",
+      "lore_core": "煎茶は、茶葉を煎じた色を思わせる茶。黄みと渋みが静かに混じる。",
+      "lore_details": []
+    },
+    {
+      "id": "072",
+      "name_ja": "萱草",
+      "reading_romaji": "KANZO",
+      "hex": "#FC9F4D",
+      "core_fact": "中くらいの朱〜橙み（赤寄り）で、鮮やか。",
+      "romance": "煉瓦の気配。",
+      "lore_status": "theory",
+      "lore_core": "萱草は、橙寄りの明るい黄。花の光をそのまま写したような、元気な色。",
+      "lore_details": []
+    },
+    {
+      "id": "073",
+      "name_ja": "洒落柿",
+      "reading_romaji": "SHAREGAKI",
+      "hex": "#FFBA84",
+      "core_fact": "朱〜橙み（赤寄り）。明るめで鮮やか。",
+      "romance": "冴える焼き菓子。",
+      "lore_status": "theory",
+      "lore_core": "洒落柿は、柿色に赤みを足した橙。少しだけ派手に、でも品よく。",
+      "lore_details": []
+    },
+    {
+      "id": "074",
+      "name_ja": "紅鬱金",
+      "reading_romaji": "BENIUKON",
+      "hex": "#E98B2A",
+      "core_fact": "朱〜橙み（赤寄り）の鮮やかトーン。中くらい。",
+      "romance": "土の温度、焼き菓子。",
+      "lore_status": "theory",
+      "lore_core": "紅鬱金は、濃い黄の系統に紅の気配を添えた名。黄が強いのに、どこか赤が匂う。",
+      "lore_details": []
+    },
+    {
+      "id": "075",
+      "name_ja": "梅染",
+      "reading_romaji": "UMEZOME",
+      "hex": "#E9A368",
+      "core_fact": "鮮やかな朱〜橙み（赤寄り）。中くらい。",
+      "romance": "焚き火の気配。",
+      "lore_status": "theory",
+      "lore_core": "梅染は、梅の花を思わせる淡い紅。白に紅が溶けて、静かにやさしい。",
+      "lore_details": []
+    },
+    {
+      "id": "076",
+      "name_ja": "枇杷茶",
+      "reading_romaji": "BIWACHA",
+      "hex": "#B17844",
+      "core_fact": "朱〜橙み（赤寄り）。中くらいでほどよい彩度。",
+      "romance": "夕灯、琥珀。",
+      "lore_status": "theory",
+      "lore_core": "枇杷茶は、枇杷の実を思わせる黄褐。果肉の甘さより、皮の渋みが残る色。",
+      "lore_details": []
+    },
+    {
+      "id": "077",
+      "name_ja": "丁子茶",
+      "reading_romaji": "CHOJICHA",
+      "hex": "#96632E",
+      "core_fact": "ほどよい彩度な朱〜橙み（赤寄り）。暗め。",
+      "romance": "土の温度の気配。",
+      "lore_status": "theory",
+      "lore_core": "丁子茶は、紅みを帯びた渋い茶。香辛料の丁子の名を借りて、落ち着いた温度を出す。",
+      "lore_details": []
+    },
+    {
+      "id": "078",
+      "name_ja": "憲法染",
+      "reading_romaji": "KENPOHZOME",
+      "hex": "#43341B",
+      "core_fact": "ほどよい彩度な朱〜橙み（赤寄り）。かなり暗い。",
+      "romance": "素朴な焼き菓子。",
+      "lore_status": "disputed",
+      "lore_core": "憲法染は、黒茶の系統にある渋い色名。名の由来は語りが分かれやすい。",
+      "lore_details": [
+        "人物の名に結ぶ話もあれば、染めの呼び名として語る話もある。"
+      ]
+    },
+    {
+      "id": "079",
+      "name_ja": "琥珀",
+      "reading_romaji": "KOHAKU",
+      "hex": "#CA7A2C",
+      "core_fact": "鮮やかな朱〜橙み（赤寄り）。中くらい。",
+      "romance": "すっとした土の温度。",
+      "lore_status": "theory",
+      "lore_core": "琥珀は、琥珀のような黄みの茶。光を含むのに、ぎらつかず落ち着く。",
+      "lore_details": []
+    },
+    {
+      "id": "080",
+      "name_ja": "薄柿",
+      "reading_romaji": "USUGAKI",
+      "hex": "#ECB88A",
+      "core_fact": "明るめの朱〜橙み（赤寄り）で、鮮やか。",
+      "romance": "張りのある煉瓦。",
+      "lore_status": "theory",
+      "lore_core": "薄柿は、柿色を薄くほどいた赤茶。明るいのに渋みが残る。",
+      "lore_details": []
+    },
+    {
+      "id": "081",
+      "name_ja": "伽羅",
+      "reading_romaji": "KYARA",
+      "hex": "#78552B",
+      "core_fact": "ほどよい彩度な朱〜橙み（赤寄り）。暗め。",
+      "romance": "奥の焚き火。",
+      "lore_status": "theory",
+      "lore_core": "伽羅は、濃い茶の名。深い茶に、香木の気配を重ねるような呼び方。",
+      "lore_details": []
+    },
+    {
+      "id": "082",
+      "name_ja": "丁子染",
+      "reading_romaji": "CHOJIZOME",
+      "hex": "#B07736",
+      "core_fact": "ほどよい彩度な朱〜橙み（赤寄り）。中くらい。",
+      "romance": "煉瓦の気配。",
+      "lore_status": "theory",
+      "lore_core": "丁子染は、丁子の名を持つ染めの色。黒ずんだ茶寄りの渋さが出る。",
+      "lore_details": []
+    },
+    {
+      "id": "083",
+      "name_ja": "柴染",
+      "reading_romaji": "FUSHIZOME",
+      "hex": "#967249",
+      "core_fact": "くすみ気味な朱〜橙み（赤寄り）。暗め。",
+      "romance": "しっとりした土の温度。",
+      "lore_status": "theory",
+      "lore_core": "柴染は、黄褐をくすませた茶。小枝の煙のように、乾いた渋み。",
+      "lore_details": []
+    },
+    {
+      "id": "084",
+      "name_ja": "朽葉",
+      "reading_romaji": "KUCHIBA",
+      "hex": "#E2943B",
+      "core_fact": "朱〜橙み（赤寄り）の鮮やかトーン。中くらい。",
+      "romance": "土の温度、焼き菓子。",
+      "lore_status": "theory",
+      "lore_core": "朽葉は、枯れ葉の黄褐。赤にも黄にも寄りすぎず、秋の影を抱える。",
+      "lore_details": []
+    },
+    {
+      "id": "085",
+      "name_ja": "金茶",
+      "reading_romaji": "KINCHA",
+      "hex": "#C7802D",
+      "core_fact": "鮮やかな朱〜橙み（赤寄り）。中くらい。",
+      "romance": "すっとした煉瓦。",
+      "lore_status": "theory",
+      "lore_core": "金茶は、金の気配を帯びた明るい茶。山吹に近い温度で、華やかさがある。",
+      "lore_details": [
+        "時代によって、呼び分けや近縁名が揺れることがある。"
+      ]
+    },
+    {
+      "id": "086",
+      "name_ja": "狐",
+      "reading_romaji": "KITSUNE",
+      "hex": "#9B6E23",
+      "core_fact": "朱〜橙み（赤寄り）の鮮やかトーン。暗め。",
+      "romance": "沈んだ焼き菓子。",
+      "lore_status": "theory",
+      "lore_core": "狐は、黄褐から橙へ寄る色。狐の毛並みのように、あたたかく渋い。",
+      "lore_details": []
+    },
+    {
+      "id": "087",
+      "name_ja": "煤竹",
+      "reading_romaji": "SUSUTAKE",
+      "hex": "#6E552F",
+      "core_fact": "朱〜橙み（赤寄り）。暗めでほどよい彩度。",
+      "romance": "しっとりした煉瓦。",
+      "lore_status": "theory",
+      "lore_core": "煤竹は、竹に煤が乗ったような茶。明るさを落として、渋みを増す。",
+      "lore_details": []
+    },
+    {
+      "id": "088",
+      "name_ja": "薄香",
+      "reading_romaji": "USUKOH",
+      "hex": "#EBB471",
+      "core_fact": "中くらいの朱〜橙み（赤寄り）で、鮮やか。",
+      "romance": "琥珀、焼き菓子。",
+      "lore_status": "theory",
+      "lore_core": "薄香は、香色を薄くした調子。黄に赤みが差して、やわらかい。",
+      "lore_details": []
+    },
+    {
+      "id": "089",
+      "name_ja": "砥粉",
+      "reading_romaji": "TONOKO",
+      "hex": "#D7B98E",
+      "core_fact": "朱〜橙み（赤寄り）のほどよい彩度トーン。明るめ。",
+      "romance": "馴染む焚き火。",
+      "lore_status": "theory",
+      "lore_core": "砥粉は、砥石の粉を思わせる淡い茶。紙に近い明るさで、静かに馴染む。",
+      "lore_details": [
+        "木を磨く粉や化粧の粉の話と結びつくことがある。"
+      ]
+    },
+    {
+      "id": "090",
+      "name_ja": "銀煤竹",
+      "reading_romaji": "GINSUSUTAKE",
+      "hex": "#82663A",
+      "core_fact": "朱〜橙み（赤寄り）。暗めでほどよい彩度。",
+      "romance": "焼き菓子の気配。",
+      "lore_status": "theory",
+      "lore_core": "銀煤竹は、煤竹に灰を足したようなくすみ。茶の影に、金属の冷えが潜む。",
+      "lore_details": []
+    },
+    {
+      "id": "091",
+      "name_ja": "黄土",
+      "reading_romaji": "OHDO",
+      "hex": "#B68E55",
+      "core_fact": "中くらいの朱〜橙み（赤寄り）で、ほどよい彩度。",
+      "romance": "落ち着いた琥珀。",
+      "lore_status": "theory",
+      "lore_core": "黄土は、土の黄みを写した色。赤みを含む黄褐で、壁の色にも近い。",
+      "lore_details": []
+    },
+    {
+      "id": "092",
+      "name_ja": "白茶",
+      "reading_romaji": "SHIRACHA",
+      "hex": "#BC9F77",
+      "core_fact": "くすみ気味な朱〜橙み（赤寄り）。中くらい。",
+      "romance": "落ち着いた土の温度。",
+      "lore_status": "theory",
+      "lore_core": "白茶は、茶を白くほどいたような薄茶。色褪せた渋みが、むしろ味になる。",
+      "lore_details": [
+        "「白茶ける」の語りがここにつながる。"
+      ]
+    },
+    {
+      "id": "093",
+      "name_ja": "媚茶",
+      "reading_romaji": "KOBICHA",
+      "hex": "#876633",
+      "core_fact": "朱〜橙み（赤寄り）。暗めでほどよい彩度。",
+      "romance": "素朴な夕灯。",
+      "lore_status": "theory",
+      "lore_core": "媚茶は、渋くくすんだ茶。派手さを消して、深い落ち着きだけ残す。",
+      "lore_details": []
+    },
+    {
+      "id": "094",
+      "name_ja": "黄唐茶",
+      "reading_romaji": "KIGARACHA",
+      "hex": "#C18A26",
+      "core_fact": "朱〜橙み（赤寄り）の鮮やかトーン。中くらい。",
+      "romance": "凛とした琥珀。",
+      "lore_status": "theory",
+      "lore_core": "黄唐茶は、黄みの強い茶。金茶より渋く、黄土より軽い。",
+      "lore_details": []
+    },
+    {
+      "id": "095",
+      "name_ja": "山吹",
+      "reading_romaji": "YAMABUKI",
+      "hex": "#FFB11B",
+      "core_fact": "中くらいの朱〜橙み（赤寄り）で、鮮やか。",
+      "romance": "木の肌の気配。",
+      "lore_status": "theory",
+      "lore_core": "山吹は、山吹の花の黄。ぱっと明るいのに、目にやさしい。",
+      "lore_details": []
+    },
+    {
+      "id": "096",
+      "name_ja": "山吹茶",
+      "reading_romaji": "YAMABUKICHA",
+      "hex": "#D19826",
+      "core_fact": "鮮やかな朱〜橙み（赤寄り）。中くらい。",
+      "romance": "焚き火、琥珀。",
+      "lore_status": "theory",
+      "lore_core": "山吹茶は、山吹を茶へ寄せた深い黄。金茶に近い、とも言われる。",
+      "lore_details": []
+    },
+    {
+      "id": "097",
+      "name_ja": "櫨染",
+      "reading_romaji": "HAJIZOME",
+      "hex": "#DDA52D",
+      "core_fact": "鮮やかな朱〜橙み（赤寄り）。中くらい。",
+      "romance": "土の温度の気配。",
+      "lore_status": "theory",
+      "lore_core": "櫨染は、赤みの深い黄。染めの話や儀式の語りが重なって、格が立つ。",
+      "lore_details": []
+    },
+    {
+      "id": "098",
+      "name_ja": "桑茶",
+      "reading_romaji": "KUWACHA",
+      "hex": "#C99833",
+      "core_fact": "朱〜橙み（赤寄り）。中くらいでほどよい彩度。",
+      "romance": "夕灯、琥珀。",
+      "lore_status": "theory",
+      "lore_core": "桑茶は、桑の葉を思わせる渋い黄褐。緑へ寄りすぎない、乾いた葉の色。",
+      "lore_details": []
+    },
+    {
+      "id": "099",
+      "name_ja": "玉子",
+      "reading_romaji": "TAMAGO",
+      "hex": "#F9BF45",
+      "core_fact": "朱〜橙み（赤寄り）。中くらいで鮮やか。",
+      "romance": "冴える木の肌。",
+      "lore_status": "theory",
+      "lore_core": "玉子は、卵の黄身の淡黄。やわらかい光が、そのまま丸く残る。",
+      "lore_details": []
+    },
+    {
+      "id": "100",
+      "name_ja": "白橡",
+      "reading_romaji": "SHIROTSURUBAMI",
+      "hex": "#DCB879",
+      "core_fact": "朱〜橙み（赤寄り）のほどよい彩度トーン。中くらい。",
+      "romance": "素直な土の温度。",
+      "lore_status": "theory",
+      "lore_core": "白橡は、橡の色を薄くした淡い褐。白みがあり、静かな黄褐に落ちる。",
+      "lore_details": []
+    },
+    {
+      "id": "101",
+      "name_ja": "黄橡",
+      "reading_romaji": "KITSURUBAMI",
+      "hex": "#BA9132",
+      "core_fact": "朱〜橙み（赤寄り）。中くらいでほどよい彩度。",
+      "romance": "すっとした焼き菓子。",
+      "lore_status": "theory",
+      "lore_core": "黄橡は、橡の渋みを黄へ寄せた黄褐。木の葉が黄ばむ手前の色合い。",
+      "lore_details": []
+    },
+    {
+      "id": "102",
+      "name_ja": "玉蜀黍",
+      "reading_romaji": "TAMAMOROKOSHI",
+      "hex": "#E8B647",
+      "core_fact": "中くらいの朱〜橙み（赤寄り）で、鮮やか。",
+      "romance": "煉瓦の気配。",
+      "lore_status": "theory",
+      "lore_core": "玉蜀黍は、とうもろこしの粒を思わせる黄。甘さの奥に、少し土の温度がある。",
+      "lore_details": []
+    },
+    {
+      "id": "103",
+      "name_ja": "花葉",
+      "reading_romaji": "HANABA",
+      "hex": "#F7C242",
+      "core_fact": "鮮やかな朱〜橙み（赤寄り）。中くらい。",
+      "romance": "焚き火、焼き菓子。",
+      "lore_status": "theory",
+      "lore_core": "花葉は、花の明るさと葉の渋みのあいだ。黄から黄緑へ、やわらかく移る。",
+      "lore_details": []
+    },
+    {
+      "id": "104",
+      "name_ja": "生壁",
+      "reading_romaji": "NAMAKABE",
+      "hex": "#7D6C46",
+      "core_fact": "朱〜橙み（赤寄り）。暗めでくすみ気味。",
+      "romance": "琥珀、焼き菓子。",
+      "lore_status": "theory",
+      "lore_core": "生壁は、土壁のような黄褐。塗りたての壁が乾く前の、しっとりした渋み。",
+      "lore_details": []
+    },
+    {
+      "id": "105",
+      "name_ja": "鳥の子",
+      "reading_romaji": "TORINOKO",
+      "hex": "#DAC9A6",
+      "core_fact": "明るめの朱〜橙み（赤寄り）で、ほどよい彩度。",
+      "romance": "焼き菓子、琥珀。",
+      "lore_status": "theory",
+      "lore_core": "鳥の子は、卵殻を思わせる淡黄。白より温かく、黄より控えめ。",
+      "lore_details": []
+    },
+    {
+      "id": "106",
+      "name_ja": "浅黄",
+      "reading_romaji": "USUKI",
+      "hex": "#FAD689",
+      "core_fact": "鮮やかな朱〜橙み（赤寄り）。明るめ。",
+      "romance": "やわらかな煉瓦。",
+      "lore_status": "theory",
+      "lore_core": "浅黄は、薄い黄の名。淡い光だけをすくったように、軽い。",
+      "lore_details": [
+        "字が似ている浅葱と混同されがち、という話もある。"
+      ]
+    },
+    {
+      "id": "107",
+      "name_ja": "黄朽葉",
+      "reading_romaji": "KIKUCHIBA",
+      "hex": "#D9AB42",
+      "core_fact": "鮮やかな朱〜橙み（赤寄り）。中くらい。",
+      "romance": "煉瓦、琥珀。",
+      "lore_status": "theory",
+      "lore_core": "黄朽葉は、朽葉の黄みを強めた色。枯れ葉の黄がまだ残る調子。",
+      "lore_details": []
+    },
+    {
+      "id": "108",
+      "name_ja": "梔子",
+      "reading_romaji": "KUCHINASHI",
+      "hex": "#F6C555",
+      "core_fact": "朱〜橙み（赤寄り）。中くらいで鮮やか。",
+      "romance": "張りのある煉瓦。",
+      "lore_status": "theory",
+      "lore_core": "梔子は、濃い黄の名。赤みを含んで、熟れた実の色に寄る。",
+      "lore_details": []
+    },
+    {
+      "id": "109",
+      "name_ja": "籐黄",
+      "reading_romaji": "TOHOH",
+      "hex": "#FFC408",
+      "core_fact": "朱〜橙み（黄寄り）の鮮やかトーン。中くらい。",
+      "romance": "ほどよい土の温度。",
+      "lore_status": "theory",
+      "lore_core": "籐黄は、赤みのある明るい黄。絵の具の名と重ねて語られることもある。",
+      "lore_details": []
+    },
+    {
+      "id": "110",
+      "name_ja": "鬱金",
+      "reading_romaji": "UKON",
+      "hex": "#EFBB24",
+      "core_fact": "鮮やかな朱〜橙み（赤寄り）。中くらい。",
+      "romance": "刺さる土の温度。",
+      "lore_status": "theory",
+      "lore_core": "鬱金は、少し赤みのある黄。香辛のように、黄が強く立つ。",
+      "lore_details": [
+        "ターメリックの色、と言えば早い。"
+      ]
+    },
+    {
+      "id": "111",
+      "name_ja": "芥子",
+      "reading_romaji": "KARASHI",
+      "hex": "#CAAD5F",
+      "core_fact": "ほどよい彩度な朱〜橙み（赤寄り）。中くらい。",
+      "romance": "凛とした夕灯。",
+      "lore_status": "theory",
+      "lore_core": "芥子は、辛子の名を借りた黄。くすみを含んで、落ち着いた黄に寄る。",
+      "lore_details": []
+    },
+    {
+      "id": "112",
+      "name_ja": "肥後煤竹",
+      "reading_romaji": "HIGOSUSUTAKE",
+      "hex": "#8D742A",
+      "core_fact": "朱〜橙み（赤寄り）。暗めでほどよい彩度。",
+      "romance": "土の温度の気配。",
+      "lore_status": "theory",
+      "lore_core": "肥後煤竹は、煤竹を濃く沈めた茶。地名を冠して呼び分けられる。",
+      "lore_details": []
+    },
+    {
+      "id": "113",
+      "name_ja": "利休白茶",
+      "reading_romaji": "RIKYUSHIRACHA",
+      "hex": "#B4A582",
+      "core_fact": "くすみ気味な朱〜橙み（赤寄り）。中くらい。",
+      "romance": "煉瓦、夕灯。",
+      "lore_status": "theory",
+      "lore_core": "利休白茶は、白みのある薄茶。渋さを残しつつ、柔らかく明るい。",
+      "lore_details": [
+        "利休の名に結ぶ語りが出ることもある。"
+      ]
+    },
+    {
+      "id": "114",
+      "name_ja": "灰汁",
+      "reading_romaji": "AKU",
+      "hex": "#877F6C",
+      "core_fact": "灰寄りの無彩。中くらい。",
+      "romance": "ほどよい霧。",
+      "lore_status": "theory",
+      "lore_core": "灰汁は、灰みの黄褐。少し濁りがあり、渋く静かな色合い。",
+      "lore_details": []
+    },
+    {
+      "id": "115",
+      "name_ja": "利休茶",
+      "reading_romaji": "RIKYUCHA",
+      "hex": "#897D55",
+      "core_fact": "くすみ気味な朱〜橙み（黄寄り）。暗め。",
+      "romance": "影の焼き菓子。",
+      "lore_status": "disputed",
+      "lore_core": "利休茶は、渋い茶緑の名。どの色合いを指すかは、語りが揺れやすい。",
+      "lore_details": [
+        "人名に結ぶ話もあれば、色の系統名として捉える話もある。"
+      ]
+    },
+    {
+      "id": "116",
+      "name_ja": "路考茶",
+      "reading_romaji": "ROKOHCHA",
+      "hex": "#74673E",
+      "core_fact": "くすみ気味な朱〜橙み（黄寄り）。暗め。",
+      "romance": "焼き菓子、土の温度。",
+      "lore_status": "theory",
+      "lore_core": "路考茶は、渋い緑茶の名。人名にちなむ、と語られることがある。",
+      "lore_details": []
+    },
+    {
+      "id": "117",
+      "name_ja": "菜種油",
+      "reading_romaji": "NATANEYU",
+      "hex": "#A28C37",
+      "core_fact": "朱〜橙み（黄寄り）のほどよい彩度トーン。暗め。",
+      "romance": "煉瓦、焼き菓子。",
+      "lore_status": "theory",
+      "lore_core": "菜種油は、油のような黄みの茶。黄が強いのに、派手ではない。",
+      "lore_details": []
+    },
+    {
+      "id": "118",
+      "name_ja": "鶯茶",
+      "reading_romaji": "UGUISUCHA",
+      "hex": "#6C6024",
+      "core_fact": "黄み（橙寄り）。暗めでほどよい彩度。",
+      "romance": "沈んだ春の光。",
+      "lore_status": "theory",
+      "lore_core": "鶯茶は、鶯色に茶が混じる黄緑。見る角度で、鶯にも茶にも寄る。",
+      "lore_details": []
+    },
+    {
+      "id": "119",
+      "name_ja": "黄海松茶",
+      "reading_romaji": "KIMIRUCHA",
+      "hex": "#867835",
+      "core_fact": "朱〜橙み（黄寄り）。暗めでほどよい彩度。",
+      "romance": "土の温度、焼き菓子。",
+      "lore_status": "theory",
+      "lore_core": "黄海松茶は、海松茶の黄みを強めた渋色。黄緑の影が深くなる。",
+      "lore_details": []
+    },
+    {
+      "id": "120",
+      "name_ja": "海松茶",
+      "reading_romaji": "MIRUCHA",
+      "hex": "#62592C",
+      "core_fact": "ほどよい彩度な朱〜橙み（黄寄り）。暗め。",
+      "romance": "琥珀の気配。",
+      "lore_status": "theory",
+      "lore_core": "海松茶は、暗い黄緑を茶へ沈めた色。海藻の名を借りた、渋い緑褐。",
+      "lore_details": []
+    },
+    {
+      "id": "121",
+      "name_ja": "刈安",
+      "reading_romaji": "KARIYASU",
+      "hex": "#E9CD4C",
+      "core_fact": "朱〜橙み（黄寄り）。中くらいで鮮やか。",
+      "romance": "焚き火の気配。",
+      "lore_status": "theory",
+      "lore_core": "刈安は、明るい黄の名。染めの話がよく添えられ、黄が澄んで見える。",
+      "lore_details": []
+    },
+    {
+      "id": "122",
+      "name_ja": "菜の花",
+      "reading_romaji": "NANOHANA",
+      "hex": "#F7D94C",
+      "core_fact": "朱〜橙み（黄寄り）。中くらいで鮮やか。",
+      "romance": "木の肌の気配。",
+      "lore_status": "theory",
+      "lore_core": "菜の花は、花弁のように明るい黄。ぱっと咲く光が、そのまま色になる。",
+      "lore_details": []
+    },
+    {
+      "id": "123",
+      "name_ja": "黄蘗",
+      "reading_romaji": "KIHADA",
+      "hex": "#FBE251",
+      "core_fact": "黄み（橙寄り）。中くらいで鮮やか。",
+      "romance": "陽だまりの気配。",
+      "lore_status": "theory",
+      "lore_core": "黄蘗は、鮮やかな黄。少し緑みが立ち、黄がすっと冴える。",
+      "lore_details": []
+    },
+    {
+      "id": "124",
+      "name_ja": "蒸栗",
+      "reading_romaji": "MUSHIKURI",
+      "hex": "#D9CD90",
+      "core_fact": "明るめの黄み（橙寄り）で、ほどよい彩度。",
+      "romance": "ふわっとした稲穂。",
+      "lore_status": "theory",
+      "lore_core": "蒸栗は、蒸した栗の身のような淡黄。黄に緑みが混じり、やさしく曇る。",
+      "lore_details": [
+        "呼び名の由来や範囲に、いくつかの語りがある。"
+      ]
+    },
+    {
+      "id": "125",
+      "name_ja": "青朽葉",
+      "reading_romaji": "AOKUCHIBA",
+      "hex": "#ADA142",
+      "core_fact": "中くらいの黄み（橙寄り）で、ほどよい彩度。",
+      "romance": "馴染む稲穂。",
+      "lore_status": "theory",
+      "lore_core": "青朽葉は、朽葉に緑みを足した渋い色。黄褐から黄緑へ、静かに寄る。",
+      "lore_details": []
+    },
+    {
+      "id": "126",
+      "name_ja": "女郎花",
+      "reading_romaji": "OMINAESHI",
+      "hex": "#DDD23B",
+      "core_fact": "中くらいの黄み（橙寄り）で、鮮やか。",
+      "romance": "蜂蜜の気配。",
+      "lore_status": "theory",
+      "lore_core": "女郎花は、明るい黄に緑みが差す色。秋の花の気配が、そのまま色名になる。",
+      "lore_details": [
+        "襲の色目として語られることもある。"
+      ]
+    },
+    {
+      "id": "127",
+      "name_ja": "鶸茶",
+      "reading_romaji": "HIWACHA",
+      "hex": "#A5A051",
+      "core_fact": "くすみ気味な黄み（橙寄り）。中くらい。",
+      "romance": "にじむ春の光。",
+      "lore_status": "theory",
+      "lore_core": "鶸茶は、鶸色を茶へ沈めた渋い黄緑。明るさを落として、落ち着きを足す。",
+      "lore_details": []
+    },
+    {
+      "id": "128",
+      "name_ja": "鶸",
+      "reading_romaji": "HIWA",
+      "hex": "#BEC23F",
+      "core_fact": "黄み（橙寄り）。中くらいでほどよい彩度。",
+      "romance": "陽だまりの気配。",
+      "lore_status": "theory",
+      "lore_core": "鶸は、羽のように明るい黄緑。黄と緑が、軽やかに混ざる。",
+      "lore_details": []
+    },
+    {
+      "id": "129",
+      "name_ja": "鶯",
+      "reading_romaji": "UGUISU",
+      "hex": "#6C6A2D",
+      "core_fact": "ほどよい彩度な黄み（橙寄り）。暗め。",
+      "romance": "陽だまりの気配。",
+      "lore_status": "theory",
+      "lore_core": "鶯は、羽の影を思わせる黄緑。明るいのに、どこか渋い。",
+      "lore_details": []
+    },
+    {
+      "id": "130",
+      "name_ja": "柳茶",
+      "reading_romaji": "YANAGICHA",
+      "hex": "#939650",
+      "core_fact": "黄み（橙寄り）。中くらいでくすみ気味。",
+      "romance": "砂のきらめき、稲穂。",
+      "lore_status": "theory",
+      "lore_core": "柳茶は、柳の黄緑を茶へ寄せた色。灰みが混じり、静かに馴染む。",
+      "lore_details": []
+    },
+    {
+      "id": "131",
+      "name_ja": "苔",
+      "reading_romaji": "KOKE",
+      "hex": "#838A2D",
+      "core_fact": "黄み（橙寄り）のほどよい彩度トーン。暗め。",
+      "romance": "しっとりした稲穂。",
+      "lore_status": "theory",
+      "lore_core": "苔は、鈍い黄緑。乾いた苔と湿った苔の間を行き来する、落ち着いた緑。",
+      "lore_details": [
+        "襲の色目としても語られる。"
+      ]
+    },
+    {
+      "id": "132",
+      "name_ja": "麹塵",
+      "reading_romaji": "KIKUJIN",
+      "hex": "#B1B479",
+      "core_fact": "中くらいの黄み（橙寄り）で、くすみ気味。",
+      "romance": "蜂蜜の気配。",
+      "lore_status": "theory",
+      "lore_core": "麹塵は、黄緑をくすませた渋色。麹の気配を借りて、濁りの美しさを言う。",
+      "lore_details": []
+    },
+    {
+      "id": "133",
+      "name_ja": "璃寛茶",
+      "reading_romaji": "RIKANCHA",
+      "hex": "#616138",
+      "core_fact": "暗めの黄み（橙寄り）で、くすみ気味。",
+      "romance": "奥の稲穂。",
+      "lore_status": "theory",
+      "lore_core": "璃寛茶は、暗い茶緑の渋色。緑と茶がほどよく混じって沈む。",
+      "lore_details": []
+    },
+    {
+      "id": "134",
+      "name_ja": "藍媚茶",
+      "reading_romaji": "AIKOBICHA",
+      "hex": "#4B4E2A",
+      "core_fact": "黄み（橙寄り）のくすみ気味トーン。かなり暗い。",
+      "romance": "重い稲穂。",
+      "lore_status": "theory",
+      "lore_core": "藍媚茶は、藍の気配を含む暗い茶緑。青を落として、渋みを残す。",
+      "lore_details": []
+    },
+    {
+      "id": "135",
+      "name_ja": "海松",
+      "reading_romaji": "MIRU",
+      "hex": "#5B622E",
+      "core_fact": "黄み（橙寄り）。暗めでほどよい彩度。",
+      "romance": "陽だまりの気配。",
+      "lore_status": "theory",
+      "lore_core": "海松は、海藻の色に寄せた深い黄緑。茶みを含んで、渋く落ち着く。",
+      "lore_details": []
+    },
+    {
+      "id": "136",
+      "name_ja": "千歳茶",
+      "reading_romaji": "SENSAICHA",
+      "hex": "#4D5139",
+      "core_fact": "黄み（橙寄り）。暗めでくすみ気味。",
+      "romance": "陽だまりの気配。",
+      "lore_status": "theory",
+      "lore_core": "千歳茶は、深い緑を茶へ沈めた色。長寿の名を借りて、渋い縁起をまとう。",
+      "lore_details": []
+    },
+    {
+      "id": "137",
+      "name_ja": "梅幸茶",
+      "reading_romaji": "BAIKOCHA",
+      "hex": "#89916B",
+      "core_fact": "くすみ気味な黄み（橙寄り）。中くらい。",
+      "romance": "砂のきらめき、蜂蜜。",
+      "lore_status": "theory",
+      "lore_core": "梅幸茶は、渋い黄緑から茶緑のあたり。名に人の気配が混じる、と語られることもある。",
+      "lore_details": []
+    },
+    {
+      "id": "138",
+      "name_ja": "鶸萌黄",
+      "reading_romaji": "HIWAMOEGI",
+      "hex": "#90B44B",
+      "core_fact": "緑み（黄寄り）。中くらいでほどよい彩度。",
+      "romance": "木陰、露。",
+      "lore_status": "theory",
+      "lore_core": "鶸萌黄は、鶸の明るさに萌黄の青みを足した黄緑。芽吹きの勢いが出る。",
+      "lore_details": []
+    },
+    {
+      "id": "139",
+      "name_ja": "柳染",
+      "reading_romaji": "YANAGIZOME",
+      "hex": "#91AD70",
+      "core_fact": "緑み（黄寄り）。中くらいでくすみ気味。",
+      "romance": "苔、露。",
+      "lore_status": "theory",
+      "lore_core": "柳染は、柳の葉のような柔らかな黄緑。ふんわり明るく、目にやさしい。",
+      "lore_details": [
+        "襲の色目としても語られる。"
+      ]
+    },
+    {
+      "id": "140",
+      "name_ja": "裏柳",
+      "reading_romaji": "URAYANAGI",
+      "hex": "#B5CAA0",
+      "core_fact": "明るめの緑み（黄寄り）で、くすみ気味。",
+      "romance": "竹の息の気配。",
+      "lore_status": "theory",
+      "lore_core": "裏柳は、柳の淡さをさらに薄くしたような黄緑。白へ寄る、軽い柳の気配。",
+      "lore_details": []
+    },
+    {
+      "id": "141",
+      "name_ja": "岩井茶",
+      "reading_romaji": "IWAICHA",
+      "hex": "#646A58",
+      "core_fact": "暗い無彩。暗め。",
+      "romance": "影の和紙の白。",
+      "lore_status": "theory",
+      "lore_core": "岩井茶は、茶色がかった暗い緑。渋さの中に、少し土の匂いがある。",
+      "lore_details": []
+    },
+    {
+      "id": "142",
+      "name_ja": "萌黄",
+      "reading_romaji": "MOEGI",
+      "hex": "#7BA23F",
+      "core_fact": "緑み（黄寄り）のほどよい彩度トーン。暗め。",
+      "romance": "素直な森の静けさ。",
+      "lore_status": "theory",
+      "lore_core": "萌黄は、芽吹きの黄緑。若い葉の光が、まっすぐ立ち上がる。",
+      "lore_details": []
+    },
+    {
+      "id": "143",
+      "name_ja": "苗",
+      "reading_romaji": "NAE",
+      "hex": "#86C166",
+      "core_fact": "緑み（黄寄り）。中くらいでほどよい彩度。",
+      "romance": "木陰の気配。",
+      "lore_status": "theory",
+      "lore_core": "苗は、若い芽の明るい緑。青みより、黄みが先に来る。",
+      "lore_details": []
+    },
+    {
+      "id": "144",
+      "name_ja": "柳煤竹",
+      "reading_romaji": "YANAGISUSUTAKE",
+      "hex": "#4A593D",
+      "core_fact": "暗めの緑み（黄寄り）で、くすみ気味。",
+      "romance": "控えめな森の静けさ。",
+      "lore_status": "theory",
+      "lore_core": "柳煤竹は、柳色に煤竹のくすみを足した渋い黄緑。明るさを落として、深みを増す。",
+      "lore_details": []
+    },
+    {
+      "id": "145",
+      "name_ja": "松葉",
+      "reading_romaji": "MATSUBA",
+      "hex": "#42602D",
+      "core_fact": "緑み（黄寄り）。暗めでほどよい彩度。",
+      "romance": "苔、抹茶。",
+      "lore_status": "theory",
+      "lore_core": "松葉は、松の葉の深い緑。黄みを含み、強すぎず渋く締まる。",
+      "lore_details": []
+    },
+    {
+      "id": "146",
+      "name_ja": "青丹",
+      "reading_romaji": "AONI",
+      "hex": "#516E41",
+      "core_fact": "くすみ気味な緑み（黄寄り）。暗め。",
+      "romance": "しっとりした露。",
+      "lore_status": "theory",
+      "lore_core": "青丹は、青と緑の中間にある渋い色。古い名にふさわしい落ち着きがある。",
+      "lore_details": [
+        "襲の色目として語られることもある。"
+      ]
+    },
+    {
+      "id": "147",
+      "name_ja": "薄青",
+      "reading_romaji": "USUAO",
+      "hex": "#91B493",
+      "core_fact": "くすみ気味な緑み（黄寄り）。中くらい。",
+      "romance": "ほどよい抹茶。",
+      "lore_status": "theory",
+      "lore_core": "薄青は、淡い青緑から薄い青のあたり。空気が多く、軽い色合い。",
+      "lore_details": []
+    },
+    {
+      "id": "148",
+      "name_ja": "柳鼠",
+      "reading_romaji": "YANAGINEZUMI",
+      "hex": "#808F7C",
+      "core_fact": "灰寄りの無彩。中くらい。",
+      "romance": "落ち着いた墨の余白。",
+      "lore_status": "theory",
+      "lore_core": "柳鼠は、柳の黄緑に灰を混ぜた色。淡くくすんで、静かに馴染む。",
+      "lore_details": []
+    },
+    {
+      "id": "149",
+      "name_ja": "常磐",
+      "reading_romaji": "TOKIWA",
+      "hex": "#1B813E",
+      "core_fact": "鮮やかな緑み（青寄り）。暗め。",
+      "romance": "きらりとした露。",
+      "lore_status": "theory",
+      "lore_core": "常磐は、常緑の葉の濃い緑。変わらぬ色、という意味を名に背負う。",
+      "lore_details": []
+    },
+    {
+      "id": "150",
+      "name_ja": "若竹",
+      "reading_romaji": "WAKATAKE",
+      "hex": "#5DAC81",
+      "core_fact": "中くらいの緑み（青寄り）で、くすみ気味。",
+      "romance": "木陰、苔。",
+      "lore_status": "theory",
+      "lore_core": "若竹は、若い竹の爽やかな緑。黄みが薄く、すっと涼しい。",
+      "lore_details": []
+    },
+    {
+      "id": "151",
+      "name_ja": "千歳緑",
+      "reading_romaji": "CHITOSEMIDORI",
+      "hex": "#36563C",
+      "core_fact": "暗めの緑み（黄寄り）で、くすみ気味。",
+      "romance": "抹茶の気配。",
+      "lore_status": "theory",
+      "lore_core": "千歳緑は、松葉のように深い緑。長い時を思わせる名で、渋く強い。",
+      "lore_details": []
+    },
+    {
+      "id": "152",
+      "name_ja": "緑",
+      "reading_romaji": "MIDORI",
+      "hex": "#227D51",
+      "core_fact": "ほどよい彩度な緑み（青寄り）。暗め。",
+      "romance": "しっとりした森の静けさ。",
+      "lore_status": "theory",
+      "lore_core": "緑は、まっすぐに緑と呼ぶ色。葉の色の中心にある、基本の調子。",
+      "lore_details": []
+    },
+    {
+      "id": "153",
+      "name_ja": "白緑",
+      "reading_romaji": "BYAKUROKU",
+      "hex": "#A8D8B9",
+      "core_fact": "緑み（青寄り）のほどよい彩度トーン。明るめ。",
+      "romance": "軽い露。",
+      "lore_status": "theory",
+      "lore_core": "白緑は、白みを帯びた淡い青緑。水気のある薄い緑が、ふわっと立つ。",
+      "lore_details": []
+    },
+    {
+      "id": "154",
+      "name_ja": "老竹",
+      "reading_romaji": "OITAKE",
+      "hex": "#6A8372",
+      "core_fact": "灰寄りの無彩。中くらい。",
+      "romance": "墨の余白、霧。",
+      "lore_status": "theory",
+      "lore_core": "老竹は、青竹が年を重ねてくすんだような緑。灰が混じり、静かな渋み。",
+      "lore_details": []
+    },
+    {
+      "id": "155",
+      "name_ja": "木賊",
+      "reading_romaji": "TOKUSA",
+      "hex": "#2D6D4B",
+      "core_fact": "緑み（青寄り）のほどよい彩度トーン。暗め。",
+      "romance": "馴染む竹の息。",
+      "lore_status": "theory",
+      "lore_core": "木賊は、深い緑の渋色。葉の色を思わせ、落ち着きが強い。",
+      "lore_details": [
+        "襲の色目として語られることもある。"
+      ]
+    },
+    {
+      "id": "156",
+      "name_ja": "御納戸茶",
+      "reading_romaji": "ONANDOCHA",
+      "hex": "#465D4C",
+      "core_fact": "緑み（青寄り）。暗めで彩度がほぼゼロ。",
+      "romance": "にじむ抹茶。",
+      "lore_status": "theory",
+      "lore_core": "御納戸茶は、御納戸の青みを茶へ沈めた色。暗い青緑が、渋く落ち着く。",
+      "lore_details": []
+    },
+    {
+      "id": "157",
+      "name_ja": "緑青",
+      "reading_romaji": "ROKUSYOH",
+      "hex": "#24936E",
+      "core_fact": "青緑み（緑寄り）。暗めで鮮やか。",
+      "romance": "冴える雨上がり。",
+      "lore_status": "theory",
+      "lore_core": "緑青は、銅のさびの青緑。顔料の名にもなり、青と緑が硬質に交わる。",
+      "lore_details": []
+    },
+    {
+      "id": "158",
+      "name_ja": "錆青磁",
+      "reading_romaji": "SABISEIJI",
+      "hex": "#86A697",
+      "core_fact": "くすみ気味な緑み（青寄り）。中くらい。",
+      "romance": "森の静けさの気配。",
+      "lore_status": "theory",
+      "lore_core": "錆青磁は、青磁をくすませた青緑。灰が差して、やわらかな影が出る。",
+      "lore_details": []
+    },
+    {
+      "id": "159",
+      "name_ja": "青竹",
+      "reading_romaji": "AOTAKE",
+      "hex": "#00896C",
+      "core_fact": "暗めの青緑み（緑寄り）で、鮮やか。",
+      "romance": "水面の気配。",
+      "lore_status": "theory",
+      "lore_core": "青竹は、成長した竹の青緑。若竹より濃く、すっと力がある。",
+      "lore_details": []
+    },
+    {
+      "id": "160",
+      "name_ja": "ビロード",
+      "reading_romaji": "VELUDO",
+      "hex": "#096148",
+      "core_fact": "かなり暗い青緑み（緑寄り）で、鮮やか。",
+      "romance": "硝子、涼風。",
+      "lore_status": "theory",
+      "lore_core": "ビロードは、深い青緑。布の艶を思わせる名で、暗くなめらか。",
+      "lore_details": []
+    },
+    {
+      "id": "161",
+      "name_ja": "虫襖",
+      "reading_romaji": "MUSHIAO",
+      "hex": "#20604F",
+      "core_fact": "ほどよい彩度な青緑み（緑寄り）。暗め。",
+      "romance": "涼風、波の泡。",
+      "lore_status": "theory",
+      "lore_core": "虫襖は、青緑を少し渋くした色。緑の中に青が潜み、静かな明るさがある。",
+      "lore_details": []
+    },
+    {
+      "id": "162",
+      "name_ja": "藍海松茶",
+      "reading_romaji": "AIMIRUCHA",
+      "hex": "#0F4C3A",
+      "core_fact": "かなり暗い青緑み（緑寄り）で、鮮やか。",
+      "romance": "きらりとした波の泡。",
+      "lore_status": "theory",
+      "lore_core": "藍海松茶は、海松茶に藍の気配を足した渋色。暗い青緑が、さらに沈む。",
+      "lore_details": []
+    },
+    {
+      "id": "163",
+      "name_ja": "沈香茶",
+      "reading_romaji": "TONOCHA2",
+      "hex": "#4F726C",
+      "core_fact": "くすみ気味な青緑み（緑寄り）。暗め。",
+      "romance": "にじむ雨上がり。",
+      "lore_status": "theory",
+      "lore_core": "沈香茶は、香木の名を借りた渋い青緑。匂い立つように、深く静か。",
+      "lore_details": []
+    },
+    {
+      "id": "164",
+      "name_ja": "青緑",
+      "reading_romaji": "AOMIDORI",
+      "hex": "#00AA90",
+      "core_fact": "青緑み（緑寄り）の鮮やかトーン。暗め。",
+      "romance": "水面の気配。",
+      "lore_status": "theory",
+      "lore_core": "青緑は、青と緑のまんなか。どちらにも寄りすぎない中間の色名。",
+      "lore_details": []
+    },
+    {
+      "id": "165",
+      "name_ja": "青磁",
+      "reading_romaji": "SEIJI",
+      "hex": "#69B0AC",
+      "core_fact": "青緑み（緑寄り）のくすみ気味トーン。中くらい。",
+      "romance": "すっとした波の泡。",
+      "lore_status": "theory",
+      "lore_core": "青磁は、青磁の器を思わせる淡い青緑。水気と土気がほどよく混じる。",
+      "lore_details": []
+    },
+    {
+      "id": "166",
+      "name_ja": "鉄",
+      "reading_romaji": "TETSU",
+      "hex": "#26453D",
+      "core_fact": "青緑み（緑寄り）のくすみ気味トーン。かなり暗い。",
+      "romance": "水面の気配。",
+      "lore_status": "theory",
+      "lore_core": "鉄は、黒に近い青緑。硬さと冷えが残る、締まった暗色。",
+      "lore_details": []
+    },
+    {
+      "id": "167",
+      "name_ja": "水浅葱",
+      "reading_romaji": "MIZUASAGI",
+      "hex": "#66BAB7",
+      "core_fact": "青緑み（緑寄り）。中くらいでほどよい彩度。",
+      "romance": "涼風、硝子。",
+      "lore_status": "theory",
+      "lore_core": "水浅葱は、浅葱を薄くした青緑。淡いのに少しくすみ、静かな水色寄り。",
+      "lore_details": []
+    },
+    {
+      "id": "168",
+      "name_ja": "青碧",
+      "reading_romaji": "SEIHEKI",
+      "hex": "#268785",
+      "core_fact": "ほどよい彩度な青緑み（緑寄り）。暗め。",
+      "romance": "浅瀬の気配。",
+      "lore_status": "theory",
+      "lore_core": "青碧は、澄んだ青緑。深さはあるのに濁らず、すっと通る。",
+      "lore_details": []
+    },
+    {
+      "id": "169",
+      "name_ja": "錆鉄御納戸",
+      "reading_romaji": "SABITETSUONANDO",
+      "hex": "#405B55",
+      "core_fact": "青緑み（緑寄り）のくすみ気味トーン。暗め。",
+      "romance": "水面の気配。",
+      "lore_status": "disputed",
+      "lore_core": "錆鉄御納戸は、御納戸に鉄と錆の気配を重ねた暗い青緑。どの系統に置くかは語りが揺れる。",
+      "lore_details": [
+        "派生色としてまとめる話もあれば、独立名として扱う話もある。"
+      ]
+    },
+    {
+      "id": "170",
+      "name_ja": "高麗納戸",
+      "reading_romaji": "KORAINANDO",
+      "hex": "#305A56",
+      "core_fact": "くすみ気味な青緑み（緑寄り）。暗め。",
+      "romance": "涼風、硝子。",
+      "lore_status": "theory",
+      "lore_core": "高麗納戸は、納戸の暗い青緑の一つ。異国の名を冠して、渋い深みを言う。",
+      "lore_details": []
+    },
+    {
+      "id": "171",
+      "name_ja": "白群",
+      "reading_romaji": "BYAKUGUN",
+      "hex": "#78C2C4",
+      "core_fact": "中くらいの青緑み（青寄り）で、ほどよい彩度。",
+      "romance": "水面の気配。",
+      "lore_status": "theory",
+      "lore_core": "白群は、群青を薄めたような淡い青。白みが強く、やわらかい空気を含む。",
+      "lore_details": []
+    },
+    {
+      "id": "172",
+      "name_ja": "御召茶",
+      "reading_romaji": "OMESHICHA",
+      "hex": "#376B6D",
+      "core_fact": "暗めの青緑み（青寄り）で、くすみ気味。",
+      "romance": "沈んだ波の泡。",
+      "lore_status": "theory",
+      "lore_core": "御召茶は、暗い青緑から青灰のあたり。布地の名と結びついて語られることもある。",
+      "lore_details": []
+    },
+    {
+      "id": "173",
+      "name_ja": "瓶覗",
+      "reading_romaji": "KAMENOZOKI",
+      "hex": "#A5DEE4",
+      "core_fact": "ほどよい彩度な青緑み（青寄り）。明るめ。",
+      "romance": "涼風、硝子。",
+      "lore_status": "theory",
+      "lore_core": "瓶覗は、藍のごく薄い段階の青。淡い空色に、藍の気配が残る。",
+      "lore_details": []
+    },
+    {
+      "id": "174",
+      "name_ja": "深川鼠",
+      "reading_romaji": "FUKAGAWANEZUMI",
+      "hex": "#77969A",
+      "core_fact": "青緑み（青寄り）の彩度がほぼゼロトーン。中くらい。",
+      "romance": "水面の気配。",
+      "lore_status": "theory",
+      "lore_core": "深川鼠は、浅葱の色みをさらに抑えた青灰。水気のある鼠色に落ちる。",
+      "lore_details": []
+    },
+    {
+      "id": "175",
+      "name_ja": "錆浅葱",
+      "reading_romaji": "SABIASAGI",
+      "hex": "#6699A1",
+      "core_fact": "青緑み（青寄り）のくすみ気味トーン。中くらい。",
+      "romance": "硝子、浅瀬。",
+      "lore_status": "theory",
+      "lore_core": "錆浅葱は、浅葱をくすませた青緑。灰が差して、静かな曇りが出る。",
+      "lore_details": []
+    },
+    {
+      "id": "176",
+      "name_ja": "水",
+      "reading_romaji": "MIZU",
+      "hex": "#81C7D4",
+      "core_fact": "青緑み（青寄り）のほどよい彩度トーン。中くらい。",
+      "romance": "水面の気配。",
+      "lore_status": "theory",
+      "lore_core": "水は、ごく薄い青。水面に空が映ったような、透明に近い淡さ。",
+      "lore_details": []
+    },
+    {
+      "id": "177",
+      "name_ja": "浅葱",
+      "reading_romaji": "ASAGI",
+      "hex": "#33A6B8",
+      "core_fact": "ほどよい彩度な青緑み（青寄り）。中くらい。",
+      "romance": "素直な雨上がり。",
+      "lore_status": "theory",
+      "lore_core": "浅葱は、青と緑のあいだの冴えた色。水気があり、すっと涼しい。",
+      "lore_details": []
+    },
+    {
+      "id": "178",
+      "name_ja": "御納戸",
+      "reading_romaji": "ONANDO",
+      "hex": "#0C4842",
+      "core_fact": "青緑み（緑寄り）の鮮やかトーン。かなり暗い。",
+      "romance": "水面の気配。",
+      "lore_status": "theory",
+      "lore_core": "御納戸は、鼠みの暗い藍。渋く沈んだ青が、静かに締まる。",
+      "lore_details": []
+    },
+    {
+      "id": "179",
+      "name_ja": "藍",
+      "reading_romaji": "AI",
+      "hex": "#0D5661",
+      "core_fact": "かなり暗い青緑み（青寄り）で、鮮やか。",
+      "romance": "きらりとした波の泡。",
+      "lore_status": "theory",
+      "lore_core": "藍は、藍の青。濃淡の幅を持ち、青の芯として語られることが多い。",
+      "lore_details": []
+    },
+    {
+      "id": "180",
+      "name_ja": "新橋",
+      "reading_romaji": "SHINBASHI",
+      "hex": "#0089A7",
+      "core_fact": "青緑み（青寄り）の鮮やかトーン。暗め。",
+      "romance": "水面の気配。",
+      "lore_status": "theory",
+      "lore_core": "新橋は、少し緑みを含む明るい青。粋な都会の名を借りた、澄んだ色。",
+      "lore_details": []
+    },
+    {
+      "id": "181",
+      "name_ja": "錆御納戸",
+      "reading_romaji": "SABIONANDO",
+      "hex": "#336774",
+      "core_fact": "青緑み（青寄り）のほどよい彩度トーン。暗め。",
+      "romance": "奥の波の泡。",
+      "lore_status": "theory",
+      "lore_core": "錆御納戸は、御納戸をくすませた青。灰が差して、渋く落ち着く。",
+      "lore_details": []
+    },
+    {
+      "id": "182",
+      "name_ja": "鉄御納戸",
+      "reading_romaji": "TETSUONANDO",
+      "hex": "#255359",
+      "core_fact": "ほどよい彩度な青緑み（青寄り）。かなり暗い。",
+      "romance": "涼風、波の泡。",
+      "lore_status": "theory",
+      "lore_core": "鉄御納戸は、御納戸に鉄の気配を足した暗色。青緑が黒へ寄り、硬く締まる。",
+      "lore_details": []
+    },
+    {
+      "id": "183",
+      "name_ja": "花浅葱",
+      "reading_romaji": "HANAASAGI",
+      "hex": "#1E88A8",
+      "core_fact": "暗めの青緑み（青寄り）で、鮮やか。",
+      "romance": "きらりとした波の泡。",
+      "lore_status": "theory",
+      "lore_core": "花浅葱は、浅葱に花の明るさを添えた青緑。露草の気配が差す、とも語られる。",
+      "lore_details": []
+    },
+    {
+      "id": "184",
+      "name_ja": "藍鼠",
+      "reading_romaji": "AINEZUMI",
+      "hex": "#566C73",
+      "core_fact": "暗めの青緑み（青寄り）で、彩度がほぼゼロ。",
+      "romance": "静かな波の泡。",
+      "lore_status": "theory",
+      "lore_core": "藍鼠は、藍に灰を混ぜた青灰。青の気配を残しつつ、静かに鈍る。",
+      "lore_details": []
+    },
+    {
+      "id": "185",
+      "name_ja": "舛花",
+      "reading_romaji": "MASUHANA",
+      "hex": "#577C8A",
+      "core_fact": "くすみ気味な青緑み（青寄り）。暗め。",
+      "romance": "浅瀬の気配。",
+      "lore_status": "theory",
+      "lore_core": "舛花は、灰みのある淡い青。藍より薄く、浅葱より深いあたりでくすむ。",
+      "lore_details": [
+        "名の由来に家紋を結ぶ語りが出ることがある。"
+      ]
+    },
+    {
+      "id": "186",
+      "name_ja": "空",
+      "reading_romaji": "SORA",
+      "hex": "#58B2DC",
+      "core_fact": "鮮やかな青緑み（青寄り）。中くらい。",
+      "romance": "涼風、水面。",
+      "lore_status": "theory",
+      "lore_core": "空は、晴れた空の明るい青。軽く、ひらけた光がそのまま残る。",
+      "lore_details": []
+    },
+    {
+      "id": "187",
+      "name_ja": "熨斗目花",
+      "reading_romaji": "NOSHIMEHANA",
+      "hex": "#2B5F75",
+      "core_fact": "青緑み（青寄り）のほどよい彩度トーン。暗め。",
+      "romance": "硝子、雨上がり。",
+      "lore_status": "theory",
+      "lore_core": "熨斗目花は、濃い青を灰でくすませた色。藍の深さに、渋い影がかかる。",
+      "lore_details": []
+    },
+    {
+      "id": "188",
+      "name_ja": "千草",
+      "reading_romaji": "CHIGUSA",
+      "hex": "#3A8FB7",
+      "core_fact": "ほどよい彩度な青緑み（青寄り）。中くらい。",
+      "romance": "馴染む雨上がり。",
+      "lore_status": "theory",
+      "lore_core": "千草は、灰みを含む水色。くすみがあるのに、どこか爽やか。",
+      "lore_details": []
+    },
+    {
+      "id": "189",
+      "name_ja": "御召御納戸",
+      "reading_romaji": "OMESHIONANDO",
+      "hex": "#2E5C6E",
+      "core_fact": "ほどよい彩度な青緑み（青寄り）。暗め。",
+      "romance": "浅瀬の気配。",
+      "lore_status": "theory",
+      "lore_core": "御召御納戸は、御納戸をさらに渋くした青灰。布地の名と結びついて語られることもある。",
+      "lore_details": []
+    },
+    {
+      "id": "190",
+      "name_ja": "縹",
+      "reading_romaji": "HANADA",
+      "hex": "#006284",
+      "core_fact": "鮮やかな青緑み（青寄り）。暗め。",
+      "romance": "きらりとした雨上がり。",
+      "lore_status": "theory",
+      "lore_core": "縹は、藍の青を少し薄めたような青。花田とも呼ばれ、青が澄む。",
+      "lore_details": []
+    },
+    {
+      "id": "191",
+      "name_ja": "勿忘草",
+      "reading_romaji": "WASURENAGUSA",
+      "hex": "#7DB9DE",
+      "core_fact": "青み（緑寄り）。中くらいでほどよい彩度。",
+      "romance": "ほどよく色づく遠い山影。",
+      "lore_status": "theory",
+      "lore_core": "勿忘草は、花の名を借りた明るい青。軽いのに、しっかり青い。",
+      "lore_details": []
+    },
+    {
+      "id": "192",
+      "name_ja": "群青",
+      "reading_romaji": "GUNJYO",
+      "hex": "#51A8DD",
+      "core_fact": "青み（緑寄り）の鮮やかトーン。中くらい。",
+      "romance": "夜明け、遠い山影。",
+      "lore_status": "theory",
+      "lore_core": "群青は、濃く鮮やかな青。顔料の名とも重なり、青の深さを言う。",
+      "lore_details": []
+    },
+    {
+      "id": "193",
+      "name_ja": "露草",
+      "reading_romaji": "TSUYUKUSA",
+      "hex": "#2EA9DF",
+      "core_fact": "鮮やかな青緑み（青寄り）。中くらい。",
+      "romance": "涼風、硝子。",
+      "lore_status": "theory",
+      "lore_core": "露草は、露草の花の青。明るく澄み、少し紫みが差すこともある。",
+      "lore_details": []
+    },
+    {
+      "id": "194",
+      "name_ja": "黒橡",
+      "reading_romaji": "KUROTSURUBAMI",
+      "hex": "#0B1013",
+      "core_fact": "くすみ気味な青み（緑寄り）。かなり暗い。",
+      "romance": "深い遠い山影。",
+      "lore_status": "theory",
+      "lore_core": "黒橡は、青みを含んだ黒。黒の中に冷えた青が潜む、渋い暗色。",
+      "lore_details": [
+        "喪の色として語られることもある。"
+      ]
+    },
+    {
+      "id": "195",
+      "name_ja": "紺",
+      "reading_romaji": "KON",
+      "hex": "#0F2540",
+      "core_fact": "かなり暗い青み（緑寄り）で、鮮やか。",
+      "romance": "冴える風の青さ。",
+      "lore_status": "theory",
+      "lore_core": "紺は、深い藍の青。黒に寄るほど濃く、夜の底のように沈む。",
+      "lore_details": []
+    },
+    {
+      "id": "196",
+      "name_ja": "褐",
+      "reading_romaji": "KACHI",
+      "hex": "#08192D",
+      "core_fact": "青み（緑寄り）の鮮やかトーン。かなり暗い。",
+      "romance": "深海の気配。",
+      "lore_status": "theory",
+      "lore_core": "褐は、青みの暗色。黒に近いのに、わずかに青が残る、と言われる。",
+      "lore_details": []
+    },
+    {
+      "id": "197",
+      "name_ja": "瑠璃",
+      "reading_romaji": "RURI",
+      "hex": "#005CAF",
+      "core_fact": "暗めの青み（緑寄り）で、鮮やか。",
+      "romance": "深海の気配。",
+      "lore_status": "theory",
+      "lore_core": "瑠璃は、宝石の名を借りた深い青。紫みを含んで、艶のある青になる。",
+      "lore_details": []
+    },
+    {
+      "id": "198",
+      "name_ja": "瑠璃紺",
+      "reading_romaji": "RURIKON",
+      "hex": "#0B346E",
+      "core_fact": "青み（緑寄り）。かなり暗く鮮やか。",
+      "romance": "朝の空の気配。",
+      "lore_status": "theory",
+      "lore_core": "瑠璃紺は、瑠璃の艶を紺へ沈めた青。光沢を帯びた深い藍の気配。",
+      "lore_details": []
+    },
+    {
+      "id": "199",
+      "name_ja": "紅碧",
+      "reading_romaji": "BENIMIDORI",
+      "hex": "#7B90D2",
+      "core_fact": "青み（紫寄り）。中くらいでほどよい彩度。",
+      "romance": "朝の空の気配。",
+      "lore_status": "theory",
+      "lore_core": "紅碧は、淡い空色に紅をひとさじ。青の中に、ほんのり赤が透ける。",
+      "lore_details": []
+    },
+    {
+      "id": "200",
+      "name_ja": "藤鼠",
+      "reading_romaji": "FUJINEZUMI",
+      "hex": "#6E75A4",
+      "core_fact": "中くらいの青み（紫寄り）で、くすみ気味。",
+      "romance": "凛とした風の青さ。",
+      "lore_status": "theory",
+      "lore_core": "藤鼠は、藤色に灰を重ねた淡い紫。柔らかくくすんで、静かな余韻が残る。",
+      "lore_details": []
+    },
+    {
+      "id": "201",
+      "name_ja": "鉄紺",
+      "reading_romaji": "TETSUKON",
+      "hex": "#261E47",
+      "core_fact": "藍〜紫み（青寄り）。かなり暗くほどよい彩度。",
+      "romance": "宵闇の気配。",
+      "lore_status": "theory",
+      "lore_core": "鉄紺は、鉄の冷えを含む濃い紺。黒に寄るのに、青緑の気配が残る。",
+      "lore_details": []
+    },
+    {
+      "id": "202",
+      "name_ja": "紺青",
+      "reading_romaji": "KONJYO",
+      "hex": "#113285",
+      "core_fact": "暗めの青み（緑寄り）で、鮮やか。",
+      "romance": "夜明け、インク。",
+      "lore_status": "theory",
+      "lore_core": "紺青は、紫みの強い青。冴えた青に、少しだけ夜の気配が混じる。",
+      "lore_details": []
+    },
+    {
+      "id": "203",
+      "name_ja": "紅掛花",
+      "reading_romaji": "BENIKAKEHANA",
+      "hex": "#4E4F97",
+      "core_fact": "くすみ気味な青み（紫寄り）。暗め。",
+      "romance": "朝の空の気配。",
+      "lore_status": "theory",
+      "lore_core": "紅掛花は、花色に紅を重ねた青紫。青の上に赤が薄く透けて見える。",
+      "lore_details": [
+        "染めの順を名に残す、とも言われる。"
+      ]
+    },
+    {
+      "id": "204",
+      "name_ja": "紺桔梗",
+      "reading_romaji": "KONKIKYO",
+      "hex": "#211E55",
+      "core_fact": "ほどよい彩度な青み（紫寄り）。かなり暗い。",
+      "romance": "朝の空の気配。",
+      "lore_status": "theory",
+      "lore_core": "紺桔梗は、桔梗を紺へ寄せた青紫。青が深く、紫は控えめに残る。",
+      "lore_details": []
+    },
+    {
+      "id": "205",
+      "name_ja": "藤",
+      "reading_romaji": "FUJI",
+      "hex": "#8B81C3",
+      "core_fact": "青み（紫寄り）のほどよい彩度トーン。中くらい。",
+      "romance": "深海の気配。",
+      "lore_status": "theory",
+      "lore_core": "藤は、藤の花の薄い紫。白に紫が溶けて、やさしく霞む。",
+      "lore_details": []
+    },
+    {
+      "id": "206",
+      "name_ja": "二藍",
+      "reading_romaji": "FUTAAI",
+      "hex": "#70649A",
+      "core_fact": "藍〜紫み（青寄り）。中くらいでくすみ気味。",
+      "romance": "凛とした星の余韻。",
+      "lore_status": "theory",
+      "lore_core": "二藍は、藍の青にもう一段紫が混じる調子。青紫のあたりで深く落ち着く。",
+      "lore_details": []
+    },
+    {
+      "id": "207",
+      "name_ja": "楝",
+      "reading_romaji": "OUCHI",
+      "hex": "#9B90C2",
+      "core_fact": "藍〜紫み（青寄り）のくすみ気味トーン。中くらい。",
+      "romance": "夜の布、星の余韻。",
+      "lore_status": "theory",
+      "lore_core": "楝は、淡い紫の名。青みの紫がふわっと立ち、冷たい霞のよう。",
+      "lore_details": []
+    },
+    {
+      "id": "208",
+      "name_ja": "藤紫",
+      "reading_romaji": "FUJIMURASAKI",
+      "hex": "#8A6BBE",
+      "core_fact": "藍〜紫み（青寄り）のほどよい彩度トーン。中くらい。",
+      "romance": "ほどよい葡萄の皮。",
+      "lore_status": "theory",
+      "lore_core": "藤紫は、藤色より少し濃い紫。薄紫のまま、輪郭だけを足す。",
+      "lore_details": []
+    },
+    {
+      "id": "209",
+      "name_ja": "桔梗",
+      "reading_romaji": "KIKYO",
+      "hex": "#6A4C9C",
+      "core_fact": "中くらいの藍〜紫み（青寄り）で、くすみ気味。",
+      "romance": "藤の影の気配。",
+      "lore_status": "theory",
+      "lore_core": "桔梗は、青紫の名。花の色を思わせ、青と紫がきれいに交わる。",
+      "lore_details": []
+    },
+    {
+      "id": "210",
+      "name_ja": "紫苑",
+      "reading_romaji": "SHION",
+      "hex": "#8F77B5",
+      "core_fact": "くすみ気味な藍〜紫み（青寄り）。中くらい。",
+      "romance": "宵闇の気配。",
+      "lore_status": "theory",
+      "lore_core": "紫苑は、くすみを含む青紫。明るすぎず、渋い紫の気配が残る。",
+      "lore_details": [
+        "襲の色目の語りが添えられることもある。"
+      ]
+    },
+    {
+      "id": "211",
+      "name_ja": "滅紫",
+      "reading_romaji": "MESSHI",
+      "hex": "#533D5B",
+      "core_fact": "暗めの藍〜紫み（青寄り）で、くすみ気味。",
+      "romance": "藤の影の気配。",
+      "lore_status": "theory",
+      "lore_core": "滅紫は、紫をくすませた暗色。華やぎを落として、静かな渋みだけ残す。",
+      "lore_details": []
+    },
+    {
+      "id": "212",
+      "name_ja": "薄",
+      "reading_romaji": "USU",
+      "hex": "#B28FCE",
+      "core_fact": "中くらいの藍〜紫み（青寄り）で、ほどよい彩度。",
+      "romance": "夜の布、星の余韻。",
+      "lore_status": "theory",
+      "lore_core": "薄は、淡い紫の名。光が多く、白に紫がほんのり差す。",
+      "lore_details": []
+    },
+    {
+      "id": "213",
+      "name_ja": "半",
+      "reading_romaji": "HASHITA",
+      "hex": "#986DB2",
+      "core_fact": "藍〜紫み（青寄り）のくすみ気味トーン。中くらい。",
+      "romance": "渋い葡萄の皮。",
+      "lore_status": "theory",
+      "lore_core": "半は、薄紫を少し締めた色。淡いまま、陰影だけを増やす。",
+      "lore_details": []
+    },
+    {
+      "id": "214",
+      "name_ja": "江戸紫",
+      "reading_romaji": "EDOMURASAKI",
+      "hex": "#77428D",
+      "core_fact": "藍〜紫み（青寄り）のほどよい彩度トーン。暗め。",
+      "romance": "奥の葡萄の皮。",
+      "lore_status": "disputed",
+      "lore_core": "江戸紫は、紫をきりっと締めた色名。江戸の名を冠する語りは、いくつか残る。",
+      "lore_details": [
+        "由来の説明には揺れがある、と言われることがある。"
+      ]
+    },
+    {
+      "id": "215",
+      "name_ja": "紫紺",
+      "reading_romaji": "SHIKON",
+      "hex": "#3C2F41",
+      "core_fact": "藍〜紫み（青寄り）のくすみ気味トーン。かなり暗い。",
+      "romance": "夜の布、宵闇。",
+      "lore_status": "disputed",
+      "lore_core": "紫紺は、紫と紺のあいだ。紫を紺へ沈めるのか、紺に紫を差すのか、語りが割れやすい。",
+      "lore_details": [
+        "両方の捉え方が並ぶことがある。"
+      ]
+    },
+    {
+      "id": "216",
+      "name_ja": "深紫",
+      "reading_romaji": "KOKIMURASAKI",
+      "hex": "#4A225D",
+      "core_fact": "藍〜紫み（青寄り）。かなり暗くほどよい彩度。",
+      "romance": "香の煙、葡萄の皮。",
+      "lore_status": "theory",
+      "lore_core": "深紫は、黒紫に近い濃い紫。紫の底をさらに沈めて、夜へ寄せる。",
+      "lore_details": []
+    },
+    {
+      "id": "217",
+      "name_ja": "菫",
+      "reading_romaji": "SUMIRE",
+      "hex": "#66327C",
+      "core_fact": "藍〜紫み（青寄り）のほどよい彩度トーン。暗め。",
+      "romance": "藤の影の気配。",
+      "lore_status": "theory",
+      "lore_core": "菫は、青みの紫。花の名のとおり、青紫が鮮やかに立つ。",
+      "lore_details": [
+        "襲の色目の語りが添えられることもある。"
+      ]
+    },
+    {
+      "id": "218",
+      "name_ja": "紫",
+      "reading_romaji": "MURASAKI",
+      "hex": "#592C63",
+      "core_fact": "暗めの藍〜紫み（赤寄り）で、ほどよい彩度。",
+      "romance": "奥の葡萄の皮。",
+      "lore_status": "theory",
+      "lore_core": "紫は、紫の名そのもの。青でも赤でもなく、二つの気配を抱えて落ち着く。",
+      "lore_details": []
+    },
+    {
+      "id": "219",
+      "name_ja": "菖蒲",
+      "reading_romaji": "AYAME",
+      "hex": "#6F3381",
+      "core_fact": "ほどよい彩度な藍〜紫み（赤寄り）。暗め。",
+      "romance": "素朴な星の余韻。",
+      "lore_status": "theory",
+      "lore_core": "菖蒲は、紫に赤みが差す調子。花の気配を残しつつ、深い紫へ寄る。",
+      "lore_details": []
+    },
+    {
+      "id": "220",
+      "name_ja": "藤煤竹",
+      "reading_romaji": "FUJISUSUTAKE",
+      "hex": "#574C57",
+      "core_fact": "暗い無彩。暗め。",
+      "romance": "石の気配。",
+      "lore_status": "theory",
+      "lore_core": "藤煤竹は、藤の紫に煤竹のくすみを足した色。紫が渋く沈んで、灰が差す。",
+      "lore_details": []
+    },
+    {
+      "id": "221",
+      "name_ja": "紅藤",
+      "reading_romaji": "BENIFUJI",
+      "hex": "#B481BB",
+      "core_fact": "紅紫み（赤寄り）。中くらいでくすみ気味。",
+      "romance": "花火の気配。",
+      "lore_status": "theory",
+      "lore_core": "紅藤は、藤色に紅をひとさじ。淡い紫に赤みが加わり、やわらかく華やぐ。",
+      "lore_details": [
+        "紅掛藤と呼ぶ語りもある。"
+      ]
+    },
+    {
+      "id": "222",
+      "name_ja": "黒紅",
+      "reading_romaji": "KUROBENI",
+      "hex": "#3F2B36",
+      "core_fact": "くすみ気味な紅紫み（赤寄り）。かなり暗い。",
+      "romance": "夜の花、艶。",
+      "lore_status": "disputed",
+      "lore_core": "黒紅は、黒の中に紅が潜む色。下に紅を敷いて黒を重ねる、という語りが残る。",
+      "lore_details": [
+        "染め方や呼び名の説明は、いくつかの語りが並ぶ。"
+      ]
+    },
+    {
+      "id": "223",
+      "name_ja": "茄子紺",
+      "reading_romaji": "NASUKON",
+      "hex": "#572A3F",
+      "core_fact": "紅紫み（赤寄り）のくすみ気味トーン。暗め。",
+      "romance": "甘い毒、夜の花。",
+      "lore_status": "theory",
+      "lore_core": "茄子紺は、茄子の皮のような赤みの紺。黒に寄るのに、紫の気配が残る。",
+      "lore_details": []
+    },
+    {
+      "id": "224",
+      "name_ja": "葡萄鼠",
+      "reading_romaji": "BUDOHNEZUMI",
+      "hex": "#5E3D50",
+      "core_fact": "紅紫み（赤寄り）。暗めでくすみ気味。",
+      "romance": "夜の花、甘い毒。",
+      "lore_status": "theory",
+      "lore_core": "葡萄鼠は、葡萄の気配を含む鼠色。赤みの灰紫が、渋く落ち着く。",
+      "lore_details": []
+    },
+    {
+      "id": "225",
+      "name_ja": "鳩羽鼠",
+      "reading_romaji": "HATOBANEZUMI",
+      "hex": "#72636E",
+      "core_fact": "暗い無彩。暗め。",
+      "romance": "霧の気配。",
+      "lore_status": "theory",
+      "lore_core": "鳩羽鼠は、鳩の羽の灰紫。淡くくすんで、やさしい影になる。",
+      "lore_details": []
+    },
+    {
+      "id": "226",
+      "name_ja": "杜若",
+      "reading_romaji": "KAKITSUBATA",
+      "hex": "#622954",
+      "core_fact": "紅紫み（赤寄り）。暗めでほどよい彩度。",
+      "romance": "花火の気配。",
+      "lore_status": "theory",
+      "lore_core": "杜若は、紫みの青。花の色を思わせ、青の中に紫がすっと立つ。",
+      "lore_details": [
+        "古くは染めの語りが添えられることもある。"
+      ]
+    },
+    {
+      "id": "227",
+      "name_ja": "蒲葡",
+      "reading_romaji": "EBIZOME",
+      "hex": "#6D2E5B",
+      "core_fact": "紅紫み（赤寄り）のほどよい彩度トーン。暗め。",
+      "romance": "艶の気配。",
+      "lore_status": "theory",
+      "lore_core": "蒲葡は、薄い赤紫。葡萄の実の色の気配を、軽くまとわせる。",
+      "lore_details": []
+    },
+    {
+      "id": "228",
+      "name_ja": "牡丹",
+      "reading_romaji": "BOTAN",
+      "hex": "#C1328E",
+      "core_fact": "中くらいの紅紫み（赤寄り）で、ほどよい彩度。",
+      "romance": "落ち着いたきらめき。",
+      "lore_status": "theory",
+      "lore_core": "牡丹は、紫がかった紅。花の名のとおり、華やぎが濃く出る。",
+      "lore_details": []
+    },
+    {
+      "id": "229",
+      "name_ja": "梅紫",
+      "reading_romaji": "UMEMURASAKI",
+      "hex": "#A8497A",
+      "core_fact": "紅紫み（赤寄り）のほどよい彩度トーン。中くらい。",
+      "romance": "艶の気配。",
+      "lore_status": "theory",
+      "lore_core": "梅紫は、赤紫を少し鈍らせた調子。派手さを落として、渋い華だけ残す。",
+      "lore_details": []
+    },
+    {
+      "id": "230",
+      "name_ja": "似紫",
+      "reading_romaji": "NISEMURASAKI",
+      "hex": "#562E37",
+      "core_fact": "赤み（赤寄り）のくすみ気味トーン。暗め。",
+      "romance": "朱印の余韻、頬の熱。",
+      "lore_status": "theory",
+      "lore_core": "似紫は、本紫ほど澄まない紫。紫をまねて染めた、と語られる渋い紫。",
+      "lore_details": [
+        "本紫との対比で語られることがある。"
+      ]
+    },
+    {
+      "id": "231",
+      "name_ja": "躑躅",
+      "reading_romaji": "TSUTSUJI",
+      "hex": "#E03C8A",
+      "core_fact": "紅紫み（赤寄り）。中くらいで鮮やか。",
+      "romance": "夜の花、甘い毒。",
+      "lore_status": "theory",
+      "lore_core": "躑躅は、紅紫の強い色。花の鮮やかさが、そのまま色名になる。",
+      "lore_details": []
+    },
+    {
+      "id": "232",
+      "name_ja": "紫鳶",
+      "reading_romaji": "MURASAKITOBI",
+      "hex": "#60373E",
+      "core_fact": "赤み（赤寄り）のくすみ気味トーン。暗め。",
+      "romance": "影の熟れた果実。",
+      "lore_status": "theory",
+      "lore_core": "紫鳶は、暗い赤紫に灰が差す色。鳶の渋さに紫を重ねて、深く沈む。",
+      "lore_details": [
+        "流行や染めの語りが添えられることがある。"
+      ]
+    },
+    {
+      "id": "233",
+      "name_ja": "白練",
+      "reading_romaji": "SHIRONERI",
+      "hex": "#FCFAF2",
+      "core_fact": "かなり明るい朱〜橙み（黄寄り）で、鮮やか。",
+      "romance": "木の肌の気配。",
+      "lore_status": "theory",
+      "lore_core": "白練は、真っ白より少しやわらかい白。絹を練って出す白の気配。",
+      "lore_details": []
+    },
+    {
+      "id": "234",
+      "name_ja": "胡粉",
+      "reading_romaji": "GOFUN",
+      "hex": "#FFFFFB",
+      "core_fact": "かなり明るい黄み（橙寄り）で、鮮やか。",
+      "romance": "薄い金箔、陽だまり。",
+      "lore_status": "theory",
+      "lore_core": "胡粉は、わずかに黄みを含む白。粉の白さが、やさしく光る。",
+      "lore_details": []
+    },
+    {
+      "id": "235",
+      "name_ja": "白鼠",
+      "reading_romaji": "SHIRONEZUMI",
+      "hex": "#BDC0BA",
+      "core_fact": "淡い無彩。明るめ。",
+      "romance": "影、石。",
+      "lore_status": "theory",
+      "lore_core": "白鼠は、明るい鼠色。白に寄りながら、灰が静かに残る。",
+      "lore_details": []
+    },
+    {
+      "id": "236",
+      "name_ja": "銀鼠",
+      "reading_romaji": "GINNEZUMI",
+      "hex": "#91989F",
+      "core_fact": "灰寄りの無彩。中くらい。",
+      "romance": "霧の気配。",
+      "lore_status": "theory",
+      "lore_core": "銀鼠は、銀の冷えを含む鼠色。灰の中に、金属の気配が潜む。",
+      "lore_details": []
+    },
+    {
+      "id": "237",
+      "name_ja": "鉛",
+      "reading_romaji": "NAMARI",
+      "hex": "#787878",
+      "core_fact": "灰寄りの無彩。中くらい。",
+      "romance": "粉っぽい石。",
+      "lore_status": "theory",
+      "lore_core": "鉛は、鉛のような灰色。光を鈍く返し、重みが出る。",
+      "lore_details": []
+    },
+    {
+      "id": "238",
+      "name_ja": "灰",
+      "reading_romaji": "HAI",
+      "hex": "#828282",
+      "core_fact": "灰寄りの無彩。中くらい。",
+      "romance": "霧の気配。",
+      "lore_status": "theory",
+      "lore_core": "灰は、灰の色の無彩色。明るさを落として、素朴に馴染む。",
+      "lore_details": []
+    },
+    {
+      "id": "239",
+      "name_ja": "素鼠",
+      "reading_romaji": "SUNEZUMI",
+      "hex": "#787D7B",
+      "core_fact": "灰寄りの無彩。中くらい。",
+      "romance": "落ち着いた和紙の白。",
+      "lore_status": "theory",
+      "lore_core": "素鼠は、まじりけの少ない鼠色。飾らず、灰の調子だけで決まる。",
+      "lore_details": []
+    },
+    {
+      "id": "240",
+      "name_ja": "利休鼠",
+      "reading_romaji": "RIKYUNEZUMI",
+      "hex": "#707C74",
+      "core_fact": "灰寄りの無彩。中くらい。",
+      "romance": "凛とした和紙の白。",
+      "lore_status": "disputed",
+      "lore_core": "利休鼠は、緑みのある鼠色。利休の名に結ぶ語りがあり、捉え方が揺れる。",
+      "lore_details": [
+        "人の好みとして語る話と、色の系統名として語る話が並ぶことがある。"
+      ]
+    },
+    {
+      "id": "241",
+      "name_ja": "鈍",
+      "reading_romaji": "NIBI",
+      "hex": "#656765",
+      "core_fact": "暗い無彩。暗め。",
+      "romance": "灰、和紙の白。",
+      "lore_status": "theory",
+      "lore_core": "鈍は、濃い鼠色。薄墨に青が少し差したような、重い灰。",
+      "lore_details": []
+    },
+    {
+      "id": "242",
+      "name_ja": "青鈍",
+      "reading_romaji": "AONIBI",
+      "hex": "#535953",
+      "core_fact": "暗い無彩。暗め。",
+      "romance": "影、墨の余白。",
+      "lore_status": "theory",
+      "lore_core": "青鈍は、鈍に青みを足した暗色。灰の中に青が沈み、静かに冷える。",
+      "lore_details": []
+    },
+    {
+      "id": "243",
+      "name_ja": "溝鼠",
+      "reading_romaji": "DOBUNEZUMI",
+      "hex": "#4F4F48",
+      "core_fact": "暗い無彩。暗め。",
+      "romance": "霧の気配。",
+      "lore_status": "theory",
+      "lore_core": "溝鼠は、黒ずんだ鼠色。暗いのに、灰の気配が残る。",
+      "lore_details": []
+    },
+    {
+      "id": "244",
+      "name_ja": "紅消鼠",
+      "reading_romaji": "BENIKESHINEZUMI",
+      "hex": "#52433D",
+      "core_fact": "彩度がほぼゼロな赤み（朱寄り）。暗め。",
+      "romance": "熟れた果実の気配。",
+      "lore_status": "theory",
+      "lore_core": "紅消鼠は、鼠色に紅がにじむ色。灰の中で赤がそっと消えていく。",
+      "lore_details": []
+    },
+    {
+      "id": "245",
+      "name_ja": "藍墨茶",
+      "reading_romaji": "AISUMICHA",
+      "hex": "#373C38",
+      "core_fact": "黒寄りの無彩。かなり暗い。",
+      "romance": "重い灰。",
+      "lore_status": "theory",
+      "lore_core": "藍墨茶は、藍と墨の気配を重ねた暗色。黒に寄るのに、青が沈まず残る。",
+      "lore_details": []
+    },
+    {
+      "id": "246",
+      "name_ja": "檳榔子染",
+      "reading_romaji": "BINROJIZOME",
+      "hex": "#3A3226",
+      "core_fact": "かなり暗い朱〜橙み（赤寄り）で、くすみ気味。",
+      "romance": "土の温度の気配。",
+      "lore_status": "theory",
+      "lore_core": "檳榔子染は、黒褐の渋色。黒に茶が混じり、深い落ち着きが出る。",
+      "lore_details": []
+    },
+    {
+      "id": "247",
+      "name_ja": "消炭",
+      "reading_romaji": "KESHIZUMI",
+      "hex": "#434343",
+      "core_fact": "暗い無彩。暗め。",
+      "romance": "静かな影。",
+      "lore_status": "theory",
+      "lore_core": "消炭は、黒に近い暗い灰。火が消えたあとの、静かな影。",
+      "lore_details": []
+    },
+    {
+      "id": "248",
+      "name_ja": "墨",
+      "reading_romaji": "SUMI",
+      "hex": "#1C1C1C",
+      "core_fact": "黒寄りの無彩。かなり暗い。",
+      "romance": "重い霧。",
+      "lore_status": "theory",
+      "lore_core": "墨は、墨の黒。濃淡の幅があり、黒の中に艶が生まれる。",
+      "lore_details": []
+    },
+    {
+      "id": "249",
+      "name_ja": "黒",
+      "reading_romaji": "KURO",
+      "hex": "#080808",
+      "core_fact": "黒寄りの無彩。かなり暗い。",
+      "romance": "墨の余白の気配。",
+      "lore_status": "theory",
+      "lore_core": "黒は、いちばん暗い無彩色。光を吸って、輪郭だけを残す。",
+      "lore_details": []
+    },
+    {
+      "id": "250",
+      "name_ja": "呂",
+      "reading_romaji": "RO",
+      "hex": "#0C0C0C",
+      "core_fact": "黒寄りの無彩。かなり暗い。",
+      "romance": "深い影。",
+      "lore_status": "theory",
+      "lore_core": "呂は、黒の艶を強めたような黒。磨いた黒が、静かに光る。",
+      "lore_details": [
+        "漆の艶の語りと結びつくことがある。"
+      ]
+    }
+  ]
+}
