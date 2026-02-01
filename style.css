@@ -162,27 +162,35 @@ body {
 /* タブレット対応 */
 @media (min-width: 600px) {
   .color-popup {
-    width: 400px;
+    width: 520px;
+    border-radius: 8px;
   }
   .color-preview {
-    height: 50px;
+    height: 70px;
   }
   .wairo-section {
-    padding: 20px 24px;
+    padding: 28px 32px;
   }
   .wairo-name {
-    font-size: 36px;
+    font-size: 48px;
+    margin-bottom: 8px;
   }
   .wairo-reading {
-    font-size: 15px;
+    font-size: 20px;
   }
   .wairo-description {
-    font-size: 16px;
-    line-height: 1.9;
+    font-size: 20px;
+    line-height: 2;
+    margin-top: 16px;
+    padding-top: 16px;
   }
   .close-btn {
-    padding: 14px;
-    font-size: 14px;
+    padding: 18px;
+    font-size: 18px;
+  }
+  .crosshair {
+    width: 60px;
+    height: 60px;
   }
 }
 
