@@ -117,41 +117,44 @@ body {
 
 /* 和色名セクション */
 .wairo-section {
-  padding: 16px 20px;
-  border-bottom: 1px solid rgba(139, 119, 101, 0.15);
+  padding: 20px 24px;
   text-align: center;
 }
 
 .wairo-name {
-  font-size: 22px;
-  font-weight: 500;
-  color: #2c2420;
-  letter-spacing: 0.1em;
-  margin-bottom: 4px;
+  font-size: 32px;
+  font-weight: 600;
+  color: #1a1714;
+  letter-spacing: 0.12em;
+  margin-bottom: 6px;
 }
 
 .wairo-reading {
-  font-size: 11px;
-  color: #8b7765;
-  letter-spacing: 0.05em;
+  font-size: 14px;
+  color: #5c534a;
+  letter-spacing: 0.08em;
 }
 
 .wairo-description {
-  font-size: 13px;
-  color: #5c534a;
-  line-height: 1.7;
-  margin-top: 10px;
-  padding-top: 10px;
+  font-size: 15px;
+  color: #3c3632;
+  line-height: 1.8;
+  margin-top: 12px;
+  padding-top: 12px;
   border-top: 1px dotted rgba(139, 119, 101, 0.3);
 }
 
-/* 色情報セクション */
+/* 色情報セクション（非表示） */
 .color-info {
+  display: none;
   padding: 14px 20px;
-  display: flex;
   flex-direction: column;
   gap: 8px;
   background: rgba(0, 0, 0, 0.02);
+}
+
+.color-info.visible {
+  display: flex;
 }
 
 .color-row {
