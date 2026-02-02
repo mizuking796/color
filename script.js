@@ -15,9 +15,14 @@ const wairoReading = document.getElementById('wairo-reading');
 const wairoDescription = document.getElementById('wairo-description');
 const closePopup = document.getElementById('close-popup');
 const statusEl = document.getElementById('status');
+const switchCameraBtn = document.getElementById('switch-camera');
 
 // 和色データベース
 let wairoDatabase = [];
+
+// カメラモード（'environment' = 背面, 'user' = 前面）
+let currentFacingMode = 'environment';
+let currentStream = null;
 
 // ローマ字→ひらがな変換マップ
 const romajiToHiragana = {
@@ -373,21 +378,33 @@ function handleIntroTap(e) {
 }
 
 // カメラ初期化
-async function initCamera() {
+async function initCamera(facingMode = 'environment') {
   try {
+    // 既存のストリームを停止
+    if (currentStream) {
+      currentStream.getTracks().forEach(track => track.stop());
+    }
+
     const stream = await navigator.mediaDevices.getUserMedia({
       video: {
-        facingMode: { ideal: 'environment' },
+        facingMode: { ideal: facingMode },
         width: { ideal: 1920 },
         height: { ideal: 1080 }
       }
     });
 
+    currentStream = stream;
+    currentFacingMode = facingMode;
     video.srcObject = stream;
     await video.play();
 
     canvas.width = video.videoWidth;
     canvas.height = video.videoHeight;
+
+    // ボタンの表示状態を更新
+    if (switchCameraBtn) {
+      switchCameraBtn.classList.toggle('front-camera', facingMode === 'user');
+    }
 
     statusEl.classList.add('hidden');
     setupTouchHandlers();
@@ -395,6 +412,12 @@ async function initCamera() {
   } catch (e) {
     statusEl.textContent = 'カメラエラー: ' + e.message;
   }
+}
+
+// カメラ切り替え
+async function switchCamera() {
+  const newFacingMode = currentFacingMode === 'environment' ? 'user' : 'environment';
+  await initCamera(newFacingMode);
 }
 
 function setupTouchHandlers() {
@@ -457,6 +480,14 @@ async function init() {
   // 同意画面のタップイベント
   introScreen.addEventListener('click', handleIntroTap);
   introScreen.addEventListener('touchstart', handleIntroTap, { passive: false });
+
+  // カメラ切り替えボタン
+  if (switchCameraBtn) {
+    switchCameraBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      switchCamera();
+    });
+  }
 }
 
 init();

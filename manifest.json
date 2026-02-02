@@ -1,6 +1,7 @@
 {
   "name": "和色",
   "short_name": "和色",
+  "version": "1.1.0",
   "description": "カメラで色を読み取り、最も近い日本の伝統色を表示",
   "start_url": "./",
   "display": "standalone",

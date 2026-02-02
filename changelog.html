@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>更新履歴 - 和色</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .page {
+      min-height: 100vh;
+      background: linear-gradient(145deg, #f7f3eb 0%, #ebe6db 100%);
+      padding: 40px 24px;
+      padding-top: calc(40px + env(safe-area-inset-top, 0px));
+      padding-bottom: calc(40px + env(safe-area-inset-bottom, 0px));
+    }
+    .page-content {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .page-title {
+      font-size: 24px;
+      font-weight: 600;
+      color: #2c2420;
+      letter-spacing: 0.1em;
+      margin-bottom: 32px;
+      text-align: center;
+    }
+    .version-entry {
+      margin-bottom: 32px;
+      padding-bottom: 24px;
+      border-bottom: 1px dotted rgba(139, 119, 101, 0.3);
+    }
+    .version-entry:last-of-type {
+      border-bottom: none;
+    }
+    .version-header {
+      display: flex;
+      align-items: baseline;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+    .version-number {
+      font-size: 18px;
+      font-weight: 600;
+      color: #2c2420;
+      letter-spacing: 0.05em;
+    }
+    .version-date {
+      font-size: 12px;
+      color: #8b7765;
+      letter-spacing: 0.02em;
+    }
+    .version-changes {
+      list-style: none;
+      padding: 0;
+    }
+    .version-changes li {
+      font-size: 14px;
+      color: #5c534a;
+      line-height: 1.9;
+      letter-spacing: 0.02em;
+      padding-left: 1.2em;
+      position: relative;
+      margin-bottom: 4px;
+    }
+    .version-changes li::before {
+      content: '・';
+      position: absolute;
+      left: 0;
+      color: #8b7765;
+    }
+    .change-type {
+      display: inline-block;
+      font-size: 10px;
+      font-weight: 500;
+      padding: 2px 6px;
+      border-radius: 2px;
+      margin-right: 6px;
+      letter-spacing: 0.02em;
+    }
+    .change-type.new {
+      background: rgba(76, 140, 100, 0.15);
+      color: #4c8c64;
+    }
+    .change-type.fix {
+      background: rgba(180, 120, 80, 0.15);
+      color: #b47850;
+    }
+    .change-type.improve {
+      background: rgba(100, 120, 160, 0.15);
+      color: #6478a0;
+    }
+    .back-link {
+      display: inline-block;
+      margin-top: 40px;
+      font-size: 13px;
+      color: #6b5d50;
+      text-decoration: none;
+      letter-spacing: 0.05em;
+    }
+    .back-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="page-content">
+      <h1 class="page-title">更新履歴</h1>
+
+      <div class="version-entry">
+        <div class="version-header">
+          <span class="version-number">v1.1.0</span>
+          <span class="version-date">2025年2月2日</span>
+        </div>
+        <ul class="version-changes">
+          <li><span class="change-type new">追加</span>前面カメラ（インカメラ）への切り替え機能</li>
+          <li><span class="change-type new">追加</span>更新履歴ページ</li>
+        </ul>
+      </div>
+
+      <div class="version-entry">
+        <div class="version-header">
+          <span class="version-number">v1.0.0</span>
+          <span class="version-date">2025年2月1日</span>
+        </div>
+        <ul class="version-changes">
+          <li><span class="change-type new">追加</span>カメラで色を読み取る機能</li>
+          <li><span class="change-type new">追加</span>日本の伝統色250色のデータベース</li>
+          <li><span class="change-type new">追加</span>LAB色空間による高精度な色マッチング</li>
+          <li><span class="change-type new">追加</span>色名の由来・説明の表示</li>
+          <li><span class="change-type new">追加</span>HEX/RGB/HSL値のコピー機能</li>
+        </ul>
+      </div>
+
+      <a href="index.html" class="back-link">&larr; 戻る</a>
+    </div>
+  </div>
+</body>
+</html>

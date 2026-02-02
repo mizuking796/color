@@ -375,3 +375,50 @@ body {
 .credit-divider {
   margin: 0 8px;
 }
+
+/* カメラ切替ボタン */
+.switch-camera-btn {
+  position: absolute;
+  top: 16px;
+  top: calc(16px + env(safe-area-inset-top, 0px));
+  right: 16px;
+  width: 44px;
+  height: 44px;
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  color: rgba(255, 255, 255, 0.9);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 50;
+  transition: all 0.2s;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.switch-camera-btn:active {
+  background: rgba(0, 0, 0, 0.6);
+  transform: scale(0.95);
+}
+
+.switch-camera-btn svg {
+  width: 22px;
+  height: 22px;
+}
+
+.switch-camera-btn.front-camera svg {
+  transform: scaleX(-1);
+}
+
+@media (min-width: 600px) {
+  .switch-camera-btn {
+    width: 52px;
+    height: 52px;
+  }
+  .switch-camera-btn svg {
+    width: 26px;
+    height: 26px;
+  }
+}
