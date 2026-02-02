@@ -423,8 +423,14 @@ async function switchCamera() {
 function setupTouchHandlers() {
   const container = document.querySelector('.camera-container');
 
-  container.addEventListener('click', handleTap);
+  container.addEventListener('click', (e) => {
+    // カメラ切り替えボタンは無視
+    if (e.target.closest('#switch-camera')) return;
+    handleTap(e);
+  });
   container.addEventListener('touchstart', (e) => {
+    // カメラ切り替えボタンは無視
+    if (e.target.closest('#switch-camera')) return;
     e.preventDefault();
     const touch = e.touches[0];
     handleTap({ clientX: touch.clientX, clientY: touch.clientY });
