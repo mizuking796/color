@@ -361,6 +361,7 @@ function showColorInfo(r, g, b) {
     wairoDescription.style.display = 'none';
   }
 
+  document.querySelector('.color-info').classList.add('visible');
   colorPopup.classList.remove('hidden');
 }
 
@@ -396,6 +397,8 @@ async function initCamera(facingMode = 'environment') {
     currentStream = stream;
     currentFacingMode = facingMode;
     video.srcObject = stream;
+
+    await new Promise(r => { video.onloadedmetadata = r; });
     await video.play();
 
     canvas.width = video.videoWidth;
@@ -420,7 +423,11 @@ async function switchCamera() {
   await initCamera(newFacingMode);
 }
 
+let touchHandlersSetup = false;
+
 function setupTouchHandlers() {
+  if (touchHandlersSetup) return;
+  touchHandlersSetup = true;
   const container = document.querySelector('.camera-container');
 
   container.addEventListener('click', (e) => {
@@ -438,25 +445,57 @@ function setupTouchHandlers() {
 }
 
 function handleTap(e) {
-  const rect = video.getBoundingClientRect();
-  const x = e.clientX - rect.left;
-  const y = e.clientY - rect.top;
+  try {
+    const videoW = video.videoWidth;
+    const videoH = video.videoHeight;
+    if (!videoW || !videoH) return;
 
-  crosshair.style.left = e.clientX + 'px';
-  crosshair.style.top = e.clientY + 'px';
-  crosshair.style.display = 'block';
+    const rect = video.getBoundingClientRect();
+    const elemW = rect.width;
+    const elemH = rect.height;
 
-  const videoX = (x / rect.width) * video.videoWidth;
-  const videoY = (y / rect.height) * video.videoHeight;
+    // object-fit: cover の座標補正
+    const elemAspect = elemW / elemH;
+    const videoAspect = videoW / videoH;
+    let scale, offsetX, offsetY;
+    if (elemAspect > videoAspect) {
+      scale = elemW / videoW;
+      offsetX = 0;
+      offsetY = (elemH - videoH * scale) / 2;
+    } else {
+      scale = elemH / videoH;
+      offsetX = (elemW - videoW * scale) / 2;
+      offsetY = 0;
+    }
 
-  ctx.drawImage(video, 0, 0);
-  const pixel = ctx.getImageData(Math.round(videoX), Math.round(videoY), 1, 1).data;
+    const tapX = e.clientX - rect.left;
+    const tapY = e.clientY - rect.top;
 
-  const r = pixel[0];
-  const g = pixel[1];
-  const b = pixel[2];
+    let vx = (tapX - offsetX) / scale;
+    let vy = (tapY - offsetY) / scale;
 
-  showColorInfo(r, g, b);
+    // CSS scaleX(-1) 鏡像補正
+    vx = videoW - 1 - vx;
+
+    // 範囲クランプ
+    vx = Math.max(0, Math.min(Math.round(vx), videoW - 1));
+    vy = Math.max(0, Math.min(Math.round(vy), videoH - 1));
+
+    crosshair.style.left = e.clientX + 'px';
+    crosshair.style.top = e.clientY + 'px';
+    crosshair.style.display = 'block';
+
+    if (canvas.width !== videoW || canvas.height !== videoH) {
+      canvas.width = videoW;
+      canvas.height = videoH;
+    }
+    ctx.drawImage(video, 0, 0);
+    const pixel = ctx.getImageData(vx, vy, 1, 1).data;
+
+    showColorInfo(pixel[0], pixel[1], pixel[2]);
+  } catch (err) {
+    console.error('Color sampling error:', err);
+  }
 }
 
 // Copy buttons
@@ -476,6 +515,7 @@ document.querySelectorAll('.copy-btn').forEach(btn => {
 closePopup.addEventListener('click', () => {
   colorPopup.classList.add('hidden');
   crosshair.style.display = 'none';
+  document.querySelector('.color-info').classList.remove('visible');
 });
 
 // 初期化
