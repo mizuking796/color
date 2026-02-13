@@ -361,7 +361,6 @@ function showColorInfo(r, g, b) {
     wairoDescription.style.display = 'none';
   }
 
-  document.querySelector('.color-info').classList.add('visible');
   colorPopup.classList.remove('hidden');
 }
 
@@ -515,7 +514,6 @@ document.querySelectorAll('.copy-btn').forEach(btn => {
 closePopup.addEventListener('click', () => {
   colorPopup.classList.add('hidden');
   crosshair.style.display = 'none';
-  document.querySelector('.color-info').classList.remove('visible');
 });
 
 // 初期化
